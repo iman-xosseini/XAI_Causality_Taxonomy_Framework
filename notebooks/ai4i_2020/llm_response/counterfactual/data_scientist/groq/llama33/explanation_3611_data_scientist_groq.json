@@ -1,0 +1,17 @@
+{
+  "index": "3611",
+  "persona": "data_scientist",
+  "llm_provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "num_counterfactuals": 1,
+  "explanation": "## Explanation\nThe counterfactual explanation reveals that a 20.0% increase in the interaction between Wear and Torque features, from 0.582 to 0.699, has a causal and aligned effect on the predictive maintenance model, with a moderate strength of 0.096, indicating a significant relationship between these features and machine failure predictions.\n\n## Actionable Recommendation\nTo improve the model's reliability and reduce the risk of false positives, it is recommended to collect more data on the Wear and Torque features, particularly at the higher end of their interaction spectrum, and re-engineer these features to capture more nuanced relationships, such as non-linear effects or interactions with other variables.",
+  "counterfactuals_summary": [
+    {
+      "feature": "Wear × Torque",
+      "direction": "increase",
+      "percent_change": 20.0,
+      "perturbation_level": 0.2,
+      "causal_alignment": "aligned"
+    }
+  ]
+}

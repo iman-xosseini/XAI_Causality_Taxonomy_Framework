@@ -1,0 +1,214 @@
+{
+  "259": {
+    "index": "259",
+    "persona": "operator",
+    "llm_provider": "openai",
+    "model": "gpt-4o",
+    "num_counterfactuals": 1,
+    "explanation": "1. **Explanation**  \nThe machine is predicted to fail due to a decrease in power output by 10%, which can be prevented by aligning the power output closer to the optimal level of 0.807 Nm·rpm.\n\n2. **Actionable Recommendation**  \nOperators should immediately monitor the power output and ensure it does not fall below 0.807 Nm·rpm, stopping the machine if it does to prevent failure.",
+    "counterfactuals_summary": [
+      {
+        "feature": "Power output (Nm·rpm)",
+        "direction": "decrease",
+        "percent_change": -10.0,
+        "perturbation_level": 0.1,
+        "causal_alignment": "aligned"
+      }
+    ]
+  },
+  "2761": {
+    "index": "2761",
+    "persona": "operator",
+    "llm_provider": "openai",
+    "model": "gpt-4o",
+    "num_counterfactuals": 1,
+    "explanation": "1. **Explanation**  \nThe machine was predicted to fail due to excessive wear caused by high torque, and reducing the torque by 30% can significantly prevent this failure.\n\n2. **Actionable Recommendation**  \nOperators should immediately adjust the machine settings to decrease the torque to maintain the wear × torque value below 0.6, and stop the machine if it exceeds this threshold to prevent damage.",
+    "counterfactuals_summary": [
+      {
+        "feature": "Wear × Torque",
+        "direction": "decrease",
+        "percent_change": -30.0,
+        "perturbation_level": 0.3,
+        "causal_alignment": "aligned"
+      }
+    ]
+  },
+  "3528": {
+    "index": "3528",
+    "persona": "operator",
+    "llm_provider": "openai",
+    "model": "gpt-4o",
+    "num_counterfactuals": 1,
+    "explanation": "1. **Explanation**  \nThe machine is predicted to fail due to excessive wear caused by high torque, and reducing the wear-torque interaction by 10% can prevent this failure.\n\n2. **Actionable Recommendation**  \nOperators should immediately monitor the torque levels and ensure they do not exceed the threshold that causes the wear-torque interaction to rise above 0.614, stopping the machine if this threshold is approached.",
+    "counterfactuals_summary": [
+      {
+        "feature": "Wear × Torque",
+        "direction": "decrease",
+        "percent_change": -10.0,
+        "perturbation_level": 0.1,
+        "causal_alignment": "aligned"
+      }
+    ]
+  },
+  "3579": {
+    "index": "3579",
+    "persona": "operator",
+    "llm_provider": "openai",
+    "model": "gpt-4o",
+    "num_counterfactuals": 4,
+    "explanation": "1. **Explanation**  \nThe machine is predicted to fail due to imbalances in power output, rotational speed, and torque, and to prevent this, adjustments should be made to increase power output and torque while decreasing rotational speed and temperature difference.\n\n2. **Actionable Recommendation**  \nOperators should immediately focus on reducing the rotational speed to 0.700 rpm, as it has the strongest aligned causal relationship with preventing failure, and stop the machine if the speed exceeds 0.875 rpm to ensure safety.",
+    "counterfactuals_summary": [
+      {
+        "feature": "Power output (Nm·rpm)",
+        "direction": "increase",
+        "percent_change": 20.0,
+        "perturbation_level": 0.2,
+        "causal_alignment": "contrary"
+      },
+      {
+        "feature": "Rotational speed (rpm)",
+        "direction": "decrease",
+        "percent_change": -20.0,
+        "perturbation_level": 0.2,
+        "causal_alignment": "aligned"
+      },
+      {
+        "feature": "Temperature difference",
+        "direction": "decrease",
+        "percent_change": -20.0,
+        "perturbation_level": 0.2,
+        "causal_alignment": null
+      },
+      {
+        "feature": "Torque (Nm)",
+        "direction": "increase",
+        "percent_change": 30.0,
+        "perturbation_level": 0.3,
+        "causal_alignment": "contrary"
+      }
+    ]
+  },
+  "3611": {
+    "index": "3611",
+    "persona": "operator",
+    "llm_provider": "openai",
+    "model": "gpt-4o",
+    "num_counterfactuals": 1,
+    "explanation": "1. **Explanation**  \nThe machine is predicted to fail due to increased wear caused by higher torque, and reducing the torque can help prevent this failure.\n\n2. **Actionable Recommendation**  \nOperators should immediately monitor the torque levels and ensure they do not exceed the threshold of 0.582, stopping the machine if this limit is approached to prevent excessive wear.",
+    "counterfactuals_summary": [
+      {
+        "feature": "Wear × Torque",
+        "direction": "increase",
+        "percent_change": 20.0,
+        "perturbation_level": 0.2,
+        "causal_alignment": "aligned"
+      }
+    ]
+  },
+  "4449": {
+    "index": "4449",
+    "persona": "operator",
+    "llm_provider": "openai",
+    "model": "gpt-4o",
+    "num_counterfactuals": 1,
+    "explanation": "1. **Explanation**  \nThe machine is predicted to fail due to its current rotational speed being too low, and increasing it by 10% could prevent the failure.\n\n2. **Actionable Recommendation**  \nOperators should immediately adjust the machine's rotational speed to reach at least 0.134 rpm, and if the speed cannot be maintained above this threshold, stop the machine to prevent failure.",
+    "counterfactuals_summary": [
+      {
+        "feature": "Rotational speed (rpm)",
+        "direction": "increase",
+        "percent_change": 10.0,
+        "perturbation_level": 0.1,
+        "causal_alignment": "contrary"
+      }
+    ]
+  },
+  "4469": {
+    "index": "4469",
+    "persona": "operator",
+    "llm_provider": "openai",
+    "model": "gpt-4o",
+    "num_counterfactuals": 2,
+    "explanation": "1. **Explanation**  \nThe machine is predicted to fail due to its current high rotational speed and insufficient wear-torque balance, and reducing the rotational speed by 30% while increasing the wear-torque interaction by 30% could prevent this failure.\n\n2. **Actionable Recommendation**  \nOperators should immediately reduce the machine's rotational speed to 0.113 rpm and monitor it closely, stopping the machine if the speed exceeds this threshold to prevent failure.",
+    "counterfactuals_summary": [
+      {
+        "feature": "Rotational speed (rpm)",
+        "direction": "decrease",
+        "percent_change": -30.0,
+        "perturbation_level": 0.3,
+        "causal_alignment": "contrary"
+      },
+      {
+        "feature": "Wear × Torque",
+        "direction": "increase",
+        "percent_change": 30.0,
+        "perturbation_level": 0.3,
+        "causal_alignment": "aligned"
+      }
+    ]
+  },
+  "4723": {
+    "index": "4723",
+    "persona": "operator",
+    "llm_provider": "openai",
+    "model": "gpt-4o",
+    "num_counterfactuals": 2,
+    "explanation": "### Explanation\nThe machine is predicted to fail due to an increase in rotational speed and a significant rise in temperature difference, with the latter being the primary concern linked to potential failure.\n\n### Actionable Recommendation\nOperators should immediately monitor the machine's temperature difference closely, ensuring it does not exceed a 50% increase from its baseline, and stop the machine if this threshold is approached to prevent failure.",
+    "counterfactuals_summary": [
+      {
+        "feature": "Rotational speed (rpm)",
+        "direction": "increase",
+        "percent_change": 10.0,
+        "perturbation_level": 0.1,
+        "causal_alignment": "contrary"
+      },
+      {
+        "feature": "Temperature difference",
+        "direction": "increase",
+        "percent_change": 50.0,
+        "perturbation_level": 0.5,
+        "causal_alignment": "aligned"
+      }
+    ]
+  },
+  "586": {
+    "index": "586",
+    "persona": "operator",
+    "llm_provider": "openai",
+    "model": "gpt-4o",
+    "num_counterfactuals": 2,
+    "explanation": "1. **Explanation**  \nThe machine is predicted to fail due to excessive wear and torque interaction, and reducing both the wear-torque factor and tool wear by 10% could prevent this failure.\n\n2. **Actionable Recommendation**  \nOperators should immediately monitor the wear-torque factor and tool wear, ensuring they do not exceed 0.603 and 0.790 respectively, and stop the machine if these thresholds are approached to prevent failure.",
+    "counterfactuals_summary": [
+      {
+        "feature": "Wear × Torque",
+        "direction": "decrease",
+        "percent_change": -10.0,
+        "perturbation_level": 0.1,
+        "causal_alignment": "aligned"
+      },
+      {
+        "feature": "Tool wear (min)",
+        "direction": "decrease",
+        "percent_change": -10.0,
+        "perturbation_level": 0.1,
+        "causal_alignment": "contrary"
+      }
+    ]
+  },
+  "603": {
+    "index": "603",
+    "persona": "operator",
+    "llm_provider": "openai",
+    "model": "gpt-4o",
+    "num_counterfactuals": 1,
+    "explanation": "1. **Explanation**  \nThe machine is predicted to fail due to a decrease in power output by 20%, which can be prevented by maintaining the power output closer to its optimal level.\n\n2. **Actionable Recommendation**  \nOperators should immediately monitor the power output to ensure it does not drop below 0.761 Nm·rpm, and stop the machine if it approaches this threshold to prevent failure.",
+    "counterfactuals_summary": [
+      {
+        "feature": "Power output (Nm·rpm)",
+        "direction": "decrease",
+        "percent_change": -20.0,
+        "perturbation_level": 0.2,
+        "causal_alignment": "aligned"
+      }
+    ]
+  }
+}

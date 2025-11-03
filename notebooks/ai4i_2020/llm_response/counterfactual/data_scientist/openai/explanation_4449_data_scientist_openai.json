@@ -1,0 +1,17 @@
+{
+  "index": "4449",
+  "persona": "data_scientist",
+  "llm_provider": "openai",
+  "model": "gpt-4o",
+  "num_counterfactuals": 1,
+  "explanation": "1. **Explanation**  \nThe counterfactual explanation indicates that a 10% increase in rotational speed from 0.122 to 0.134 rpm, with a causal strength of 0.076, is contrary to the model's prediction of machine failure, suggesting that the model may be sensitive to small changes in rotational speed.\n\n2. **Actionable Recommendation**  \nEnhance data collection by ensuring more granular and frequent recording of rotational speed to capture subtle variations and improve the model's sensitivity and robustness to changes in this feature.",
+  "counterfactuals_summary": [
+    {
+      "feature": "Rotational speed (rpm)",
+      "direction": "increase",
+      "percent_change": 10.0,
+      "perturbation_level": 0.1,
+      "causal_alignment": "contrary"
+    }
+  ]
+}

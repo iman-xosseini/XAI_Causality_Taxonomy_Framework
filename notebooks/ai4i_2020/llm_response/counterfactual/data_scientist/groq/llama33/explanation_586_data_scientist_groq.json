@@ -1,0 +1,24 @@
+{
+  "index": "586",
+  "persona": "data_scientist",
+  "llm_provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "num_counterfactuals": 2,
+  "explanation": "## Explanation\nThe counterfactual explanations reveal that decreasing Wear × Torque and Tool wear (min) by 10% leads to decreases in predicted machine failures, with the latter having a stronger causal effect contrary to the expected outcome, suggesting a potential issue with the model's interpretation of tool wear data.\n\n## Actionable Recommendation\nTo address the potential issue with tool wear data interpretation, it is recommended to collect and integrate additional sensor data on tool condition and usage patterns to improve feature engineering and validation, thereby enhancing the model's ability to accurately predict machine failures based on tool wear.",
+  "counterfactuals_summary": [
+    {
+      "feature": "Wear × Torque",
+      "direction": "decrease",
+      "percent_change": -10.0,
+      "perturbation_level": 0.1,
+      "causal_alignment": "aligned"
+    },
+    {
+      "feature": "Tool wear (min)",
+      "direction": "decrease",
+      "percent_change": -10.0,
+      "perturbation_level": 0.1,
+      "causal_alignment": "contrary"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "index": "4723",
+  "persona": "data_scientist",
+  "llm_provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "num_counterfactuals": 2,
+  "explanation": "## Explanation\nThe counterfactual explanation results indicate that a 50% increase in temperature difference has the most significant impact on predicting machine failures, with a strong aligned causal relationship, whereas the 10% increase in rotational speed has a weaker contrary causal effect.\n\n## Actionable Recommendation\nTo improve the predictive maintenance model, prioritizing the collection of more precise and frequent temperature difference data is recommended, as this feature has the strongest causal relationship with machine failures, and its accurate measurement can significantly enhance the model's reliability and accuracy.",
+  "counterfactuals_summary": [
+    {
+      "feature": "Rotational speed (rpm)",
+      "direction": "increase",
+      "percent_change": 10.0,
+      "perturbation_level": 0.1,
+      "causal_alignment": "contrary"
+    },
+    {
+      "feature": "Temperature difference",
+      "direction": "increase",
+      "percent_change": 50.0,
+      "perturbation_level": 0.5,
+      "causal_alignment": "aligned"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+
+Original Instance Analysis:
+- Index: 4976
+- Original Prediction: 1 (Failure probability: 0.59)
+
+Counterfactual Analysis Summary:
+- Number of successful counterfactuals: 10
+- Features that can change prediction: {'Tool_wear', 'Power_output', 'Rotational_speed', 'Type_n'}
+
+Key Counterfactual Insights:
+
+Counterfactual 1:
+- Changed features: Type_n, Power_output
+- Prediction change: 1 to 0
+- Probability change: -0.512
+- Details: Type_n: 0.000 -> 2.000 (Delta+2.000, +inf%); Power_output: 0.744 -> 0.647 (Delta-0.097, -13.1%)
+
+Counterfactual 2:
+- Changed features: Rotational_speed, Tool_wear
+- Prediction change: 1 to 0
+- Probability change: -0.336
+- Details: Rotational_speed: 0.111 -> 0.228 (Delta+0.117, +105.0%); Tool_wear: 0.767 -> 0.200 (Delta-0.567, -73.9%)
+
+Counterfactual 3:
+- Changed features: Rotational_speed, Tool_wear
+- Prediction change: 1 to 0
+- Probability change: -0.355
+- Details: Rotational_speed: 0.111 -> 0.454 (Delta+0.343, +308.6%); Tool_wear: 0.767 -> 0.500 (Delta-0.267, -34.8%)

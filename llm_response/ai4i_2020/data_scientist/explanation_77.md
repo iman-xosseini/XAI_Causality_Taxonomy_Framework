@@ -1,0 +1,7 @@
+### a. Explanation of the Failure
+
+The Tool Wear Failure was primarily due to significant tool wear (208) within the critical failure range (200-240), compounded by influential factors such as rotational speed (1455) and wear to torque product, both directly affecting tool wear and machine efficiency. The causal relationships reveal that rotational speed heavily impacts tool wear (effect strength 0.65), while the wear torque product also escalates wear issues (effect strength 0.6). Recursive effects from tool wear itself exacerbate the condition (effect strength 0.9), highlighting an intricate feedback loop that accelerates degradation.
+
+### b. Actionable Recommendation
+
+Develop integrated TCN-BiLSTM models to accurately predict tool wear trends by harnessing vibration, force, and temperature signals. Upon model deployment, establish a feedback loop that continuously optimizes operational parameters, specifically feed and speed, to prolong tool life. The deployment should include real-time parameter adjustments, relying on the model's predictive insights to preemptively tune machine settings dynamically. This approach will anticipate wear conditions and optimize machine operations, reducing downtime and extending tool longevity through automated corrective actions.

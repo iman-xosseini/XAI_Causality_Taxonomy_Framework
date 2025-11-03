@@ -1,0 +1,7 @@
+### a. Explanation of the Failure
+
+The Tool Wear Failure occurred because the tool wear value reached 218, falling within the critical range of 200-240 where failures are expected. Significant causal factors include the rotational speed (1710 RPM) affecting tool wear directly (effect strength: 0.65) and the wear-torque interaction (6627.2) contributing to tool wear (effect strength: 0.6). Self-strengthening dynamics of tool wear, with an effect strength of 0.9, compounded the problem. Although the temperature difference of 8.6 played a minor role, the interplay between rotational speed, torque, and wear was crucial in elevating wear to a critical level.
+
+### b. Actionable Recommendation
+
+Develop and implement hybrid Time Convolutional Network (TCN) and Bidirectional Long Short-Term Memory (BiLSTM) models to predict tool wear trends. Specifically, leverage vibration, force, and temperature signals as features to enhance model accuracy. Deploy these models with real-time capabilities to trigger parameter optimization, such as adjusting feed and speed, to prolong tool life. Ensure the system dynamically responds to wear predictions by optimizing operational parameters in real-time to mitigate wear impact, thus preventing potential failures and improving operational efficiency.

@@ -1,0 +1,254 @@
+{
+  "datetime": [
+    1,
+    "time"
+  ],
+  "volt": [
+    1,
+    "volt"
+  ],
+  "rotate": [
+    1,
+    "rotate"
+  ],
+  "pressure": [
+    1,
+    "pressure"
+  ],
+  "vibration": [
+    1,
+    "vibration"
+  ],
+  "errorID": [
+    1,
+    "error"
+  ],
+  "comp": [
+    1,
+    "comp"
+  ],
+  "failure": [
+    1,
+    "failure"
+  ],
+  "target": [
+    1,
+    "target"
+  ],
+  "volt_lag_1h": [
+    2,
+    "volt"
+  ],
+  "volt_lag_6h": [
+    2,
+    "volt"
+  ],
+  "volt_lag_12h": [
+    2,
+    "volt"
+  ],
+  "volt_lag_24h": [
+    2,
+    "volt"
+  ],
+  "volt_mean_24h": [
+    2,
+    "volt"
+  ],
+  "volt_std_24h": [
+    2,
+    "volt"
+  ],
+  "volt_min_24h": [
+    2,
+    "volt"
+  ],
+  "volt_max_24h": [
+    2,
+    "volt"
+  ],
+  "volt_mean_6h": [
+    2,
+    "volt"
+  ],
+  "volt_std_6h": [
+    2,
+    "volt"
+  ],
+  "rotate_lag_1h": [
+    2,
+    "rotate"
+  ],
+  "rotate_lag_6h": [
+    2,
+    "rotate"
+  ],
+  "rotate_lag_12h": [
+    2,
+    "rotate"
+  ],
+  "rotate_lag_24h": [
+    2,
+    "rotate"
+  ],
+  "rotate_mean_24h": [
+    2,
+    "rotate"
+  ],
+  "rotate_std_24h": [
+    2,
+    "rotate"
+  ],
+  "rotate_min_24h": [
+    2,
+    "rotate"
+  ],
+  "rotate_max_24h": [
+    2,
+    "rotate"
+  ],
+  "rotate_mean_6h": [
+    2,
+    "rotate"
+  ],
+  "rotate_std_6h": [
+    2,
+    "rotate"
+  ],
+  "pressure_lag_1h": [
+    2,
+    "pressure"
+  ],
+  "pressure_lag_6h": [
+    2,
+    "pressure"
+  ],
+  "pressure_lag_12h": [
+    2,
+    "pressure"
+  ],
+  "pressure_lag_24h": [
+    2,
+    "pressure"
+  ],
+  "pressure_mean_24h": [
+    2,
+    "pressure"
+  ],
+  "pressure_std_24h": [
+    2,
+    "pressure"
+  ],
+  "pressure_min_24h": [
+    2,
+    "pressure"
+  ],
+  "pressure_max_24h": [
+    2,
+    "pressure"
+  ],
+  "pressure_mean_6h": [
+    2,
+    "pressure"
+  ],
+  "pressure_std_6h": [
+    2,
+    "pressure"
+  ],
+  "vibration_lag_1h": [
+    2,
+    "vibration"
+  ],
+  "vibration_lag_6h": [
+    2,
+    "vibration"
+  ],
+  "vibration_lag_12h": [
+    2,
+    "vibration"
+  ],
+  "vibration_lag_24h": [
+    2,
+    "vibration"
+  ],
+  "vibration_mean_24h": [
+    2,
+    "vibration"
+  ],
+  "vibration_std_24h": [
+    2,
+    "vibration"
+  ],
+  "vibration_min_24h": [
+    2,
+    "vibration"
+  ],
+  "vibration_max_24h": [
+    2,
+    "vibration"
+  ],
+  "vibration_mean_6h": [
+    2,
+    "vibration"
+  ],
+  "vibration_std_6h": [
+    2,
+    "vibration"
+  ],
+  "errorID_lag_1h": [
+    2,
+    "error"
+  ],
+  "errorID_lag_6h": [
+    2,
+    "error"
+  ],
+  "errorID_lag_12h": [
+    2,
+    "error"
+  ],
+  "error_count_6h": [
+    2,
+    "error"
+  ],
+  "error_count_24h": [
+    2,
+    "error"
+  ],
+  "comp_lag_1h": [
+    2,
+    "comp"
+  ],
+  "comp_lag_6h": [
+    2,
+    "comp"
+  ],
+  "comp_lag_12h": [
+    2,
+    "comp"
+  ],
+  "hour": [
+    2,
+    "time"
+  ],
+  "day_of_week": [
+    2,
+    "time"
+  ],
+  "is_weekend": [
+    2,
+    "time"
+  ],
+  "is_working_hours": [
+    2,
+    "time"
+  ],
+  "hours_since_maint": [
+    2,
+    "maintenance"
+  ],
+  "hours_since_error": [
+    2,
+    "error"
+  ]
+}

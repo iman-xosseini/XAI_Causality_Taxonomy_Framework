@@ -1,0 +1,24 @@
+{
+  "index": "586",
+  "persona": "operator",
+  "llm_provider": "openai",
+  "model": "gpt-4o",
+  "num_counterfactuals": 2,
+  "explanation": "1. **Explanation**  \nThe machine is predicted to fail due to excessive wear and torque interaction, and reducing both the wear-torque factor and tool wear by 10% could prevent this failure.\n\n2. **Actionable Recommendation**  \nOperators should immediately monitor the wear-torque factor and tool wear, ensuring they do not exceed 0.603 and 0.790 respectively, and stop the machine if these thresholds are approached to prevent failure.",
+  "counterfactuals_summary": [
+    {
+      "feature": "Wear × Torque",
+      "direction": "decrease",
+      "percent_change": -10.0,
+      "perturbation_level": 0.1,
+      "causal_alignment": "aligned"
+    },
+    {
+      "feature": "Tool wear (min)",
+      "direction": "decrease",
+      "percent_change": -10.0,
+      "perturbation_level": 0.1,
+      "causal_alignment": "contrary"
+    }
+  ]
+}

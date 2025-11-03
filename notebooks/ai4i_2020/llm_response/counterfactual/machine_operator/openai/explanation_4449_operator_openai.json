@@ -1,0 +1,17 @@
+{
+  "index": "4449",
+  "persona": "operator",
+  "llm_provider": "openai",
+  "model": "gpt-4o",
+  "num_counterfactuals": 1,
+  "explanation": "1. **Explanation**  \nThe machine is predicted to fail due to its current rotational speed being too low, and increasing it by 10% could prevent the failure.\n\n2. **Actionable Recommendation**  \nOperators should immediately adjust the machine's rotational speed to reach at least 0.134 rpm, and if the speed cannot be maintained above this threshold, stop the machine to prevent failure.",
+  "counterfactuals_summary": [
+    {
+      "feature": "Rotational speed (rpm)",
+      "direction": "increase",
+      "percent_change": 10.0,
+      "perturbation_level": 0.1,
+      "causal_alignment": "contrary"
+    }
+  ]
+}

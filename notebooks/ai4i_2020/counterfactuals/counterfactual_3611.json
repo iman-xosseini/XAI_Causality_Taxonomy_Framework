@@ -1,0 +1,25 @@
+[
+  {
+    "counterfactual_id": 0,
+    "feature_changed": "wear_torque_product",
+    "shap_rank": 2,
+    "causal_priority": 0.956911548644585,
+    "strategy_used": "causal-guided",
+    "direction": "increase",
+    "perturbation_level": 0.2,
+    "original_value": 0.5822149481723949,
+    "new_value": 0.6986579378068739,
+    "absolute_change": 0.116442989634479,
+    "percent_change": 20.0,
+    "original_prediction": 0,
+    "new_prediction": 1,
+    "original_prob_0": 0.948004683353673,
+    "original_prob_1": 0.051995316646326964,
+    "new_prob_0": 0.10245072583743497,
+    "new_prob_1": 0.897549274162565,
+    "probability_change": 0.8455539575162381,
+    "causal_effect_strength": 0.0956911548644585,
+    "causal_alignment": "aligned",
+    "has_causal_guidance": true
+  }
+]

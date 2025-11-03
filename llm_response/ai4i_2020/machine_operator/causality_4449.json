@@ -1,0 +1,72 @@
+[
+  {
+    "source": "Rotational_speed",
+    "target": "wear_torque_product",
+    "effect_strength": -1.08
+  },
+  {
+    "source": "Torque",
+    "target": "Rotational_speed",
+    "effect_strength": -0.32
+  },
+  {
+    "source": "Torque",
+    "target": "wear_torque_product",
+    "effect_strength": 0.1
+  },
+  {
+    "source": "Temp_difference",
+    "target": "Air_temperature",
+    "effect_strength": -0.72
+  },
+  {
+    "source": "Air_temperature",
+    "target": "Air_temperature",
+    "effect_strength": 1.0
+  },
+  {
+    "source": "wear_torque_product",
+    "target": "Air_temperature",
+    "effect_strength": -0.01
+  },
+  {
+    "source": "wear_torque_product",
+    "target": "Temp_difference",
+    "effect_strength": 0.01
+  },
+  {
+    "source": "Temp_difference",
+    "target": "Temp_difference",
+    "effect_strength": 0.64
+  },
+  {
+    "source": "Rotational_speed",
+    "target": "Target",
+    "effect_strength": 0.08
+  },
+  {
+    "source": "Torque",
+    "target": "Target",
+    "effect_strength": 0.03
+  },
+  {
+    "source": "wear_torque_product",
+    "target": "Target",
+    "effect_strength": 0.1
+  },
+  {
+    "source": "Target",
+    "target": "wear_torque_product",
+    "effect_strength": 0.01
+  },
+  {
+    "source": "Target",
+    "target": "Temp_difference",
+    "effect_strength": -0.09
+  },
+  {
+    "source": "Target",
+    "target": "Target",
+    "effect_strength": 0.04
+  }
+]

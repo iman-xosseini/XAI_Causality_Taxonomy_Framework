@@ -1,0 +1,414 @@
+{
+  "Machine_info": [
+    1,
+    "Root"
+  ],
+  "Model": [
+    2,
+    "Machine_info"
+  ],
+  "MachineID": [
+    2,
+    "Machine_info"
+  ],
+  "Age": [
+    2,
+    "Machine_info"
+  ],
+  "Error_info": [
+    1,
+    "Root"
+  ],
+  "ErrorID": [
+    2,
+    "Error_info"
+  ],
+  "Error_count": [
+    3,
+    "Error_info"
+  ],
+  "Error_count_6h": [
+    4,
+    "Error_count"
+  ],
+  "Error_count_24h": [
+    4,
+    "Error_count"
+  ],
+  "Error_lag": [
+    3,
+    "Error_info"
+  ],
+  "ErrorID_lag_1h": [
+    4,
+    "Error_lag"
+  ],
+  "ErrorID_lag_6h": [
+    4,
+    "Error_lag"
+  ],
+  "ErrorID_lag_12h": [
+    4,
+    "Error_lag"
+  ],
+  "ErrorID_lag_24h": [
+    4,
+    "Error_lag"
+  ],
+  "Component_info": [
+    1,
+    "Root"
+  ],
+  "Comp": [
+    2,
+    "Component_info"
+  ],
+  "Comp_lag": [
+    3,
+    "Component_info"
+  ],
+  "Comp_lag_1h": [
+    4,
+    "Comp_lag"
+  ],
+  "Comp_lag_6h": [
+    4,
+    "Comp_lag"
+  ],
+  "Comp_lag_12h": [
+    4,
+    "Comp_lag"
+  ],
+  "Maintenance_info": [
+    1,
+    "Root"
+  ],
+  "Maint_count": [
+    2,
+    "Maintenance_info"
+  ],
+  "Maint_count_6h": [
+    3,
+    "Maint_count"
+  ],
+  "Maint_count_24h": [
+    3,
+    "Maint_count"
+  ],
+  "Hours_since_maint": [
+    2,
+    "Time_info"
+  ],
+  "Sensor_readings": [
+    1,
+    "Root"
+  ],
+  "Volt": [
+    2,
+    "Sensor_readings"
+  ],
+  "Volt_lag": [
+    3,
+    "Volt"
+  ],
+  "Volt_lag_1h": [
+    4,
+    "Volt_lag"
+  ],
+  "Volt_lag_6h": [
+    4,
+    "Volt_lag"
+  ],
+  "Volt_lag_12h": [
+    4,
+    "Volt_lag"
+  ],
+  "Volt_lag_24h": [
+    4,
+    "Volt_lag"
+  ],
+  "Volt_stats": [
+    3,
+    "Volt"
+  ],
+  "Volt_mean": [
+    4,
+    "Volt_stats"
+  ],
+  "Volt_mean_6h": [
+    5,
+    "Volt_mean"
+  ],
+  "Volt_mean_24h": [
+    5,
+    "Volt_mean"
+  ],
+  "Volt_std": [
+    4,
+    "Volt_stats"
+  ],
+  "Volt_std_6h": [
+    5,
+    "Volt_std"
+  ],
+  "Volt_std_24h": [
+    5,
+    "Volt_std"
+  ],
+  "Volt_min": [
+    4,
+    "Volt_stats"
+  ],
+  "Volt_min_24h": [
+    5,
+    "Volt_min"
+  ],
+  "Volt_max": [
+    4,
+    "Volt_stats"
+  ],
+  "Volt_max_24h": [
+    5,
+    "Volt_max"
+  ],
+  "Rotate": [
+    2,
+    "Sensor_readings"
+  ],
+  "Rotate_lag": [
+    3,
+    "Rotate"
+  ],
+  "Rotate_lag_1h": [
+    4,
+    "Rotate_lag"
+  ],
+  "Rotate_lag_6h": [
+    4,
+    "Rotate_lag"
+  ],
+  "Rotate_lag_12h": [
+    4,
+    "Rotate_lag"
+  ],
+  "Rotate_lag_24h": [
+    4,
+    "Rotate_lag"
+  ],
+  "Rotate_stats": [
+    3,
+    "Rotate"
+  ],
+  "Rotate_mean": [
+    4,
+    "Rotate_stats"
+  ],
+  "Rotate_mean_6h": [
+    5,
+    "Rotate_mean"
+  ],
+  "Rotate_mean_24h": [
+    5,
+    "Rotate_mean"
+  ],
+  "Rotate_std": [
+    4,
+    "Rotate_stats"
+  ],
+  "Rotate_std_6h": [
+    5,
+    "Rotate_std"
+  ],
+  "Rotate_std_24h": [
+    5,
+    "Rotate_std"
+  ],
+  "Rotate_min": [
+    4,
+    "Rotate_stats"
+  ],
+  "Rotate_min_24h": [
+    5,
+    "Rotate_min"
+  ],
+  "Rotate_max": [
+    4,
+    "Rotate_stats"
+  ],
+  "Rotate_max_24h": [
+    5,
+    "Rotate_max"
+  ],
+  "Pressure": [
+    2,
+    "Sensor_readings"
+  ],
+  "Pressure_lag": [
+    3,
+    "Pressure"
+  ],
+  "Pressure_lag_1h": [
+    4,
+    "Pressure_lag"
+  ],
+  "Pressure_lag_6h": [
+    4,
+    "Pressure_lag"
+  ],
+  "Pressure_lag_12h": [
+    4,
+    "Pressure_lag"
+  ],
+  "Pressure_lag_24h": [
+    4,
+    "Pressure_lag"
+  ],
+  "Pressure_stats": [
+    3,
+    "Pressure"
+  ],
+  "Pressure_mean": [
+    4,
+    "Pressure_stats"
+  ],
+  "Pressure_mean_6h": [
+    5,
+    "Pressure_mean"
+  ],
+  "Pressure_mean_24h": [
+    5,
+    "Pressure_mean"
+  ],
+  "Pressure_std": [
+    4,
+    "Pressure_stats"
+  ],
+  "Pressure_std_6h": [
+    5,
+    "Pressure_std"
+  ],
+  "Pressure_std_24h": [
+    5,
+    "Pressure_std"
+  ],
+  "Pressure_min": [
+    4,
+    "Pressure_stats"
+  ],
+  "Pressure_min_24h": [
+    5,
+    "Pressure_min"
+  ],
+  "Pressure_max": [
+    4,
+    "Pressure_stats"
+  ],
+  "Pressure_max_24h": [
+    5,
+    "Pressure_max"
+  ],
+  "Vibration": [
+    2,
+    "Sensor_readings"
+  ],
+  "Vibration_lag": [
+    3,
+    "Vibration"
+  ],
+  "Vibration_lag_1h": [
+    4,
+    "Vibration_lag"
+  ],
+  "Vibration_lag_6h": [
+    4,
+    "Vibration_lag"
+  ],
+  "Vibration_lag_12h": [
+    4,
+    "Vibration_lag"
+  ],
+  "Vibration_lag_24h": [
+    4,
+    "Vibration_lag"
+  ],
+  "Vibration_stats": [
+    3,
+    "Vibration"
+  ],
+  "Vibration_mean": [
+    4,
+    "Vibration_stats"
+  ],
+  "Vibration_mean_6h": [
+    5,
+    "Vibration_mean"
+  ],
+  "Vibration_mean_24h": [
+    5,
+    "Vibration_mean"
+  ],
+  "Vibration_std": [
+    4,
+    "Vibration_stats"
+  ],
+  "Vibration_std_6h": [
+    5,
+    "Vibration_std"
+  ],
+  "Vibration_std_24h": [
+    5,
+    "Vibration_std"
+  ],
+  "Vibration_min": [
+    4,
+    "Vibration_stats"
+  ],
+  "Vibration_min_24h": [
+    5,
+    "Vibration_min"
+  ],
+  "Vibration_max": [
+    4,
+    "Vibration_stats"
+  ],
+  "Vibration_max_24h": [
+    5,
+    "Vibration_max"
+  ],
+  "Time_info": [
+    1,
+    "Root"
+  ],
+  "Datetime": [
+    2,
+    "Time_info"
+  ],
+  "Hour": [
+    2,
+    "Time_info"
+  ],
+  "Day_of_week": [
+    2,
+    "Time_info"
+  ],
+  "Is_weekend": [
+    2,
+    "Time_info"
+  ],
+  "Is_working_hours": [
+    2,
+    "Time_info"
+  ],
+  "Hours_since_error": [
+    2,
+    "Time_info"
+  ],
+  "Target": [
+    1,
+    "Root"
+  ],
+  "Failure": [
+    1,
+    "Root"
+  ]
+}

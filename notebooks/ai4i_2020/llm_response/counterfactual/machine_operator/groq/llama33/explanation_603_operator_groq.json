@@ -1,0 +1,17 @@
+{
+  "index": "603",
+  "persona": "operator",
+  "llm_provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "num_counterfactuals": 1,
+  "explanation": "## Explanation\nThe predictive maintenance AI system forecasted machine failure and identified that reducing the power output from 0.951 to 0.761 Nm·rpm, a decrease of 20.0%, could potentially prevent the failure by alleviating stress on the machine.\n\n## Actionable Recommendation\nOperators should immediately monitor the power output and stop the machine if it exceeds 0.80 Nm·rpm to prevent failure, as this threshold is closer to the recommended lower value of 0.761 Nm·rpm, allowing for a safer margin of error.",
+  "counterfactuals_summary": [
+    {
+      "feature": "Power output (Nm·rpm)",
+      "direction": "decrease",
+      "percent_change": -20.0,
+      "perturbation_level": 0.2,
+      "causal_alignment": "aligned"
+    }
+  ]
+}

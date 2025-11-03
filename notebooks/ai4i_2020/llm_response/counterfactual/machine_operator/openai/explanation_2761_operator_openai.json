@@ -1,0 +1,17 @@
+{
+  "index": "2761",
+  "persona": "operator",
+  "llm_provider": "openai",
+  "model": "gpt-4o",
+  "num_counterfactuals": 1,
+  "explanation": "1. **Explanation**  \nThe machine was predicted to fail due to excessive wear caused by high torque, and reducing the torque by 30% can significantly prevent this failure.\n\n2. **Actionable Recommendation**  \nOperators should immediately adjust the machine settings to decrease the torque to maintain the wear × torque value below 0.6, and stop the machine if it exceeds this threshold to prevent damage.",
+  "counterfactuals_summary": [
+    {
+      "feature": "Wear × Torque",
+      "direction": "decrease",
+      "percent_change": -30.0,
+      "perturbation_level": 0.3,
+      "causal_alignment": "aligned"
+    }
+  ]
+}

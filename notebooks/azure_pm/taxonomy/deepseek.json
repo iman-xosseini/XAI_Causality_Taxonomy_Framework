@@ -1,0 +1,306 @@
+{
+  "Feature": [
+    1,
+    "Root"
+  ],
+  "Machine Information": [
+    2,
+    "Feature"
+  ],
+  "Sensor Readings": [
+    2,
+    "Feature"
+  ],
+  "Time-Related Features": [
+    2,
+    "Feature"
+  ],
+  "Error and Maintenance": [
+    2,
+    "Feature"
+  ],
+  "Lagged Features": [
+    2,
+    "Feature"
+  ],
+  "Aggregated Features": [
+    2,
+    "Feature"
+  ],
+  "Count Features": [
+    2,
+    "Feature"
+  ],
+  "machineID": [
+    3,
+    "Machine Information"
+  ],
+  "model": [
+    3,
+    "Machine Information"
+  ],
+  "age": [
+    3,
+    "Machine Information"
+  ],
+  "volt": [
+    3,
+    "Sensor Readings"
+  ],
+  "rotate": [
+    3,
+    "Sensor Readings"
+  ],
+  "pressure": [
+    3,
+    "Sensor Readings"
+  ],
+  "vibration": [
+    3,
+    "Sensor Readings"
+  ],
+  "datetime": [
+    3,
+    "Time-Related Features"
+  ],
+  "hour": [
+    3,
+    "Time-Related Features"
+  ],
+  "day_of_week": [
+    3,
+    "Time-Related Features"
+  ],
+  "is_weekend": [
+    3,
+    "Time-Related Features"
+  ],
+  "is_working_hours": [
+    3,
+    "Time-Related Features"
+  ],
+  "hours_since_maint": [
+    3,
+    "Time-Related Features"
+  ],
+  "hours_since_error": [
+    3,
+    "Time-Related Features"
+  ],
+  "errorID": [
+    3,
+    "Error and Maintenance"
+  ],
+  "comp": [
+    3,
+    "Error and Maintenance"
+  ],
+  "failure": [
+    3,
+    "Error and Maintenance"
+  ],
+  "target": [
+    3,
+    "Error and Maintenance"
+  ],
+  "volt_lag_1h": [
+    3,
+    "Lagged Features"
+  ],
+  "volt_lag_6h": [
+    3,
+    "Lagged Features"
+  ],
+  "volt_lag_12h": [
+    3,
+    "Lagged Features"
+  ],
+  "volt_lag_24h": [
+    3,
+    "Lagged Features"
+  ],
+  "rotate_lag_1h": [
+    3,
+    "Lagged Features"
+  ],
+  "rotate_lag_6h": [
+    3,
+    "Lagged Features"
+  ],
+  "rotate_lag_12h": [
+    3,
+    "Lagged Features"
+  ],
+  "rotate_lag_24h": [
+    3,
+    "Lagged Features"
+  ],
+  "pressure_lag_1h": [
+    3,
+    "Lagged Features"
+  ],
+  "pressure_lag_6h": [
+    3,
+    "Lagged Features"
+  ],
+  "pressure_lag_12h": [
+    3,
+    "Lagged Features"
+  ],
+  "pressure_lag_24h": [
+    3,
+    "Lagged Features"
+  ],
+  "vibration_lag_1h": [
+    3,
+    "Lagged Features"
+  ],
+  "vibration_lag_6h": [
+    3,
+    "Lagged Features"
+  ],
+  "vibration_lag_12h": [
+    3,
+    "Lagged Features"
+  ],
+  "vibration_lag_24h": [
+    3,
+    "Lagged Features"
+  ],
+  "errorID_lag_1h": [
+    3,
+    "Lagged Features"
+  ],
+  "errorID_lag_6h": [
+    3,
+    "Lagged Features"
+  ],
+  "errorID_lag_12h": [
+    3,
+    "Lagged Features"
+  ],
+  "comp_lag_1h": [
+    3,
+    "Lagged Features"
+  ],
+  "comp_lag_6h": [
+    3,
+    "Lagged Features"
+  ],
+  "comp_lag_12h": [
+    3,
+    "Lagged Features"
+  ],
+  "volt_mean_24h": [
+    3,
+    "Aggregated Features"
+  ],
+  "volt_std_24h": [
+    3,
+    "Aggregated Features"
+  ],
+  "volt_min_24h": [
+    3,
+    "Aggregated Features"
+  ],
+  "volt_max_24h": [
+    3,
+    "Aggregated Features"
+  ],
+  "volt_mean_6h": [
+    3,
+    "Aggregated Features"
+  ],
+  "volt_std_6h": [
+    3,
+    "Aggregated Features"
+  ],
+  "rotate_mean_24h": [
+    3,
+    "Aggregated Features"
+  ],
+  "rotate_std_24h": [
+    3,
+    "Aggregated Features"
+  ],
+  "rotate_min_24h": [
+    3,
+    "Aggregated Features"
+  ],
+  "rotate_max_24h": [
+    3,
+    "Aggregated Features"
+  ],
+  "rotate_mean_6h": [
+    3,
+    "Aggregated Features"
+  ],
+  "rotate_std_6h": [
+    3,
+    "Aggregated Features"
+  ],
+  "pressure_mean_24h": [
+    3,
+    "Aggregated Features"
+  ],
+  "pressure_std_24h": [
+    3,
+    "Aggregated Features"
+  ],
+  "pressure_min_24h": [
+    3,
+    "Aggregated Features"
+  ],
+  "pressure_max_24h": [
+    3,
+    "Aggregated Features"
+  ],
+  "pressure_mean_6h": [
+    3,
+    "Aggregated Features"
+  ],
+  "pressure_std_6h": [
+    3,
+    "Aggregated Features"
+  ],
+  "vibration_mean_24h": [
+    3,
+    "Aggregated Features"
+  ],
+  "vibration_std_24h": [
+    3,
+    "Aggregated Features"
+  ],
+  "vibration_min_24h": [
+    3,
+    "Aggregated Features"
+  ],
+  "vibration_max_24h": [
+    3,
+    "Aggregated Features"
+  ],
+  "vibration_mean_6h": [
+    3,
+    "Aggregated Features"
+  ],
+  "vibration_std_6h": [
+    3,
+    "Aggregated Features"
+  ],
+  "error_count_6h": [
+    3,
+    "Count Features"
+  ],
+  "error_count_24h": [
+    3,
+    "Count Features"
+  ],
+  "maint_count_6h": [
+    3,
+    "Count Features"
+  ],
+  "maint_count_24h": [
+    3,
+    "Count Features"
+  ]
+}

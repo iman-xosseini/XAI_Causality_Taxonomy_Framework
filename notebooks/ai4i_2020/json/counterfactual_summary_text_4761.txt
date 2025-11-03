@@ -1,0 +1,28 @@
+
+Original Instance Analysis:
+- Index: 4761
+- Original Prediction: 1 (Failure probability: 0.845)
+
+Counterfactual Analysis Summary:
+- Number of successful counterfactuals: 10
+- Features that can change prediction: {'wear_torque_product', 'Rotational_speed', 'Tool_wear', 'Temp_difference'}
+
+Key Counterfactual Insights:
+
+Counterfactual 1:
+- Changed features: Temp_difference
+- Prediction change: 1 to 0
+- Probability change: -0.836
+- Details: Temp_difference: 0.133 -> 0.970 (Delta+0.837, +627.4%)
+
+Counterfactual 2:
+- Changed features: Temp_difference, wear_torque_product
+- Prediction change: 1 to 0
+- Probability change: -0.610
+- Details: Temp_difference: 0.133 -> 0.836 (Delta+0.703, +527.0%); wear_torque_product: 0.211 -> 0.900 (Delta+0.689, +326.9%)
+
+Counterfactual 3:
+- Changed features: Temp_difference, wear_torque_product
+- Prediction change: 1 to 0
+- Probability change: -0.836
+- Details: Temp_difference: 0.133 -> 0.557 (Delta+0.423, +317.6%); wear_torque_product: 0.211 -> 0.600 (Delta+0.389, +184.6%)

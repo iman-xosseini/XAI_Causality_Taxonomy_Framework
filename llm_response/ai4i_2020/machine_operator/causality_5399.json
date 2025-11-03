@@ -1,0 +1,72 @@
+[
+  {
+    "source": "Rotational_speed",
+    "target": "Tool_wear",
+    "effect_strength": 0.65
+  },
+  {
+    "source": "Rotational_speed",
+    "target": "wear_torque_product",
+    "effect_strength": -1.08
+  },
+  {
+    "source": "wear_torque_product",
+    "target": "Tool_wear",
+    "effect_strength": 0.6
+  },
+  {
+    "source": "Air_temperature",
+    "target": "Air_temperature",
+    "effect_strength": 1.0
+  },
+  {
+    "source": "Tool_wear",
+    "target": "Rotational_speed",
+    "effect_strength": 0.2
+  },
+  {
+    "source": "Tool_wear",
+    "target": "Tool_wear",
+    "effect_strength": 0.9
+  },
+  {
+    "source": "Tool_wear",
+    "target": "wear_torque_product",
+    "effect_strength": 0.08
+  },
+  {
+    "source": "wear_torque_product",
+    "target": "Air_temperature",
+    "effect_strength": -0.01
+  },
+  {
+    "source": "Rotational_speed",
+    "target": "Target",
+    "effect_strength": 0.08
+  },
+  {
+    "source": "wear_torque_product",
+    "target": "Target",
+    "effect_strength": 0.1
+  },
+  {
+    "source": "Target",
+    "target": "Tool_wear",
+    "effect_strength": 0.07
+  },
+  {
+    "source": "Tool_wear",
+    "target": "Target",
+    "effect_strength": -0.16
+  },
+  {
+    "source": "Target",
+    "target": "wear_torque_product",
+    "effect_strength": 0.01
+  },
+  {
+    "source": "Target",
+    "target": "Target",
+    "effect_strength": 0.04
+  }
+]

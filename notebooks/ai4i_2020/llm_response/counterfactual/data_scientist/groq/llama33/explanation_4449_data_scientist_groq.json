@@ -1,0 +1,17 @@
+{
+  "index": "4449",
+  "persona": "data_scientist",
+  "llm_provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "num_counterfactuals": 1,
+  "explanation": "## Explanation\nThe counterfactual explanation reveals that a 10% increase in rotational speed from 0.122 to 0.134 rpm has a contrary causal effect on machine failure prediction with a strength of 0.076, indicating a potential non-linear relationship between rotational speed and failure risk that the model has learned.\n\n## Actionable Recommendation\nTo improve model reliability and generalizability, it is recommended to collect and incorporate additional data on rotational speed variability and its interaction with other machine parameters to refine feature engineering and validation strategies, addressing the potential non-linear effects identified by the counterfactual analysis.",
+  "counterfactuals_summary": [
+    {
+      "feature": "Rotational speed (rpm)",
+      "direction": "increase",
+      "percent_change": 10.0,
+      "perturbation_level": 0.1,
+      "causal_alignment": "contrary"
+    }
+  ]
+}

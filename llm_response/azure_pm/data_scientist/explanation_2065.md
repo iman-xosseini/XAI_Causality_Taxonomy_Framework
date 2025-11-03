@@ -1,0 +1,7 @@
+## a. Explanation of the Failure
+
+The predictive maintenance model identified a potential failure due to a combination of high vibration levels, reflected in both current and lagged vibration readings, an erratic rotation speed one hour ago, and that the compressor state 12 hours ago correlates with failures. These are backed by SHAP importance which highlights vibration and its variability, rotation speed changes, and compressor state as top predictors. Causally, these features interplay indirectly with average voltage and pressure levels. Counterfactual analysis shows the model is sensitive to changes in these variables, suggesting controlling them could help prevent future failures.
+
+## b. Actionable Recommendation
+
+To mitigate future failures, focus on monitoring vibration (both current and variability over 24 hours) and ensuring consistent rotation speeds. Adjust maintenance schedules to promptly address anomalous vibration and rotation readings, and consider closer inspection of compressor states that occurred 12 hours prior for potential issues. As most sensitive features targeted by counterfactuals, controlling vibration, rotation, and compressor anomalies could significantly reduce failure risks. Regular checks on these metrics are crucial, as they're proven to have strong model sensitivity and causal relationships with potential failures.

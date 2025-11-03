@@ -1,0 +1,7 @@
+### a. Explanation of the Failure
+
+The tool wear failure resulted from tool wear reaching 214, within the critical range of 200 to 240, indicating the tool's degradation. High rotational speed (1,524 RPM) significantly influenced tool wear due to its strong causal effect (0.65), suggesting increased mechanical friction. Meanwhile, power output (59,283.6) contributed negatively, reducing tool wear (-0.49) but likely hindered by the positive correlation through wear torque product (8,324.6) with a 0.6 effect strength. Additionally, the temperature difference (11.3) had a weak impact (-0.01). Hence, interactions, particularly between rotational speed and wear, played pivotal roles in triggering the failure. 
+
+### b. Actionable Recommendation
+
+To prevent tool wear failure and enhance predictive maintenance, develop hybrid TCN–BiLSTM models to analyze wear trends using multivariate sensors, incorporating vibration, force, and temperature data. Implement these models to enable real-time parameter optimization, adjusting feed and speed to extend tool life. Focus on designing algorithms that dynamically update model predictions with new data inputs, ensuring robust performance. Prioritize integrating feedback loops for continuous optimization, refining predictive capabilities by leveraging the rich causal relationships identified, thus enabling adaptive adjustments in machine operations for sustained reliability.

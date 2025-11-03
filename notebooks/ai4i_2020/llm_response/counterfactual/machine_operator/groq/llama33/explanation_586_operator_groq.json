@@ -1,0 +1,24 @@
+{
+  "index": "586",
+  "persona": "operator",
+  "llm_provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "num_counterfactuals": 2,
+  "explanation": "## Explanation\nThe predictive maintenance AI system forecasted machine failure due to excessive wear and tear, and reducing the wear-torque interaction by 10% and minimum tool wear by 10% could potentially prevent the failure by mitigating the causal factors contributing to the predicted failure.\n\n## Actionable Recommendation\nOperators should immediately monitor the tool wear levels and stop the machine if the minimum tool wear exceeds 0.85, as this threshold indicates a high risk of failure, allowing for proactive maintenance to prevent downtime and ensure safety.",
+  "counterfactuals_summary": [
+    {
+      "feature": "Wear × Torque",
+      "direction": "decrease",
+      "percent_change": -10.0,
+      "perturbation_level": 0.1,
+      "causal_alignment": "aligned"
+    },
+    {
+      "feature": "Tool wear (min)",
+      "direction": "decrease",
+      "percent_change": -10.0,
+      "perturbation_level": 0.1,
+      "causal_alignment": "contrary"
+    }
+  ]
+}

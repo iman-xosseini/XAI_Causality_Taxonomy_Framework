@@ -1,0 +1,7 @@
+### a. Explanation of the Failure
+
+The Overstrain Failure is due to the wear product exceeding the threshold (12,000), influenced by significant tool wear (207) and high torque. With an effect strength of 0.6, the wear-to-torque product is a key factor. Notably, rotational speed (1351 RPM) inversely affects wear-torque, with a strong negative effect (-1.08) on it. Moreover, high tool wear itself influences rotational speed (0.2 effect strength) and torque (0.38 effect strength), creating a feedback loop. The excessive tool wear, combined with mechanical strain from torque and rotational dynamics, led to exceeding the critical threshold, causing failure.
+
+### b. Actionable Recommendation
+
+Data scientists should first integrate stress/strain sensor data into predictive models to gauge mechanical failure risks accurately. Develop algorithms to monitor these inputs for trends that signal impending overstrain. Design control logic capable of advising operational pauses or recommending speed adjustments based on near-real-time torque load predictions. Focus on calibrating models to dynamically adjust these parameters to prevent thresholds from being exceeded, using advanced data analytics to finetune operational decisions continuously. The insights should drive algorithmic improvements and be aligned with ongoing data assessments to make precise recommendations.

@@ -1,0 +1,24 @@
+{
+  "index": "4469",
+  "persona": "data_scientist",
+  "llm_provider": "openai",
+  "model": "gpt-4o",
+  "num_counterfactuals": 2,
+  "explanation": "1. **Explanation**: The counterfactual explanation indicates that a 30% decrease in rotational speed, which is contrary to the causal relationship, and a 30% increase in the interaction between wear and torque, which aligns with the causal relationship, are significant in altering the model's prediction of machine failure, suggesting that the model heavily relies on these features and their interactions.\n\n2. **Actionable Recommendation**: Enhance feature engineering by incorporating more granular data on rotational speed and wear-torque interactions to improve the model's ability to capture nuanced patterns and causal relationships, thereby increasing prediction accuracy and reliability.",
+  "counterfactuals_summary": [
+    {
+      "feature": "Rotational speed (rpm)",
+      "direction": "decrease",
+      "percent_change": -30.0,
+      "perturbation_level": 0.3,
+      "causal_alignment": "contrary"
+    },
+    {
+      "feature": "Wear × Torque",
+      "direction": "increase",
+      "percent_change": 30.0,
+      "perturbation_level": 0.3,
+      "causal_alignment": "aligned"
+    }
+  ]
+}

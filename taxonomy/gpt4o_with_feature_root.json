@@ -1,0 +1,46 @@
+{
+  "Air_temperature": [
+    1,
+    "Root"
+  ],
+  "Process_temperature": [
+    1,
+    "Root"
+  ],
+  "Rotational_speed": [
+    1,
+    "Root"
+  ],
+  "Torque": [
+    1,
+    "Root"
+  ],
+  "Tool_wear": [
+    1,
+    "Root"
+  ],
+  "Failure_Type": [
+    1,
+    "Root"
+  ],
+  "Target": [
+    1,
+    "Root"
+  ],
+  "Type_n": [
+    1,
+    "Root"
+  ],
+  "Power_output": [
+    2,
+    "Torque"
+  ],
+  "wear_torque_product": [
+    2,
+    "Torque"
+  ],
+  "Temp_difference": [
+    2,
+    "Air_temperature"
+  ]
+}

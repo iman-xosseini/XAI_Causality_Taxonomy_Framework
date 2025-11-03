@@ -1,0 +1,230 @@
+[
+  {
+    "source_feature": "Process_temperature",
+    "target_feature": "Air_temperature",
+    "effect_strength": 1.1358024691357922,
+    "lag": 0
+  },
+  {
+    "source_feature": "Process_temperature",
+    "target_feature": "Temp_difference",
+    "effect_strength": 0.5555555555555619,
+    "lag": 0
+  },
+  {
+    "source_feature": "Rotational_speed",
+    "target_feature": "Tool_wear",
+    "effect_strength": 0.6538055787220778,
+    "lag": 0
+  },
+  {
+    "source_feature": "Rotational_speed",
+    "target_feature": "wear_torque_product",
+    "effect_strength": -1.0791327949289653,
+    "lag": 0
+  },
+  {
+    "source_feature": "Rotational_speed",
+    "target_feature": "Target",
+    "effect_strength": 0.07577452147068597,
+    "lag": 0
+  },
+  {
+    "source_feature": "Torque",
+    "target_feature": "Rotational_speed",
+    "effect_strength": -0.3244895743557085,
+    "lag": 0
+  },
+  {
+    "source_feature": "Torque",
+    "target_feature": "Tool_wear",
+    "effect_strength": -0.06127461332583267,
+    "lag": 0
+  },
+  {
+    "source_feature": "Torque",
+    "target_feature": "Power_output",
+    "effect_strength": 0.8699445021176693,
+    "lag": 0
+  },
+  {
+    "source_feature": "Torque",
+    "target_feature": "wear_torque_product",
+    "effect_strength": 0.09566032201276728,
+    "lag": 0
+  },
+  {
+    "source_feature": "Torque",
+    "target_feature": "Target",
+    "effect_strength": 0.03231844777458161,
+    "lag": 0
+  },
+  {
+    "source_feature": "Power_output",
+    "target_feature": "Rotational_speed",
+    "effect_strength": -0.44723221036800737,
+    "lag": 0
+  },
+  {
+    "source_feature": "Power_output",
+    "target_feature": "Tool_wear",
+    "effect_strength": -0.49091973772350944,
+    "lag": 0
+  },
+  {
+    "source_feature": "Power_output",
+    "target_feature": "wear_torque_product",
+    "effect_strength": 0.7977014055936625,
+    "lag": 0
+  },
+  {
+    "source_feature": "Power_output",
+    "target_feature": "Target",
+    "effect_strength": 0.028694560481700382,
+    "lag": 0
+  },
+  {
+    "source_feature": "wear_torque_product",
+    "target_feature": "Tool_wear",
+    "effect_strength": 0.6041161235827649,
+    "lag": 0
+  },
+  {
+    "source_feature": "wear_torque_product",
+    "target_feature": "Target",
+    "effect_strength": 0.0956911548644585,
+    "lag": 0
+  },
+  {
+    "source_feature": "Temp_difference",
+    "target_feature": "Air_temperature",
+    "effect_strength": -0.7225294909999911,
+    "lag": 0
+  },
+  {
+    "source_feature": "Target",
+    "target_feature": "Tool_wear",
+    "effect_strength": 0.06651610966904166,
+    "lag": 0
+  },
+  {
+    "source_feature": "Rotational_speed",
+    "target_feature": "Process_temperature",
+    "effect_strength": 0.002747784781622902,
+    "lag": 1
+  },
+  {
+    "source_feature": "Rotational_speed",
+    "target_feature": "Temp_difference",
+    "effect_strength": 0.0011607369414610971,
+    "lag": 1
+  },
+  {
+    "source_feature": "Torque",
+    "target_feature": "Air_temperature",
+    "effect_strength": -0.0014165666389910098,
+    "lag": 1
+  },
+  {
+    "source_feature": "Torque",
+    "target_feature": "Temp_difference",
+    "effect_strength": 0.0004548611815527625,
+    "lag": 1
+  },
+  {
+    "source_feature": "Tool_wear",
+    "target_feature": "Air_temperature",
+    "effect_strength": 0.004320525264095361,
+    "lag": 1
+  },
+  {
+    "source_feature": "Tool_wear",
+    "target_feature": "Rotational_speed",
+    "effect_strength": 0.20394164437866175,
+    "lag": 1
+  },
+  {
+    "source_feature": "Tool_wear",
+    "target_feature": "Torque",
+    "effect_strength": 0.37923304122007684,
+    "lag": 1
+  },
+  {
+    "source_feature": "Tool_wear",
+    "target_feature": "Power_output",
+    "effect_strength": -0.29234136535928945,
+    "lag": 1
+  },
+  {
+    "source_feature": "Tool_wear",
+    "target_feature": "wear_torque_product",
+    "effect_strength": 0.07736179809146876,
+    "lag": 1
+  },
+  {
+    "source_feature": "Tool_wear",
+    "target_feature": "Temp_difference",
+    "effect_strength": -0.01050120528627052,
+    "lag": 1
+  },
+  {
+    "source_feature": "Tool_wear",
+    "target_feature": "Type_n",
+    "effect_strength": 0.0037200391102861635,
+    "lag": 1
+  },
+  {
+    "source_feature": "Tool_wear",
+    "target_feature": "Target",
+    "effect_strength": -0.1593549622973223,
+    "lag": 1
+  },
+  {
+    "source_feature": "Power_output",
+    "target_feature": "Process_temperature",
+    "effect_strength": 0.0017500030402629538,
+    "lag": 1
+  },
+  {
+    "source_feature": "Power_output",
+    "target_feature": "Temp_difference",
+    "effect_strength": 0.0012616040026272584,
+    "lag": 1
+  },
+  {
+    "source_feature": "wear_torque_product",
+    "target_feature": "Air_temperature",
+    "effect_strength": -0.007087292720809644,
+    "lag": 1
+  },
+  {
+    "source_feature": "wear_torque_product",
+    "target_feature": "Temp_difference",
+    "effect_strength": 0.005159709281949472,
+    "lag": 1
+  },
+  {
+    "source_feature": "Temp_difference",
+    "target_feature": "Process_temperature",
+    "effect_strength": 0.633651687875069,
+    "lag": 1
+  },
+  {
+    "source_feature": "Target",
+    "target_feature": "Air_temperature",
+    "effect_strength": 0.0031847008260941813,
+    "lag": 1
+  },
+  {
+    "source_feature": "Target",
+    "target_feature": "wear_torque_product",
+    "effect_strength": 0.01464589835648316,
+    "lag": 1
+  },
+  {
+    "source_feature": "Target",
+    "target_feature": "Temp_difference",
+    "effect_strength": -0.08530127569509584,
+    "lag": 1
+  }
+]

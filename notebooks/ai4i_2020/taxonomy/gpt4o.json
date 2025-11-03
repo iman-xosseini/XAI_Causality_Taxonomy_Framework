@@ -1,0 +1,66 @@
+{
+  "Machine_Parameters": [
+    1,
+    "Root"
+  ],
+  "Temperature": [
+    2,
+    "Machine_Parameters"
+  ],
+  "Air_temperature": [
+    3,
+    "Temperature"
+  ],
+  "Process_temperature": [
+    3,
+    "Temperature"
+  ],
+  "Temp_difference": [
+    3,
+    "Temperature"
+  ],
+  "Mechanical": [
+    2,
+    "Machine_Parameters"
+  ],
+  "Rotational_speed": [
+    3,
+    "Mechanical"
+  ],
+  "Torque": [
+    3,
+    "Mechanical"
+  ],
+  "Tool_wear": [
+    3,
+    "Mechanical"
+  ],
+  "Derived_Metrics": [
+    2,
+    "Machine_Parameters"
+  ],
+  "Power_output": [
+    3,
+    "Derived_Metrics"
+  ],
+  "wear_torque_product": [
+    3,
+    "Derived_Metrics"
+  ],
+  "Failure_Analysis": [
+    1,
+    "Root"
+  ],
+  "Failure_Type": [
+    2,
+    "Failure_Analysis"
+  ],
+  "Target": [
+    2,
+    "Failure_Analysis"
+  ],
+  "Type_n": [
+    2,
+    "Failure_Analysis"
+  ]
+}

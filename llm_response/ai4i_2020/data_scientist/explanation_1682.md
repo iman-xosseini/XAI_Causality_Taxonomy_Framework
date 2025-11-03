@@ -1,0 +1,7 @@
+### a. Explanation of the Failure
+
+The Tool Wear Failure was primarily triggered by high rotational speed and its strong effect on tool wear (effect strength: 0.65), with wear measuring 225, falling within the failure range (200-240). The interaction between rotational speed and the wear-to-torque product negatively impacts tool life (effect strength: -1.08). Additionally, the inherent tool wear self-amplification (effect strength: 0.9) further accelerated degradation. The temperature difference sensor at 9.5 impacts the wear dynamics through air temperature fluctuations, though its direct influence on wear is minimal.
+
+### b. Actionable Recommendation
+
+Develop hybrid TCN–BiLSTM models to accurately predict tool wear trends using key signals: vibration, force, and temperature. These models can identify wear patterns and contribute real-time insights into machine health. In parallel, deploy models capable of adjusting machining parameters such as feed and speed. This parameter optimization should be triggered in real-time to prolong tool life, ensuring minimal tool wear under variable operational conditions. This approach will enhance predictive maintenance accuracy and ultimately reduce tool-related failures.

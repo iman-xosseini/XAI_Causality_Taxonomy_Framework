@@ -1,0 +1,24 @@
+{
+  "index": "4469",
+  "persona": "operator",
+  "llm_provider": "openai",
+  "model": "gpt-4o",
+  "num_counterfactuals": 2,
+  "explanation": "1. **Explanation**  \nThe machine is predicted to fail due to its current high rotational speed and insufficient wear-torque balance, and reducing the rotational speed by 30% while increasing the wear-torque interaction by 30% could prevent this failure.\n\n2. **Actionable Recommendation**  \nOperators should immediately reduce the machine's rotational speed to 0.113 rpm and monitor it closely, stopping the machine if the speed exceeds this threshold to prevent failure.",
+  "counterfactuals_summary": [
+    {
+      "feature": "Rotational speed (rpm)",
+      "direction": "decrease",
+      "percent_change": -30.0,
+      "perturbation_level": 0.3,
+      "causal_alignment": "contrary"
+    },
+    {
+      "feature": "Wear × Torque",
+      "direction": "increase",
+      "percent_change": 30.0,
+      "perturbation_level": 0.3,
+      "causal_alignment": "aligned"
+    }
+  ]
+}

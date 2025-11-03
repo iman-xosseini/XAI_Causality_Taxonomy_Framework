@@ -1,0 +1,17 @@
+{
+  "index": "3611",
+  "persona": "operator",
+  "llm_provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "num_counterfactuals": 1,
+  "explanation": "## Explanation\nThe predictive maintenance AI system forecasted machine failure due to excessive wear caused by increased torque, suggesting that a 20% rise in the Wear × Torque metric from 0.582 to 0.699 is a critical factor that can be addressed to prevent the failure.\n\n## Actionable Recommendation\nOperators should immediately monitor the Wear × Torque metric and stop the machine if it exceeds 0.65 to prevent failure, as this threshold indicates a high-risk level of wear that could lead to catastrophic machine failure if not addressed promptly.",
+  "counterfactuals_summary": [
+    {
+      "feature": "Wear × Torque",
+      "direction": "increase",
+      "percent_change": 20.0,
+      "perturbation_level": 0.2,
+      "causal_alignment": "aligned"
+    }
+  ]
+}

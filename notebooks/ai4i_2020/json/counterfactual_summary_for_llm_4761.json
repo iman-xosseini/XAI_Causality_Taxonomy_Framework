@@ -1,0 +1,122 @@
+[
+  {
+    "counterfactual_id":0,
+    "changed_feature_names":"Temp_difference",
+    "num_changed_features":1,
+    "original_prediction":1,
+    "original_probability_failure":0.845,
+    "counterfactual_prediction":0,
+    "counterfactual_probability_failure":0.009,
+    "prediction_flip":"1 to 0",
+    "probability_change":-0.836,
+    "feature_changes_summary":"Temp_difference: 0.133 -> 0.970 (Delta+0.837, +627.4%)"
+  },
+  {
+    "counterfactual_id":1,
+    "changed_feature_names":"Temp_difference, wear_torque_product",
+    "num_changed_features":2,
+    "original_prediction":1,
+    "original_probability_failure":0.845,
+    "counterfactual_prediction":0,
+    "counterfactual_probability_failure":0.235,
+    "prediction_flip":"1 to 0",
+    "probability_change":-0.61,
+    "feature_changes_summary":"Temp_difference: 0.133 -> 0.836 (Delta+0.703, +527.0%); wear_torque_product: 0.211 -> 0.900 (Delta+0.689, +326.9%)"
+  },
+  {
+    "counterfactual_id":2,
+    "changed_feature_names":"Temp_difference, wear_torque_product",
+    "num_changed_features":2,
+    "original_prediction":1,
+    "original_probability_failure":0.845,
+    "counterfactual_prediction":0,
+    "counterfactual_probability_failure":0.009,
+    "prediction_flip":"1 to 0",
+    "probability_change":-0.836,
+    "feature_changes_summary":"Temp_difference: 0.133 -> 0.557 (Delta+0.423, +317.6%); wear_torque_product: 0.211 -> 0.600 (Delta+0.389, +184.6%)"
+  },
+  {
+    "counterfactual_id":3,
+    "changed_feature_names":"Temp_difference, Rotational_speed",
+    "num_changed_features":2,
+    "original_prediction":1,
+    "original_probability_failure":0.845,
+    "counterfactual_prediction":0,
+    "counterfactual_probability_failure":0.003,
+    "prediction_flip":"1 to 0",
+    "probability_change":-0.842,
+    "feature_changes_summary":"Temp_difference: 0.133 -> 0.570 (Delta+0.437, +327.4%); Rotational_speed: 0.095 -> 0.569 (Delta+0.474, +496.2%)"
+  },
+  {
+    "counterfactual_id":4,
+    "changed_feature_names":"Temp_difference, Tool_wear",
+    "num_changed_features":2,
+    "original_prediction":1,
+    "original_probability_failure":0.845,
+    "counterfactual_prediction":0,
+    "counterfactual_probability_failure":0.017,
+    "prediction_flip":"1 to 0",
+    "probability_change":-0.828,
+    "feature_changes_summary":"Temp_difference: 0.133 -> 0.712 (Delta+0.579, +434.1%); Tool_wear: 0.261 -> 0.800 (Delta+0.539, +206.7%)"
+  },
+  {
+    "counterfactual_id":5,
+    "changed_feature_names":"Temp_difference",
+    "num_changed_features":1,
+    "original_prediction":1,
+    "original_probability_failure":0.845,
+    "counterfactual_prediction":0,
+    "counterfactual_probability_failure":0.008,
+    "prediction_flip":"1 to 0",
+    "probability_change":-0.837,
+    "feature_changes_summary":"Temp_difference: 0.133 -> 0.888 (Delta+0.754, +565.8%)"
+  },
+  {
+    "counterfactual_id":6,
+    "changed_feature_names":"Rotational_speed",
+    "num_changed_features":1,
+    "original_prediction":1,
+    "original_probability_failure":0.845,
+    "counterfactual_prediction":0,
+    "counterfactual_probability_failure":0.012,
+    "prediction_flip":"1 to 0",
+    "probability_change":-0.834,
+    "feature_changes_summary":"Rotational_speed: 0.095 -> 0.750 (Delta+0.655, +685.7%)"
+  },
+  {
+    "counterfactual_id":7,
+    "changed_feature_names":"Temp_difference",
+    "num_changed_features":1,
+    "original_prediction":1,
+    "original_probability_failure":0.845,
+    "counterfactual_prediction":0,
+    "counterfactual_probability_failure":0.008,
+    "prediction_flip":"1 to 0",
+    "probability_change":-0.837,
+    "feature_changes_summary":"Temp_difference: 0.133 -> 0.672 (Delta+0.538, +403.7%)"
+  },
+  {
+    "counterfactual_id":8,
+    "changed_feature_names":"Temp_difference",
+    "num_changed_features":1,
+    "original_prediction":1,
+    "original_probability_failure":0.845,
+    "counterfactual_prediction":0,
+    "counterfactual_probability_failure":0.008,
+    "prediction_flip":"1 to 0",
+    "probability_change":-0.837,
+    "feature_changes_summary":"Temp_difference: 0.133 -> 0.808 (Delta+0.675, +506.1%)"
+  },
+  {
+    "counterfactual_id":9,
+    "changed_feature_names":"Rotational_speed",
+    "num_changed_features":1,
+    "original_prediction":1,
+    "original_probability_failure":0.845,
+    "counterfactual_prediction":0,
+    "counterfactual_probability_failure":0.008,
+    "prediction_flip":"1 to 0",
+    "probability_change":-0.838,
+    "feature_changes_summary":"Rotational_speed: 0.095 -> 0.247 (Delta+0.151, +158.2%)"
+  }
+]

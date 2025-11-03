@@ -1,0 +1,17 @@
+{
+  "index": "603",
+  "persona": "operator",
+  "llm_provider": "openai",
+  "model": "gpt-4o",
+  "num_counterfactuals": 1,
+  "explanation": "1. **Explanation**  \nThe machine is predicted to fail due to a decrease in power output by 20%, which can be prevented by maintaining the power output closer to its optimal level.\n\n2. **Actionable Recommendation**  \nOperators should immediately monitor the power output to ensure it does not drop below 0.761 Nm·rpm, and stop the machine if it approaches this threshold to prevent failure.",
+  "counterfactuals_summary": [
+    {
+      "feature": "Power output (Nm·rpm)",
+      "direction": "decrease",
+      "percent_change": -20.0,
+      "perturbation_level": 0.2,
+      "causal_alignment": "aligned"
+    }
+  ]
+}

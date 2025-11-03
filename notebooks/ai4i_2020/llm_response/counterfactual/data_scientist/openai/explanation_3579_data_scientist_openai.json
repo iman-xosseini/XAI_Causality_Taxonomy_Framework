@@ -1,0 +1,38 @@
+{
+  "index": "3579",
+  "persona": "data_scientist",
+  "llm_provider": "openai",
+  "model": "gpt-4o",
+  "num_counterfactuals": 4,
+  "explanation": "1. **Explanation**: The counterfactual analysis indicates that the model's prediction of machine failure is most sensitive to changes in rotational speed, which is aligned with the failure outcome, while power output and torque have contrary causal relationships, suggesting potential non-linear interactions or misalignment in feature importance.\n\n2. **Actionable Recommendation**: Prioritize enhancing the feature engineering process by exploring non-linear transformations and interaction terms, particularly focusing on rotational speed, to improve the model's predictive accuracy and interpretability.",
+  "counterfactuals_summary": [
+    {
+      "feature": "Power output (Nm·rpm)",
+      "direction": "increase",
+      "percent_change": 20.0,
+      "perturbation_level": 0.2,
+      "causal_alignment": "contrary"
+    },
+    {
+      "feature": "Rotational speed (rpm)",
+      "direction": "decrease",
+      "percent_change": -20.0,
+      "perturbation_level": 0.2,
+      "causal_alignment": "aligned"
+    },
+    {
+      "feature": "Temperature difference",
+      "direction": "decrease",
+      "percent_change": -20.0,
+      "perturbation_level": 0.2,
+      "causal_alignment": null
+    },
+    {
+      "feature": "Torque (Nm)",
+      "direction": "increase",
+      "percent_change": 30.0,
+      "perturbation_level": 0.3,
+      "causal_alignment": "contrary"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+### a. Explanation of the Failure
+
+The Power Failure occurs when the power output is outside the range of 3500 to 9000. Here, the power output is excessively high at 90041.2, likely due to interactions between high rotational speed (1381) and torque. Notably, torque influences power output significantly (effect_strength = 0.87). Additionally, the feedback loop where wear to torque influences tool wear (effect_strength = 0.6) further exacerbates this by degrading the machinery, causing further oscillations in power output. These dynamic interactions, combined with product type and tool wear (136), caused the power failure.
+
+### b. Actionable Recommendation
+
+For predictive maintenance, implement Random Forest and regression models to identify abnormal power usage patterns and provide preventive strategies. Additionally, employ time-series models to forecast torque and rotational anomalies that indicate potential failures. This approach helps in understanding causal factors and adjusting model inputs, such as tool wear and rotational speed, to mitigate the risk of future power failures. This dual strategy will enhance the predictive capability and guide data-driven decision-making in real-time machine maintenance.

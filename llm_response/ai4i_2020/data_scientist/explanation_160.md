@@ -1,0 +1,7 @@
+### a. Explanation of the Failure
+
+The Overstrain Failure was primarily driven by the elevated Wear to Torque product, which reached 13,111.2, exceeding the threshold of 11,000 for Product Type L. A high rotational speed (1282) intensified tool wear (216) with a strong causal relationship (effect_strength = 0.65), leading to an increased wear-torque product. The interlinked effects between these variables, particularly those related to rotational speed and tool wear, exacerbated the situation. Additionally, although the temperature difference was moderate, the compounded impact of tool wear and torque effectively heightened the risk of mechanical strain, resulting in failure.
+
+### b. Actionable Recommendation
+
+To mitigate future failures, implement a predictive analytics framework leveraging stress/strain sensor data to quantify mechanical failure risk. Establish data-driven control logic that dynamically adjusts operational parameters by evaluating real-time torque loads. Specifically, create analytical models that can recommend strategic operation pauses or speed adjustments to mitigate overstrain conditions. These models should continuously monitor wear-to-torque ratios to inform anticipatory actions aimed at maintaining optimal machine health. Emphasize refining data inputs and leveraging algorithms to bolster decision-making precision in torque load management.

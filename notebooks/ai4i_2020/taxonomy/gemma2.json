@@ -1,0 +1,66 @@
+{
+  "Type": [
+    1,
+    "Root"
+  ],
+  "Process": [
+    1,
+    "Root"
+  ],
+  "Process_temperature": [
+    2,
+    "Process"
+  ],
+  "Target": [
+    1,
+    "Root"
+  ],
+  "Failure_Type": [
+    1,
+    "Root"
+  ],
+  "Performance": [
+    1,
+    "Root"
+  ],
+  "Rotational_speed": [
+    2,
+    "Performance"
+  ],
+  "Torque": [
+    2,
+    "Performance"
+  ],
+  "Power_output": [
+    2,
+    "Performance"
+  ],
+  "Wear": [
+    1,
+    "Root"
+  ],
+  "Tool_wear": [
+    2,
+    "Wear"
+  ],
+  "wear_torque_product": [
+    3,
+    "Tool_wear"
+  ],
+  "Temperature": [
+    1,
+    "Root"
+  ],
+  "Air_temperature": [
+    2,
+    "Temperature"
+  ],
+  "Temp_difference": [
+    3,
+    "Air_temperature"
+  ],
+  "Type_n": [
+    1,
+    "Root"
+  ]
+}

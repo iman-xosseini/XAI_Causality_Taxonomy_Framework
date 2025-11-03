@@ -1,0 +1,17 @@
+{
+  "index": "3528",
+  "persona": "data_scientist",
+  "llm_provider": "openai",
+  "model": "gpt-4o",
+  "num_counterfactuals": 1,
+  "explanation": "1. **Explanation**  \nThe counterfactual explanation indicates that a 10% decrease in the interaction between wear and torque, which has a causal alignment and moderate strength of 0.096, significantly impacts the model's prediction of machine failures, suggesting that this interaction is a critical factor in the model's decision-making process.\n\n2. **Actionable Recommendation**  \nEnhance data collection by ensuring more granular and accurate measurements of wear and torque to better capture their interaction effects, thereby improving the model's predictive accuracy and reliability.",
+  "counterfactuals_summary": [
+    {
+      "feature": "Wear × Torque",
+      "direction": "decrease",
+      "percent_change": -10.0,
+      "perturbation_level": 0.1,
+      "causal_alignment": "aligned"
+    }
+  ]
+}

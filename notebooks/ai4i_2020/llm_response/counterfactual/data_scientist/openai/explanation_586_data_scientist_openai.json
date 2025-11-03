@@ -1,0 +1,24 @@
+{
+  "index": "586",
+  "persona": "data_scientist",
+  "llm_provider": "openai",
+  "model": "gpt-4o",
+  "num_counterfactuals": 2,
+  "explanation": "1. **Explanation**  \nThe counterfactual explanation indicates that a 10% decrease in both the interaction term \"Wear × Torque\" and \"Tool wear (min)\" significantly impacts the model's prediction, with the former being causally aligned and the latter contrary, suggesting that the model may be over-relying on these features in different causal contexts.\n\n2. **Actionable Recommendation**  \nTo improve model robustness, prioritize collecting more granular data on tool wear and torque interactions to better capture their causal relationships and refine feature engineering to distinguish between aligned and contrary causal effects.",
+  "counterfactuals_summary": [
+    {
+      "feature": "Wear × Torque",
+      "direction": "decrease",
+      "percent_change": -10.0,
+      "perturbation_level": 0.1,
+      "causal_alignment": "aligned"
+    },
+    {
+      "feature": "Tool wear (min)",
+      "direction": "decrease",
+      "percent_change": -10.0,
+      "perturbation_level": 0.1,
+      "causal_alignment": "contrary"
+    }
+  ]
+}

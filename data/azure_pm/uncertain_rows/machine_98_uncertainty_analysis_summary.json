@@ -1,0 +1,56 @@
+{
+  "machine_number": 98,
+  "total_non_zero_targets": 348,
+  "analysis_timestamp": "2025-07-25T13:25:48.920721",
+  "uncertainty_threshold": 0.2,
+  "target_distribution": {
+    "3": 122,
+    "4": 78,
+    "1": 75,
+    "2": 73
+  },
+  "prediction_accuracy_overall": 1.0,
+  "uncertainty_methods_used": [
+    "entropy",
+    "margin",
+    "confidence"
+  ],
+  "uncertainty_summary": {
+    "entropy": {
+      "uncertain_count": 6,
+      "uncertain_percentage": 1.7241379310344827,
+      "score_range": [
+        0.020310007012045574,
+        0.29723363383826423
+      ],
+      "score_mean": 0.05107915411004048,
+      "prediction_accuracy_on_uncertain": 1.0
+    },
+    "margin": {
+      "uncertain_count": 0,
+      "uncertain_percentage": 0.0,
+      "score_range": [
+        0.8582947160763439,
+        0.9961612085457928
+      ],
+      "score_mean": 0.9878394222109563,
+      "prediction_accuracy_on_uncertain": 0.0
+    },
+    "confidence": {
+      "uncertain_count": 0,
+      "uncertain_percentage": 0.0,
+      "score_range": [
+        0.9254345429604741,
+        0.9975072352516503
+      ],
+      "score_mean": 0.9922889544943644,
+      "prediction_accuracy_on_uncertain": 0.0
+    }
+  },
+  "consensus_summary": {
+    "consensus_uncertain_count": 0,
+    "consensus_uncertain_percentage": 0.0,
+    "consensus_prediction_accuracy": 0.0,
+    "consensus_target_distribution": {}
+  }
+}

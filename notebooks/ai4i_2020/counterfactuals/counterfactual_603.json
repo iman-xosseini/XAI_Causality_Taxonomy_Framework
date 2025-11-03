@@ -1,0 +1,25 @@
+[
+  {
+    "counterfactual_id": 0,
+    "feature_changed": "Power_output",
+    "shap_rank": 1,
+    "causal_priority": 0.2869456048170038,
+    "strategy_used": "causal-guided",
+    "direction": "decrease",
+    "perturbation_level": 0.2,
+    "original_value": 0.951436634401934,
+    "new_value": 0.7611493075215472,
+    "absolute_change": -0.19028732688038683,
+    "percent_change": -20.0,
+    "original_prediction": 1,
+    "new_prediction": 0,
+    "original_prob_0": 0.11209141668652955,
+    "original_prob_1": 0.8879085833134704,
+    "new_prob_0": 0.9897901087727593,
+    "new_prob_1": 0.010209891227240734,
+    "probability_change": -0.8776986920862297,
+    "causal_effect_strength": 0.028694560481700382,
+    "causal_alignment": "aligned",
+    "has_causal_guidance": true
+  }
+]

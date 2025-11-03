@@ -1,0 +1,7 @@
+### a. Explanation of the Failure
+
+The Tool Wear Failure was primarily due to a tool wear level of 205, within the critical range of 200-240. The analysis of the causal relationships highlights that the wear-to-torque product significantly impacts tool wear, with a moderate effect strength of 0.6. The principal contribution to this outcome is from power output (44782.6), which inversely influences tool wear. Given the moderate tool temperature difference of 11.1, inefficient wear-torque and temperature interactions likely exacerbated wear. Thus, the interplay between rotational speed (1922), torque, and tool wear dynamics likely triggered this failure.
+
+### b. Actionable Recommendation
+
+To mitigate Tool Wear Failures, develop hybrid Temporal Convolutional Network (TCN) and Bidirectional Long Short-Term Memory (BiLSTM) models aimed at predicting wear trends using signals from vibration, force, and temperature. Ensure these models are trained with high accuracy and are sensitive to real-time operational data. The models should be capable of forecasting wear progression and triggering immediate parameter optimization for feed and speed. This approach should dynamically adjust operational settings in real-time, extending tool life and optimizing performance. Deploying such predictive systems can effectively prevent future failures and maintain machine efficiency.

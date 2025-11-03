@@ -1,0 +1,24 @@
+{
+  "index": "4469",
+  "persona": "data_scientist",
+  "llm_provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "num_counterfactuals": 2,
+  "explanation": "## Explanation\nThe counterfactual explanation results indicate that decreasing rotational speed by 30% and increasing the interaction between wear and torque by 30% have opposing effects on the predicted machine failure, with the former having a contrary causal effect and the latter having an aligned causal effect, suggesting complex interactions between these features.\n\n## Actionable Recommendation\nTo improve the predictive maintenance model, it is recommended to collect more granular data on the wear and torque interaction, and engineer new features that capture the nonlinear relationships between these variables, to enhance the model's ability to accurately predict machine failures under various operating conditions.",
+  "counterfactuals_summary": [
+    {
+      "feature": "Rotational speed (rpm)",
+      "direction": "decrease",
+      "percent_change": -30.0,
+      "perturbation_level": 0.3,
+      "causal_alignment": "contrary"
+    },
+    {
+      "feature": "Wear × Torque",
+      "direction": "increase",
+      "percent_change": 30.0,
+      "perturbation_level": 0.3,
+      "causal_alignment": "aligned"
+    }
+  ]
+}

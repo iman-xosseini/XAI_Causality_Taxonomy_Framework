@@ -1,0 +1,17 @@
+{
+  "index": "2761",
+  "persona": "operator",
+  "llm_provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "num_counterfactuals": 1,
+  "explanation": "## Explanation\nThe predictive maintenance AI system forecasted machine failure due to excessive wear caused by high torque, and reducing the Wear × Torque value by 30% to 0.586 could prevent the failure by mitigating the damaging effects of torque on machine components.\n\n## Actionable Recommendation\nOperators should immediately monitor the Wear × Torque value and stop the machine if it exceeds 0.7 to prevent catastrophic failure, allowing for maintenance to reduce the torque and wear on critical components.",
+  "counterfactuals_summary": [
+    {
+      "feature": "Wear × Torque",
+      "direction": "decrease",
+      "percent_change": -30.0,
+      "perturbation_level": 0.3,
+      "causal_alignment": "aligned"
+    }
+  ]
+}

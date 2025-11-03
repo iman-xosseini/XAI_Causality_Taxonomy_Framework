@@ -1,0 +1,3872 @@
+[
+  {
+    "source_feature": "volt",
+    "target_feature": "volt_lag_1h",
+    "effect_strength": 0.01031322375254026
+  },
+  {
+    "source_feature": "volt",
+    "target_feature": "volt_lag_24h",
+    "effect_strength": 0.13918872976475608
+  },
+  {
+    "source_feature": "volt",
+    "target_feature": "volt_min_24h",
+    "effect_strength": 1.7664301425964173
+  },
+  {
+    "source_feature": "volt",
+    "target_feature": "volt_max_24h",
+    "effect_strength": 1.7519529628264547
+  },
+  {
+    "source_feature": "volt",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": -0.02431958746707781
+  },
+  {
+    "source_feature": "volt",
+    "target_feature": "vibration_max_24h",
+    "effect_strength": -0.03422373936680228
+  },
+  {
+    "source_feature": "volt",
+    "target_feature": "errorID_lag_1h",
+    "effect_strength": -0.0010091531487299065
+  },
+  {
+    "source_feature": "volt",
+    "target_feature": "hours_since_error",
+    "effect_strength": -6.655516013039327e-06
+  },
+  {
+    "source_feature": "rotate",
+    "target_feature": "volt_lag_1h",
+    "effect_strength": 0.009672690976258391
+  },
+  {
+    "source_feature": "rotate",
+    "target_feature": "rotate_lag_1h",
+    "effect_strength": 3647264619441.056
+  },
+  {
+    "source_feature": "rotate",
+    "target_feature": "rotate_min_24h",
+    "effect_strength": 1.554972467489589
+  },
+  {
+    "source_feature": "rotate",
+    "target_feature": "rotate_max_24h",
+    "effect_strength": 1.5602411299592032
+  },
+  {
+    "source_feature": "rotate",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": -0.0059808175821823425
+  },
+  {
+    "source_feature": "rotate",
+    "target_feature": "vibration_mean_6h",
+    "effect_strength": -0.0243844419849021
+  },
+  {
+    "source_feature": "rotate",
+    "target_feature": "errorID_lag_1h",
+    "effect_strength": -0.0007218899385676024
+  },
+  {
+    "source_feature": "pressure",
+    "target_feature": "volt_lag_1h",
+    "effect_strength": 0.0038384296312181103
+  },
+  {
+    "source_feature": "pressure",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": 0.026725235416138277
+  },
+  {
+    "source_feature": "pressure",
+    "target_feature": "pressure_min_24h",
+    "effect_strength": 1.4598499744582722
+  },
+  {
+    "source_feature": "pressure",
+    "target_feature": "pressure_max_24h",
+    "effect_strength": 1.5169797954390736
+  },
+  {
+    "source_feature": "pressure",
+    "target_feature": "error_count_24h",
+    "effect_strength": 0.0002488431294713919
+  },
+  {
+    "source_feature": "vibration",
+    "target_feature": "volt",
+    "effect_strength": 0.017509190810393083
+  },
+  {
+    "source_feature": "vibration",
+    "target_feature": "volt_lag_1h",
+    "effect_strength": 0.0009763911271365756
+  },
+  {
+    "source_feature": "vibration",
+    "target_feature": "rotate_lag_1h",
+    "effect_strength": -0.004514368423195119
+  },
+  {
+    "source_feature": "vibration",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": 0.006789966145058442
+  },
+  {
+    "source_feature": "vibration",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": -0.056678439306263186
+  },
+  {
+    "source_feature": "vibration",
+    "target_feature": "vibration_min_24h",
+    "effect_strength": 1.5225265893752797
+  },
+  {
+    "source_feature": "vibration",
+    "target_feature": "vibration_max_24h",
+    "effect_strength": 1.5063328826710933
+  },
+  {
+    "source_feature": "errorID",
+    "target_feature": "errorID_lag_6h",
+    "effect_strength": 0.9999999999999867
+  },
+  {
+    "source_feature": "errorID",
+    "target_feature": "error_count_6h",
+    "effect_strength": 0.9999999999999971
+  },
+  {
+    "source_feature": "target",
+    "target_feature": "volt",
+    "effect_strength": -0.020172059711204237
+  },
+  {
+    "source_feature": "target",
+    "target_feature": "pressure",
+    "effect_strength": 0.01865406867897274
+  },
+  {
+    "source_feature": "target",
+    "target_feature": "errorID",
+    "effect_strength": 0.25142639550617657
+  },
+  {
+    "source_feature": "target",
+    "target_feature": "volt_lag_6h",
+    "effect_strength": -0.015040468261338464
+  },
+  {
+    "source_feature": "target",
+    "target_feature": "volt_mean_24h",
+    "effect_strength": 0.06976701006925962
+  },
+  {
+    "source_feature": "target",
+    "target_feature": "rotate_lag_6h",
+    "effect_strength": 0.04378335554229382
+  },
+  {
+    "source_feature": "target",
+    "target_feature": "rotate_mean_6h",
+    "effect_strength": -0.024632261458755016
+  },
+  {
+    "source_feature": "target",
+    "target_feature": "pressure_lag_6h",
+    "effect_strength": 0.002262849854116147
+  },
+  {
+    "source_feature": "target",
+    "target_feature": "pressure_std_24h",
+    "effect_strength": -0.24614520064189027
+  },
+  {
+    "source_feature": "target",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": -0.042489675406396206
+  },
+  {
+    "source_feature": "target",
+    "target_feature": "vibration_mean_6h",
+    "effect_strength": 0.028376916391024784
+  },
+  {
+    "source_feature": "target",
+    "target_feature": "errorID_lag_1h",
+    "effect_strength": 0.06416118061671926
+  },
+  {
+    "source_feature": "target",
+    "target_feature": "error_count_24h",
+    "effect_strength": 0.02443073610010362
+  },
+  {
+    "source_feature": "target",
+    "target_feature": "hours_since_maint",
+    "effect_strength": 0.001540634759001248
+  },
+  {
+    "source_feature": "volt_lag_6h",
+    "target_feature": "volt",
+    "effect_strength": 1.0004064129484391
+  },
+  {
+    "source_feature": "volt_lag_6h",
+    "target_feature": "pressure",
+    "effect_strength": -0.7988671315104334
+  },
+  {
+    "source_feature": "volt_lag_6h",
+    "target_feature": "vibration",
+    "effect_strength": -0.12121616362059606
+  },
+  {
+    "source_feature": "volt_lag_6h",
+    "target_feature": "volt_lag_1h",
+    "effect_strength": -7098851211.729226
+  },
+  {
+    "source_feature": "volt_lag_6h",
+    "target_feature": "volt_mean_24h",
+    "effect_strength": -0.0075423153612539
+  },
+  {
+    "source_feature": "volt_lag_6h",
+    "target_feature": "volt_mean_6h",
+    "effect_strength": -6.0005144097971685
+  },
+  {
+    "source_feature": "volt_lag_6h",
+    "target_feature": "rotate_lag_1h",
+    "effect_strength": 46286457.64723995
+  },
+  {
+    "source_feature": "volt_lag_6h",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": 0.00011509582980356998
+  },
+  {
+    "source_feature": "volt_lag_6h",
+    "target_feature": "pressure_lag_6h",
+    "effect_strength": 0.7990367733248593
+  },
+  {
+    "source_feature": "volt_lag_6h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": 4.792677155866457
+  },
+  {
+    "source_feature": "volt_lag_6h",
+    "target_feature": "vibration_lag_6h",
+    "effect_strength": 0.12138192558285166
+  },
+  {
+    "source_feature": "volt_lag_6h",
+    "target_feature": "vibration_lag_24h",
+    "effect_strength": 0.0001925268241307658
+  },
+  {
+    "source_feature": "volt_lag_6h",
+    "target_feature": "vibration_mean_24h",
+    "effect_strength": -0.0005037453551148707
+  },
+  {
+    "source_feature": "volt_lag_6h",
+    "target_feature": "vibration_mean_6h",
+    "effect_strength": 0.7270855329003517
+  },
+  {
+    "source_feature": "volt_lag_12h",
+    "target_feature": "volt_lag_24h",
+    "effect_strength": -0.05902756713709121
+  },
+  {
+    "source_feature": "volt_lag_24h",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": 0.020010398201998774
+  },
+  {
+    "source_feature": "volt_lag_24h",
+    "target_feature": "errorID_lag_1h",
+    "effect_strength": 0.007100293669061954
+  },
+  {
+    "source_feature": "volt_mean_24h",
+    "target_feature": "volt",
+    "effect_strength": 0.04171533295872951
+  },
+  {
+    "source_feature": "volt_mean_24h",
+    "target_feature": "pressure",
+    "effect_strength": -0.03627528478527415
+  },
+  {
+    "source_feature": "volt_mean_24h",
+    "target_feature": "volt_lag_1h",
+    "effect_strength": 2.2222959074877128e-05
+  },
+  {
+    "source_feature": "volt_mean_24h",
+    "target_feature": "volt_lag_24h",
+    "effect_strength": -0.0414534948787588
+  },
+  {
+    "source_feature": "volt_mean_24h",
+    "target_feature": "rotate_lag_1h",
+    "effect_strength": 2.3918804249580822e-05
+  },
+  {
+    "source_feature": "volt_mean_24h",
+    "target_feature": "pressure_lag_6h",
+    "effect_strength": 0.004172778653502631
+  },
+  {
+    "source_feature": "volt_mean_24h",
+    "target_feature": "pressure_lag_24h",
+    "effect_strength": 0.0323059879888387
+  },
+  {
+    "source_feature": "volt_mean_24h",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": 0.768681786207227
+  },
+  {
+    "source_feature": "volt_mean_24h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": 0.0248960149724119
+  },
+  {
+    "source_feature": "volt_mean_24h",
+    "target_feature": "errorID_lag_1h",
+    "effect_strength": -2.47368871637366e-06
+  },
+  {
+    "source_feature": "volt_std_24h",
+    "target_feature": "volt_lag_1h",
+    "effect_strength": 0.0035529896737322166
+  },
+  {
+    "source_feature": "volt_std_24h",
+    "target_feature": "rotate_lag_1h",
+    "effect_strength": -0.0010768159991378721
+  },
+  {
+    "source_feature": "volt_std_24h",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": -0.00889542305434614
+  },
+  {
+    "source_feature": "volt_min_24h",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": -0.0015832973386887376
+  },
+  {
+    "source_feature": "volt_min_24h",
+    "target_feature": "errorID_lag_1h",
+    "effect_strength": 0.0011003017212379493
+  },
+  {
+    "source_feature": "volt_max_24h",
+    "target_feature": "volt_lag_1h",
+    "effect_strength": 0.11299597324341867
+  },
+  {
+    "source_feature": "volt_max_24h",
+    "target_feature": "errorID_lag_1h",
+    "effect_strength": 0.0049879178849911165
+  },
+  {
+    "source_feature": "volt_mean_6h",
+    "target_feature": "volt",
+    "effect_strength": 0.1682679984345032
+  },
+  {
+    "source_feature": "volt_mean_6h",
+    "target_feature": "volt_lag_1h",
+    "effect_strength": 0.01517520671397227
+  },
+  {
+    "source_feature": "volt_mean_6h",
+    "target_feature": "rotate_lag_1h",
+    "effect_strength": -0.00016633087679185365
+  },
+  {
+    "source_feature": "volt_std_6h",
+    "target_feature": "volt_lag_1h",
+    "effect_strength": 0.001618350598781626
+  },
+  {
+    "source_feature": "volt_std_6h",
+    "target_feature": "rotate_lag_1h",
+    "effect_strength": -0.0009015827276383546
+  },
+  {
+    "source_feature": "volt_std_6h",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": -0.0010654876267784785
+  },
+  {
+    "source_feature": "rotate_lag_6h",
+    "target_feature": "errorID",
+    "effect_strength": 0.00834708215110609
+  },
+  {
+    "source_feature": "rotate_lag_6h",
+    "target_feature": "volt_lag_1h",
+    "effect_strength": 0.0004416253392079735
+  },
+  {
+    "source_feature": "rotate_lag_6h",
+    "target_feature": "errorID_lag_1h",
+    "effect_strength": -0.0010781755328188036
+  },
+  {
+    "source_feature": "rotate_lag_6h",
+    "target_feature": "errorID_lag_6h",
+    "effect_strength": -0.012909909960622122
+  },
+  {
+    "source_feature": "rotate_lag_12h",
+    "target_feature": "volt_lag_1h",
+    "effect_strength": 0.014698141414447884
+  },
+  {
+    "source_feature": "rotate_lag_12h",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": -0.0039259662350029055
+  },
+  {
+    "source_feature": "rotate_lag_12h",
+    "target_feature": "vibration_mean_24h",
+    "effect_strength": 0.02322881299627522
+  },
+  {
+    "source_feature": "rotate_lag_12h",
+    "target_feature": "errorID_lag_1h",
+    "effect_strength": 0.0037058250498076
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "volt",
+    "effect_strength": -12.482517068741423
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "rotate",
+    "effect_strength": 0.1360550339965611
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "pressure",
+    "effect_strength": 13.10990359708599
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "vibration",
+    "effect_strength": -1.7546226911958638
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "volt_lag_6h",
+    "effect_strength": 11.919316973134952
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "volt_lag_24h",
+    "effect_strength": 0.5655245290680723
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "volt_mean_24h",
+    "effect_strength": 13.326755145053841
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "volt_mean_6h",
+    "effect_strength": 71.55651863458996
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "rotate_lag_12h",
+    "effect_strength": -0.07522954153331673
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "rotate_min_24h",
+    "effect_strength": -1.6794978475995805
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "rotate_max_24h",
+    "effect_strength": -1.6147071365519208
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "pressure_lag_6h",
+    "effect_strength": -13.911412969678164
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "pressure_lag_24h",
+    "effect_strength": 0.7925212253799279
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": 18.843386195914224
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": -83.4470786739513
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "vibration_lag_6h",
+    "effect_strength": 1.74576278941889
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "vibration_mean_24h",
+    "effect_strength": 0.010805367986999123
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "vibration_mean_6h",
+    "effect_strength": 10.502571933646994
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "hours_since_error",
+    "effect_strength": 1.4767302460743053e-06
+  },
+  {
+    "source_feature": "rotate_mean_24h",
+    "target_feature": "volt",
+    "effect_strength": -0.2202030809194508
+  },
+  {
+    "source_feature": "rotate_mean_24h",
+    "target_feature": "rotate",
+    "effect_strength": 0.04183724519703759
+  },
+  {
+    "source_feature": "rotate_mean_24h",
+    "target_feature": "pressure",
+    "effect_strength": 0.31210542022427884
+  },
+  {
+    "source_feature": "rotate_mean_24h",
+    "target_feature": "vibration",
+    "effect_strength": -0.13267327278618088
+  },
+  {
+    "source_feature": "rotate_mean_24h",
+    "target_feature": "volt_lag_6h",
+    "effect_strength": 0.18555265481928426
+  },
+  {
+    "source_feature": "rotate_mean_24h",
+    "target_feature": "volt_lag_24h",
+    "effect_strength": 0.034774047091517345
+  },
+  {
+    "source_feature": "rotate_mean_24h",
+    "target_feature": "volt_mean_24h",
+    "effect_strength": 0.8314942302668186
+  },
+  {
+    "source_feature": "rotate_mean_24h",
+    "target_feature": "volt_mean_6h",
+    "effect_strength": 1.1131007649415712
+  },
+  {
+    "source_feature": "rotate_mean_24h",
+    "target_feature": "rotate_lag_12h",
+    "effect_strength": 0.00021029479658954162
+  },
+  {
+    "source_feature": "rotate_mean_24h",
+    "target_feature": "rotate_lag_24h",
+    "effect_strength": -0.04136433323020292
+  },
+  {
+    "source_feature": "rotate_mean_24h",
+    "target_feature": "rotate_std_24h",
+    "effect_strength": -0.0021478370975255355
+  },
+  {
+    "source_feature": "rotate_mean_24h",
+    "target_feature": "rotate_max_24h",
+    "effect_strength": 0.0006158002656423686
+  },
+  {
+    "source_feature": "rotate_mean_24h",
+    "target_feature": "pressure_lag_6h",
+    "effect_strength": -0.34739924174030734
+  },
+  {
+    "source_feature": "rotate_mean_24h",
+    "target_feature": "pressure_lag_24h",
+    "effect_strength": 0.035409992226772116
+  },
+  {
+    "source_feature": "rotate_mean_24h",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": 0.8449489734045453
+  },
+  {
+    "source_feature": "rotate_mean_24h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": -2.084216555488424
+  },
+  {
+    "source_feature": "rotate_mean_24h",
+    "target_feature": "vibration_lag_6h",
+    "effect_strength": 0.14722075026780004
+  },
+  {
+    "source_feature": "rotate_mean_24h",
+    "target_feature": "vibration_lag_24h",
+    "effect_strength": -0.014416822189662776
+  },
+  {
+    "source_feature": "rotate_mean_24h",
+    "target_feature": "vibration_mean_24h",
+    "effect_strength": -0.35025801753385893
+  },
+  {
+    "source_feature": "rotate_mean_24h",
+    "target_feature": "vibration_mean_6h",
+    "effect_strength": 0.8833491775077978
+  },
+  {
+    "source_feature": "rotate_std_24h",
+    "target_feature": "volt_lag_1h",
+    "effect_strength": -0.0004156816748374099
+  },
+  {
+    "source_feature": "rotate_std_24h",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": 0.00023418173541403715
+  },
+  {
+    "source_feature": "rotate_std_24h",
+    "target_feature": "errorID_lag_1h",
+    "effect_strength": 0.00019022934865592413
+  },
+  {
+    "source_feature": "rotate_min_24h",
+    "target_feature": "volt_lag_1h",
+    "effect_strength": -0.0008857274065093845
+  },
+  {
+    "source_feature": "rotate_min_24h",
+    "target_feature": "volt_mean_24h",
+    "effect_strength": -0.0031357001056792053
+  },
+  {
+    "source_feature": "rotate_min_24h",
+    "target_feature": "rotate_lag_1h",
+    "effect_strength": 0.005305255387969491
+  },
+  {
+    "source_feature": "rotate_min_24h",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": 0.00024129108969108144
+  },
+  {
+    "source_feature": "rotate_max_24h",
+    "target_feature": "volt_mean_24h",
+    "effect_strength": 0.0027374063251064187
+  },
+  {
+    "source_feature": "rotate_max_24h",
+    "target_feature": "vibration_lag_6h",
+    "effect_strength": -0.000866695489824064
+  },
+  {
+    "source_feature": "rotate_mean_6h",
+    "target_feature": "errorID",
+    "effect_strength": -0.004263464534701514
+  },
+  {
+    "source_feature": "rotate_mean_6h",
+    "target_feature": "volt_lag_1h",
+    "effect_strength": -2.3243210365341514e-05
+  },
+  {
+    "source_feature": "rotate_mean_6h",
+    "target_feature": "rotate_lag_1h",
+    "effect_strength": 0.039064023327739755
+  },
+  {
+    "source_feature": "rotate_mean_6h",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": 0.0005487562329468681
+  },
+  {
+    "source_feature": "rotate_mean_6h",
+    "target_feature": "error_count_6h",
+    "effect_strength": -0.0002911369933178016
+  },
+  {
+    "source_feature": "rotate_std_6h",
+    "target_feature": "rotate_lag_1h",
+    "effect_strength": -0.00028228759765625
+  },
+  {
+    "source_feature": "rotate_std_6h",
+    "target_feature": "rotate_std_24h",
+    "effect_strength": 1.8464048981314454
+  },
+  {
+    "source_feature": "rotate_std_6h",
+    "target_feature": "vibration_mean_6h",
+    "effect_strength": -0.0026053881828590705
+  },
+  {
+    "source_feature": "rotate_std_6h",
+    "target_feature": "errorID_lag_1h",
+    "effect_strength": -34773299679.698524
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "pressure",
+    "effect_strength": 0.923124548324883
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "volt_lag_12h",
+    "effect_strength": 0.0029762531259262923
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "volt_lag_24h",
+    "effect_strength": 0.0023465187006984807
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "volt_max_24h",
+    "effect_strength": 0.008941481761165451
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "pressure_lag_24h",
+    "effect_strength": 0.07858995899873907
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": 1.8029308104303694
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "pressure_max_24h",
+    "effect_strength": 0.014007309432256095
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": -5.997240896023707
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "vibration_lag_1h",
+    "effect_strength": 0.00424685012494851
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "vibration_lag_6h",
+    "effect_strength": 0.007925679481381767
+  },
+  {
+    "source_feature": "pressure_lag_12h",
+    "target_feature": "volt_lag_1h",
+    "effect_strength": 8769400580075.337
+  },
+  {
+    "source_feature": "pressure_lag_12h",
+    "target_feature": "rotate_lag_1h",
+    "effect_strength": 13545680121.326199
+  },
+  {
+    "source_feature": "pressure_lag_12h",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": 7497186868.324773
+  },
+  {
+    "source_feature": "pressure_lag_12h",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": 1.367884957419933
+  },
+  {
+    "source_feature": "pressure_lag_12h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": -0.1464436917189254
+  },
+  {
+    "source_feature": "pressure_lag_12h",
+    "target_feature": "errorID_lag_1h",
+    "effect_strength": -57757380981.93959
+  },
+  {
+    "source_feature": "pressure_lag_24h",
+    "target_feature": "pressure",
+    "effect_strength": 0.12975488574439206
+  },
+  {
+    "source_feature": "pressure_lag_24h",
+    "target_feature": "volt_lag_24h",
+    "effect_strength": 0.027742825457945708
+  },
+  {
+    "source_feature": "pressure_lag_24h",
+    "target_feature": "pressure_min_24h",
+    "effect_strength": -1.45404732615482
+  },
+  {
+    "source_feature": "pressure_lag_24h",
+    "target_feature": "pressure_max_24h",
+    "effect_strength": -1.4393421027546724
+  },
+  {
+    "source_feature": "pressure_mean_24h",
+    "target_feature": "pressure",
+    "effect_strength": 0.04137841694903136
+  },
+  {
+    "source_feature": "pressure_mean_24h",
+    "target_feature": "volt_lag_24h",
+    "effect_strength": 0.0008334140748212048
+  },
+  {
+    "source_feature": "pressure_mean_24h",
+    "target_feature": "volt_max_24h",
+    "effect_strength": 0.003541300219715096
+  },
+  {
+    "source_feature": "pressure_mean_24h",
+    "target_feature": "pressure_lag_24h",
+    "effect_strength": -0.04014613304291757
+  },
+  {
+    "source_feature": "pressure_mean_24h",
+    "target_feature": "pressure_min_24h",
+    "effect_strength": 0.002696650430881048
+  },
+  {
+    "source_feature": "pressure_mean_24h",
+    "target_feature": "pressure_max_24h",
+    "effect_strength": 0.00875558990465596
+  },
+  {
+    "source_feature": "pressure_std_24h",
+    "target_feature": "volt",
+    "effect_strength": -0.00016231348612407378
+  },
+  {
+    "source_feature": "pressure_std_24h",
+    "target_feature": "pressure",
+    "effect_strength": -0.03062550153864365
+  },
+  {
+    "source_feature": "pressure_std_24h",
+    "target_feature": "volt_lag_1h",
+    "effect_strength": -0.00012748169453296807
+  },
+  {
+    "source_feature": "pressure_std_24h",
+    "target_feature": "volt_lag_24h",
+    "effect_strength": -0.0006681050760760449
+  },
+  {
+    "source_feature": "pressure_std_24h",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": 1.939272180890617e-05
+  },
+  {
+    "source_feature": "pressure_std_24h",
+    "target_feature": "pressure_lag_24h",
+    "effect_strength": 0.029817168886570454
+  },
+  {
+    "source_feature": "pressure_std_24h",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": 0.7274625137960986
+  },
+  {
+    "source_feature": "pressure_std_24h",
+    "target_feature": "pressure_min_24h",
+    "effect_strength": -0.12961298718582673
+  },
+  {
+    "source_feature": "pressure_std_24h",
+    "target_feature": "pressure_max_24h",
+    "effect_strength": 0.12984027972427573
+  },
+  {
+    "source_feature": "pressure_std_24h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": 0.003946055498032204
+  },
+  {
+    "source_feature": "pressure_std_24h",
+    "target_feature": "pressure_std_6h",
+    "effect_strength": 0.05502008220246117
+  },
+  {
+    "source_feature": "pressure_std_24h",
+    "target_feature": "errorID_lag_1h",
+    "effect_strength": -0.00011283834936046991
+  },
+  {
+    "source_feature": "pressure_min_24h",
+    "target_feature": "volt_lag_1h",
+    "effect_strength": -0.0014079934049021081
+  },
+  {
+    "source_feature": "pressure_min_24h",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": 0.0032363635824949667
+  },
+  {
+    "source_feature": "pressure_min_24h",
+    "target_feature": "errorID_lag_1h",
+    "effect_strength": 0.0003291206055391808
+  },
+  {
+    "source_feature": "pressure_max_24h",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": 0.013836107127954527
+  },
+  {
+    "source_feature": "pressure_max_24h",
+    "target_feature": "errorID_lag_1h",
+    "effect_strength": 0.00013628081510042023
+  },
+  {
+    "source_feature": "pressure_mean_6h",
+    "target_feature": "errorID_lag_1h",
+    "effect_strength": -51252303336.51314
+  },
+  {
+    "source_feature": "pressure_std_6h",
+    "target_feature": "volt_lag_1h",
+    "effect_strength": 0.0019509540498947615
+  },
+  {
+    "source_feature": "pressure_std_6h",
+    "target_feature": "pressure_min_24h",
+    "effect_strength": -0.22730575571710376
+  },
+  {
+    "source_feature": "pressure_std_6h",
+    "target_feature": "pressure_max_24h",
+    "effect_strength": 0.25513558870710223
+  },
+  {
+    "source_feature": "pressure_std_6h",
+    "target_feature": "errorID_lag_1h",
+    "effect_strength": 0.0002634116051529863
+  },
+  {
+    "source_feature": "vibration_lag_6h",
+    "target_feature": "pressure",
+    "effect_strength": 0.051250386587305054
+  },
+  {
+    "source_feature": "vibration_lag_6h",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": 0.019540945801581833
+  },
+  {
+    "source_feature": "vibration_lag_6h",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": -0.9380028204236543
+  },
+  {
+    "source_feature": "vibration_lag_6h",
+    "target_feature": "vibration_lag_1h",
+    "effect_strength": -0.24826128412054374
+  },
+  {
+    "source_feature": "vibration_lag_12h",
+    "target_feature": "pressure",
+    "effect_strength": -1.1070933088063672
+  },
+  {
+    "source_feature": "vibration_lag_12h",
+    "target_feature": "volt_lag_12h",
+    "effect_strength": 0.02283214645262117
+  },
+  {
+    "source_feature": "vibration_lag_12h",
+    "target_feature": "volt_max_24h",
+    "effect_strength": 0.010728712714026659
+  },
+  {
+    "source_feature": "vibration_lag_12h",
+    "target_feature": "rotate_lag_1h",
+    "effect_strength": 0.021761160081611355
+  },
+  {
+    "source_feature": "vibration_lag_12h",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": 0.015710304822145933
+  },
+  {
+    "source_feature": "vibration_lag_12h",
+    "target_feature": "pressure_lag_6h",
+    "effect_strength": 1.1395333904221734
+  },
+  {
+    "source_feature": "vibration_lag_12h",
+    "target_feature": "pressure_lag_24h",
+    "effect_strength": 0.019223700825831285
+  },
+  {
+    "source_feature": "vibration_lag_12h",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": -0.0755395899351931
+  },
+  {
+    "source_feature": "vibration_lag_12h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": 6.767776090106456
+  },
+  {
+    "source_feature": "vibration_lag_24h",
+    "target_feature": "volt",
+    "effect_strength": -0.6294392805442184
+  },
+  {
+    "source_feature": "vibration_lag_24h",
+    "target_feature": "pressure",
+    "effect_strength": -0.0018041338855305854
+  },
+  {
+    "source_feature": "vibration_lag_24h",
+    "target_feature": "vibration",
+    "effect_strength": -1.1103966687618763
+  },
+  {
+    "source_feature": "vibration_lag_24h",
+    "target_feature": "volt_lag_1h",
+    "effect_strength": 0.005838352712867986
+  },
+  {
+    "source_feature": "vibration_lag_24h",
+    "target_feature": "volt_lag_24h",
+    "effect_strength": 0.6429921240381645
+  },
+  {
+    "source_feature": "vibration_lag_24h",
+    "target_feature": "volt_mean_24h",
+    "effect_strength": 14.938923052053319
+  },
+  {
+    "source_feature": "vibration_lag_24h",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": 0.011399845750103582
+  },
+  {
+    "source_feature": "vibration_lag_24h",
+    "target_feature": "pressure_lag_6h",
+    "effect_strength": -0.0223653903454275
+  },
+  {
+    "source_feature": "vibration_lag_24h",
+    "target_feature": "pressure_lag_24h",
+    "effect_strength": 0.017390520443047012
+  },
+  {
+    "source_feature": "vibration_lag_24h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": -0.02571687216837704
+  },
+  {
+    "source_feature": "vibration_lag_24h",
+    "target_feature": "vibration_lag_6h",
+    "effect_strength": 1.2363425173767153
+  },
+  {
+    "source_feature": "vibration_lag_24h",
+    "target_feature": "vibration_min_24h",
+    "effect_strength": -1.5942887875869174
+  },
+  {
+    "source_feature": "vibration_lag_24h",
+    "target_feature": "vibration_max_24h",
+    "effect_strength": -1.5972946504903722
+  },
+  {
+    "source_feature": "vibration_lag_24h",
+    "target_feature": "vibration_mean_6h",
+    "effect_strength": 7.399936776485578
+  },
+  {
+    "source_feature": "vibration_lag_24h",
+    "target_feature": "is_weekend",
+    "effect_strength": 0.004461647660833743
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "volt",
+    "effect_strength": -0.023441467332280776
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "pressure",
+    "effect_strength": 0.08750825964796673
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "vibration",
+    "effect_strength": -0.11014930812593757
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "volt_lag_1h",
+    "effect_strength": 13682653267.064363
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "volt_lag_24h",
+    "effect_strength": 0.02338229887035195
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "volt_mean_24h",
+    "effect_strength": 0.5629663621146775
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": -1.663314501057263e-05
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "pressure_lag_6h",
+    "effect_strength": -0.11130142156562547
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "pressure_lag_12h",
+    "effect_strength": -0.00020897640196003667
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "pressure_lag_24h",
+    "effect_strength": 0.023597021882892838
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": 0.570406183788111
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "pressure_std_24h",
+    "effect_strength": 0.006980495065552116
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "pressure_max_24h",
+    "effect_strength": -0.0002561004385928182
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": -0.6676288163396715
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "vibration_lag_6h",
+    "effect_strength": 0.15192559429190036
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "vibration_lag_12h",
+    "effect_strength": -0.00017597854348933603
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "vibration_lag_24h",
+    "effect_strength": -0.04178161622224387
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "vibration_mean_6h",
+    "effect_strength": 0.9114785722821748
+  },
+  {
+    "source_feature": "vibration_std_24h",
+    "target_feature": "volt",
+    "effect_strength": 0.05505874740346036
+  },
+  {
+    "source_feature": "vibration_std_24h",
+    "target_feature": "vibration",
+    "effect_strength": 0.0007938563113824319
+  },
+  {
+    "source_feature": "vibration_std_24h",
+    "target_feature": "errorID",
+    "effect_strength": -4.2993275439214385e-05
+  },
+  {
+    "source_feature": "vibration_std_24h",
+    "target_feature": "volt_lag_1h",
+    "effect_strength": -0.00012265879874982232
+  },
+  {
+    "source_feature": "vibration_std_24h",
+    "target_feature": "volt_lag_6h",
+    "effect_strength": -0.05526782587717668
+  },
+  {
+    "source_feature": "vibration_std_24h",
+    "target_feature": "volt_mean_24h",
+    "effect_strength": 0.001577005572234702
+  },
+  {
+    "source_feature": "vibration_std_24h",
+    "target_feature": "volt_mean_6h",
+    "effect_strength": -0.3326299768001249
+  },
+  {
+    "source_feature": "vibration_std_24h",
+    "target_feature": "rotate_lag_1h",
+    "effect_strength": 2.495787966824761e-05
+  },
+  {
+    "source_feature": "vibration_std_24h",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": -6.615479066939673e-05
+  },
+  {
+    "source_feature": "vibration_std_24h",
+    "target_feature": "pressure_lag_6h",
+    "effect_strength": -0.00017067854091972818
+  },
+  {
+    "source_feature": "vibration_std_24h",
+    "target_feature": "vibration_lag_6h",
+    "effect_strength": 0.00021100337016961496
+  },
+  {
+    "source_feature": "vibration_std_24h",
+    "target_feature": "vibration_min_24h",
+    "effect_strength": -0.1413058604358918
+  },
+  {
+    "source_feature": "vibration_std_24h",
+    "target_feature": "vibration_max_24h",
+    "effect_strength": 0.13181563930382592
+  },
+  {
+    "source_feature": "vibration_std_24h",
+    "target_feature": "vibration_std_6h",
+    "effect_strength": 0.02702128094853788
+  },
+  {
+    "source_feature": "vibration_std_24h",
+    "target_feature": "errorID_lag_6h",
+    "effect_strength": -2.935992775897675e-05
+  },
+  {
+    "source_feature": "vibration_min_24h",
+    "target_feature": "volt",
+    "effect_strength": 0.0013021902236673448
+  },
+  {
+    "source_feature": "vibration_min_24h",
+    "target_feature": "pressure",
+    "effect_strength": -0.19314338900355513
+  },
+  {
+    "source_feature": "vibration_min_24h",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": -0.0020526335281319226
+  },
+  {
+    "source_feature": "vibration_min_24h",
+    "target_feature": "pressure_lag_6h",
+    "effect_strength": 0.18865303519355375
+  },
+  {
+    "source_feature": "vibration_min_24h",
+    "target_feature": "pressure_lag_24h",
+    "effect_strength": 0.0030879564000148786
+  },
+  {
+    "source_feature": "vibration_min_24h",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": -0.0011671616884346456
+  },
+  {
+    "source_feature": "vibration_min_24h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": 1.1564530841148242
+  },
+  {
+    "source_feature": "vibration_min_24h",
+    "target_feature": "vibration_lag_12h",
+    "effect_strength": 0.0049362290973108255
+  },
+  {
+    "source_feature": "vibration_min_24h",
+    "target_feature": "vibration_max_24h",
+    "effect_strength": 0.003994259761473513
+  },
+  {
+    "source_feature": "vibration_min_24h",
+    "target_feature": "is_weekend",
+    "effect_strength": 0.0007440450045565818
+  },
+  {
+    "source_feature": "vibration_min_24h",
+    "target_feature": "hours_since_maint",
+    "effect_strength": 4.004429147736258e-06
+  },
+  {
+    "source_feature": "vibration_mean_6h",
+    "target_feature": "vibration",
+    "effect_strength": 0.16719643437834847
+  },
+  {
+    "source_feature": "vibration_mean_6h",
+    "target_feature": "volt_lag_1h",
+    "effect_strength": 44524304623.41654
+  },
+  {
+    "source_feature": "vibration_mean_6h",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": 0.00013456563235814164
+  },
+  {
+    "source_feature": "vibration_mean_6h",
+    "target_feature": "pressure_lag_6h",
+    "effect_strength": 0.004150729174604379
+  },
+  {
+    "source_feature": "vibration_mean_6h",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": -0.001871803966141809
+  },
+  {
+    "source_feature": "vibration_mean_6h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": 0.008426989474204031
+  },
+  {
+    "source_feature": "vibration_mean_6h",
+    "target_feature": "vibration_lag_6h",
+    "effect_strength": -0.16372411696645375
+  },
+  {
+    "source_feature": "vibration_std_6h",
+    "target_feature": "volt_lag_1h",
+    "effect_strength": -0.0012123844666736524
+  },
+  {
+    "source_feature": "vibration_std_6h",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": -0.003135662873201995
+  },
+  {
+    "source_feature": "vibration_std_6h",
+    "target_feature": "vibration_lag_6h",
+    "effect_strength": -0.0057168933927387346
+  },
+  {
+    "source_feature": "vibration_std_6h",
+    "target_feature": "vibration_min_24h",
+    "effect_strength": -0.24992883059745555
+  },
+  {
+    "source_feature": "vibration_std_6h",
+    "target_feature": "vibration_max_24h",
+    "effect_strength": 0.2543758827220454
+  },
+  {
+    "source_feature": "vibration_std_6h",
+    "target_feature": "vibration_mean_6h",
+    "effect_strength": 0.004099661313712457
+  },
+  {
+    "source_feature": "vibration_std_6h",
+    "target_feature": "errorID_lag_1h",
+    "effect_strength": -0.0009168988828582627
+  },
+  {
+    "source_feature": "errorID_lag_12h",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": -0.044871389627965955
+  },
+  {
+    "source_feature": "errorID_lag_12h",
+    "target_feature": "errorID_lag_1h",
+    "effect_strength": -0.0013419795790385939
+  },
+  {
+    "source_feature": "errorID_lag_12h",
+    "target_feature": "errorID_lag_6h",
+    "effect_strength": -0.070650756512814
+  },
+  {
+    "source_feature": "errorID_lag_12h",
+    "target_feature": "error_count_6h",
+    "effect_strength": -0.06998471171683159
+  },
+  {
+    "source_feature": "errorID_lag_12h",
+    "target_feature": "error_count_24h",
+    "effect_strength": 0.06509285204885012
+  },
+  {
+    "source_feature": "comp_lag_1h",
+    "target_feature": "errorID",
+    "effect_strength": 0.07693864146610738
+  },
+  {
+    "source_feature": "comp_lag_1h",
+    "target_feature": "target",
+    "effect_strength": -0.2903632977912472
+  },
+  {
+    "source_feature": "comp_lag_1h",
+    "target_feature": "volt_lag_6h",
+    "effect_strength": -0.02162161969283351
+  },
+  {
+    "source_feature": "comp_lag_1h",
+    "target_feature": "volt_mean_6h",
+    "effect_strength": 0.0075488870458714835
+  },
+  {
+    "source_feature": "comp_lag_1h",
+    "target_feature": "rotate_lag_6h",
+    "effect_strength": 0.04412164324243889
+  },
+  {
+    "source_feature": "comp_lag_1h",
+    "target_feature": "rotate_mean_6h",
+    "effect_strength": -0.01960727586328508
+  },
+  {
+    "source_feature": "comp_lag_1h",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": 0.002263904815314601
+  },
+  {
+    "source_feature": "comp_lag_1h",
+    "target_feature": "errorID_lag_6h",
+    "effect_strength": 0.0022233703695725498
+  },
+  {
+    "source_feature": "comp_lag_1h",
+    "target_feature": "error_count_6h",
+    "effect_strength": 0.003591421163178938
+  },
+  {
+    "source_feature": "comp_lag_1h",
+    "target_feature": "maint_count_24h",
+    "effect_strength": 0.12017088391174066
+  },
+  {
+    "source_feature": "comp_lag_1h",
+    "target_feature": "is_working_hours",
+    "effect_strength": -0.029954763194762455
+  },
+  {
+    "source_feature": "comp_lag_1h",
+    "target_feature": "hours_since_maint",
+    "effect_strength": 0.0013471459030708203
+  },
+  {
+    "source_feature": "comp_lag_6h",
+    "target_feature": "errorID",
+    "effect_strength": -0.0005880325540373189
+  },
+  {
+    "source_feature": "comp_lag_6h",
+    "target_feature": "volt_lag_1h",
+    "effect_strength": 0.015662232745561028
+  },
+  {
+    "source_feature": "comp_lag_6h",
+    "target_feature": "volt_lag_6h",
+    "effect_strength": 0.026666015310633413
+  },
+  {
+    "source_feature": "comp_lag_6h",
+    "target_feature": "rotate_lag_1h",
+    "effect_strength": 0.0027007248223092526
+  },
+  {
+    "source_feature": "comp_lag_6h",
+    "target_feature": "pressure_lag_6h",
+    "effect_strength": 0.007173717549953282
+  },
+  {
+    "source_feature": "comp_lag_6h",
+    "target_feature": "errorID_lag_1h",
+    "effect_strength": 0.00014629330092359388
+  },
+  {
+    "source_feature": "comp_lag_6h",
+    "target_feature": "errorID_lag_6h",
+    "effect_strength": -0.0004770138039433757
+  },
+  {
+    "source_feature": "comp_lag_6h",
+    "target_feature": "comp_lag_1h",
+    "effect_strength": -0.21681503338296787
+  },
+  {
+    "source_feature": "comp_lag_6h",
+    "target_feature": "error_count_6h",
+    "effect_strength": 0.00016230493753085625
+  },
+  {
+    "source_feature": "error_count_6h",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": 0.016361869481296195
+  },
+  {
+    "source_feature": "error_count_6h",
+    "target_feature": "vibration_lag_1h",
+    "effect_strength": 0.025170429429419286
+  },
+  {
+    "source_feature": "error_count_6h",
+    "target_feature": "errorID_lag_6h",
+    "effect_strength": -1.0103357721407922
+  },
+  {
+    "source_feature": "error_count_6h",
+    "target_feature": "hours_since_error",
+    "effect_strength": -0.006126063894139336
+  },
+  {
+    "source_feature": "error_count_24h",
+    "target_feature": "volt_lag_1h",
+    "effect_strength": 0.017502534991966346
+  },
+  {
+    "source_feature": "error_count_24h",
+    "target_feature": "errorID_lag_6h",
+    "effect_strength": 1.0029674525050827
+  },
+  {
+    "source_feature": "error_count_24h",
+    "target_feature": "error_count_6h",
+    "effect_strength": 1.00157560712538
+  },
+  {
+    "source_feature": "error_count_24h",
+    "target_feature": "hours_since_maint",
+    "effect_strength": 0.005148782269338132
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "volt",
+    "effect_strength": 0.006520907424106203
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "errorID",
+    "effect_strength": 0.05192899950741484
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "target",
+    "effect_strength": -0.18465241833208382
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "volt_lag_1h",
+    "effect_strength": 0.011019459233486895
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "volt_lag_6h",
+    "effect_strength": 0.01321115874578142
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "rotate_lag_1h",
+    "effect_strength": 0.0028325619560133504
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "rotate_std_24h",
+    "effect_strength": -0.10990363847228746
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "rotate_mean_6h",
+    "effect_strength": -0.022742151485381844
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": -0.017540399057643152
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": -0.07752518888153383
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "vibration_lag_6h",
+    "effect_strength": -0.006004118802673393
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "vibration_std_24h",
+    "effect_strength": -0.12381594678912942
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "comp_lag_1h",
+    "effect_strength": 0.1564737120104387
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "comp_lag_6h",
+    "effect_strength": -0.9985200443987933
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "comp_lag_12h",
+    "effect_strength": -0.02334670204761397
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "maint_count_24h",
+    "effect_strength": 0.3089021115656659
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "is_working_hours",
+    "effect_strength": -0.006676723182069914
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "hours_since_maint",
+    "effect_strength": -0.0038918580906895698
+  },
+  {
+    "source_feature": "maint_count_24h",
+    "target_feature": "rotate_lag_1h",
+    "effect_strength": -0.018252444880848973
+  },
+  {
+    "source_feature": "maint_count_24h",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": -0.012845341030118992
+  },
+  {
+    "source_feature": "maint_count_24h",
+    "target_feature": "errorID_lag_1h",
+    "effect_strength": 0.0026388114645694437
+  },
+  {
+    "source_feature": "maint_count_24h",
+    "target_feature": "errorID_lag_6h",
+    "effect_strength": -0.035077164774659365
+  },
+  {
+    "source_feature": "maint_count_24h",
+    "target_feature": "error_count_6h",
+    "effect_strength": -0.02318338684486066
+  },
+  {
+    "source_feature": "maint_count_24h",
+    "target_feature": "hours_since_maint",
+    "effect_strength": -0.00018978126062325567
+  },
+  {
+    "source_feature": "hour",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": -0.2743182759872723
+  },
+  {
+    "source_feature": "hour",
+    "target_feature": "vibration_lag_1h",
+    "effect_strength": -0.10678091668522571
+  },
+  {
+    "source_feature": "is_weekend",
+    "target_feature": "day_of_week",
+    "effect_strength": 0.16677888789902137
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "volt",
+    "effect_strength": 0.6803161104938873
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "pressure",
+    "effect_strength": 0.06431277376861382
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "vibration",
+    "effect_strength": 0.029572975620069733
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "errorID",
+    "effect_strength": -0.015522414872674705
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "volt_lag_6h",
+    "effect_strength": -0.6419171246102868
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "volt_mean_6h",
+    "effect_strength": -4.023094729443463
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "rotate_lag_6h",
+    "effect_strength": -0.01839783786214311
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "rotate_mean_24h",
+    "effect_strength": 0.05050486463444463
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "rotate_mean_6h",
+    "effect_strength": -0.15340307737967945
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": 0.04307550116099124
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "pressure_lag_24h",
+    "effect_strength": 0.024726932938407848
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": -0.05447004889093432
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": -0.22297492664927596
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "vibration_lag_24h",
+    "effect_strength": 0.027228486799239417
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "vibration_mean_24h",
+    "effect_strength": -0.11413065884323405
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "vibration_mean_6h",
+    "effect_strength": 0.04950963066440114
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "errorID_lag_1h",
+    "effect_strength": -0.04006131844795149
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "errorID_lag_12h",
+    "effect_strength": -0.09985728449199698
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "comp_lag_12h",
+    "effect_strength": -0.17055287776523556
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "error_count_6h",
+    "effect_strength": 0.008192626216393138
+  },
+  {
+    "source_feature": "hours_since_maint",
+    "target_feature": "vibration_lag_1h",
+    "effect_strength": -1.8846776297074388
+  },
+  {
+    "source_feature": "volt",
+    "target_feature": "rotate",
+    "effect_strength": 0.0066045159810968
+  },
+  {
+    "source_feature": "volt",
+    "target_feature": "volt_mean_24h",
+    "effect_strength": 0.2849692994593316
+  },
+  {
+    "source_feature": "volt",
+    "target_feature": "volt_min_24h",
+    "effect_strength": -1.6726379013711394
+  },
+  {
+    "source_feature": "volt",
+    "target_feature": "volt_max_24h",
+    "effect_strength": -1.632900035206354
+  },
+  {
+    "source_feature": "volt",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": 0.0819781819330682
+  },
+  {
+    "source_feature": "volt",
+    "target_feature": "pressure_min_24h",
+    "effect_strength": -0.06608159869382034
+  },
+  {
+    "source_feature": "rotate",
+    "target_feature": "rotate",
+    "effect_strength": -3647264619441.0205
+  },
+  {
+    "source_feature": "rotate",
+    "target_feature": "volt_mean_24h",
+    "effect_strength": -0.0697808083284604
+  },
+  {
+    "source_feature": "rotate",
+    "target_feature": "rotate_mean_24h",
+    "effect_strength": 0.4579544113856498
+  },
+  {
+    "source_feature": "rotate",
+    "target_feature": "rotate_min_24h",
+    "effect_strength": -1.4680228339856884
+  },
+  {
+    "source_feature": "rotate",
+    "target_feature": "rotate_max_24h",
+    "effect_strength": -1.460385412209065
+  },
+  {
+    "source_feature": "pressure",
+    "target_feature": "volt",
+    "effect_strength": 0.0038384296314008686
+  },
+  {
+    "source_feature": "pressure",
+    "target_feature": "errorID",
+    "effect_strength": 0.000768509883025437
+  },
+  {
+    "source_feature": "pressure",
+    "target_feature": "target",
+    "effect_strength": 0.007349829491884447
+  },
+  {
+    "source_feature": "pressure",
+    "target_feature": "pressure_lag_1h",
+    "effect_strength": 0.030457656501425037
+  },
+  {
+    "source_feature": "pressure",
+    "target_feature": "pressure_lag_6h",
+    "effect_strength": 0.026137554480048116
+  },
+  {
+    "source_feature": "pressure",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": 0.15814331950109853
+  },
+  {
+    "source_feature": "pressure",
+    "target_feature": "pressure_std_24h",
+    "effect_strength": 0.5116217294819148
+  },
+  {
+    "source_feature": "pressure",
+    "target_feature": "pressure_min_24h",
+    "effect_strength": -1.2828111727816423
+  },
+  {
+    "source_feature": "pressure",
+    "target_feature": "pressure_max_24h",
+    "effect_strength": -1.4254734790463013
+  },
+  {
+    "source_feature": "pressure",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": 0.2374156247932487
+  },
+  {
+    "source_feature": "pressure",
+    "target_feature": "maint_count_24h",
+    "effect_strength": -0.00249331259251436
+  },
+  {
+    "source_feature": "pressure",
+    "target_feature": "hours_since_maint",
+    "effect_strength": 2.0825798877661304e-05
+  },
+  {
+    "source_feature": "pressure",
+    "target_feature": "hours_since_error",
+    "effect_strength": 4.580253624350326e-06
+  },
+  {
+    "source_feature": "vibration",
+    "target_feature": "errorID",
+    "effect_strength": -0.006075410554271053
+  },
+  {
+    "source_feature": "vibration",
+    "target_feature": "target",
+    "effect_strength": 0.01321575201549442
+  },
+  {
+    "source_feature": "vibration",
+    "target_feature": "volt_mean_24h",
+    "effect_strength": -0.027072442275006377
+  },
+  {
+    "source_feature": "vibration",
+    "target_feature": "vibration_mean_24h",
+    "effect_strength": 0.3182864394730072
+  },
+  {
+    "source_feature": "vibration",
+    "target_feature": "vibration_min_24h",
+    "effect_strength": -1.4372047067018312
+  },
+  {
+    "source_feature": "vibration",
+    "target_feature": "vibration_max_24h",
+    "effect_strength": -1.3367662914315315
+  },
+  {
+    "source_feature": "vibration",
+    "target_feature": "vibration_mean_6h",
+    "effect_strength": 0.11306906154024314
+  },
+  {
+    "source_feature": "errorID",
+    "target_feature": "error_count_6h",
+    "effect_strength": -1.000000000000013
+  },
+  {
+    "source_feature": "target",
+    "target_feature": "target",
+    "effect_strength": 0.9168880840389116
+  },
+  {
+    "source_feature": "target",
+    "target_feature": "volt_mean_6h",
+    "effect_strength": 0.004605187980044338
+  },
+  {
+    "source_feature": "target",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": 0.20289023318643798
+  },
+  {
+    "source_feature": "target",
+    "target_feature": "vibration_mean_6h",
+    "effect_strength": 0.041053779253747306
+  },
+  {
+    "source_feature": "target",
+    "target_feature": "maint_count_6h",
+    "effect_strength": -0.028449463853927312
+  },
+  {
+    "source_feature": "target",
+    "target_feature": "hours_since_maint",
+    "effect_strength": -0.0014796957041489137
+  },
+  {
+    "source_feature": "target",
+    "target_feature": "hours_since_error",
+    "effect_strength": 1.5334515142479332e-05
+  },
+  {
+    "source_feature": "volt_lag_1h",
+    "target_feature": "volt",
+    "effect_strength": 1.0000000000000002
+  },
+  {
+    "source_feature": "volt_lag_6h",
+    "target_feature": "volt",
+    "effect_strength": 7098851211.72925
+  },
+  {
+    "source_feature": "volt_lag_6h",
+    "target_feature": "rotate",
+    "effect_strength": -46286457.647214614
+  },
+  {
+    "source_feature": "volt_lag_6h",
+    "target_feature": "errorID",
+    "effect_strength": -9.194704049192711e-07
+  },
+  {
+    "source_feature": "volt_lag_6h",
+    "target_feature": "volt_mean_24h",
+    "effect_strength": 0.007393101490742285
+  },
+  {
+    "source_feature": "volt_lag_6h",
+    "target_feature": "volt_mean_6h",
+    "effect_strength": 6.000525127651661
+  },
+  {
+    "source_feature": "volt_lag_6h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": -4.792862432038704
+  },
+  {
+    "source_feature": "volt_lag_6h",
+    "target_feature": "vibration_mean_6h",
+    "effect_strength": -0.7269277068953223
+  },
+  {
+    "source_feature": "volt_lag_12h",
+    "target_feature": "volt_lag_12h",
+    "effect_strength": -0.047620750138931855
+  },
+  {
+    "source_feature": "volt_lag_12h",
+    "target_feature": "volt_mean_24h",
+    "effect_strength": 1.4402985704554958
+  },
+  {
+    "source_feature": "volt_lag_12h",
+    "target_feature": "volt_max_24h",
+    "effect_strength": 0.04179009554470371
+  },
+  {
+    "source_feature": "volt_lag_12h",
+    "target_feature": "volt_mean_6h",
+    "effect_strength": -0.35161320187794115
+  },
+  {
+    "source_feature": "volt_lag_12h",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": 1.8665436905136993e-05
+  },
+  {
+    "source_feature": "volt_lag_24h",
+    "target_feature": "volt",
+    "effect_strength": -0.04618463068599668
+  },
+  {
+    "source_feature": "volt_lag_24h",
+    "target_feature": "volt_mean_24h",
+    "effect_strength": 0.9908057553042436
+  },
+  {
+    "source_feature": "volt_lag_24h",
+    "target_feature": "volt_min_24h",
+    "effect_strength": -0.019246483831488588
+  },
+  {
+    "source_feature": "volt_lag_24h",
+    "target_feature": "volt_max_24h",
+    "effect_strength": 0.03619555575106712
+  },
+  {
+    "source_feature": "volt_mean_24h",
+    "target_feature": "pressure",
+    "effect_strength": -8.19248762329034e-06
+  },
+  {
+    "source_feature": "volt_mean_24h",
+    "target_feature": "vibration",
+    "effect_strength": 1.971105882852048e-05
+  },
+  {
+    "source_feature": "volt_mean_24h",
+    "target_feature": "volt_lag_24h",
+    "effect_strength": 0.00018273320495841848
+  },
+  {
+    "source_feature": "volt_mean_24h",
+    "target_feature": "volt_mean_24h",
+    "effect_strength": 0.9995249004086789
+  },
+  {
+    "source_feature": "volt_mean_24h",
+    "target_feature": "volt_std_24h",
+    "effect_strength": 0.0011388292770424943
+  },
+  {
+    "source_feature": "volt_mean_24h",
+    "target_feature": "rotate_lag_24h",
+    "effect_strength": 0.0003349680807124973
+  },
+  {
+    "source_feature": "volt_mean_24h",
+    "target_feature": "pressure_lag_24h",
+    "effect_strength": 0.00026286813776839167
+  },
+  {
+    "source_feature": "volt_mean_24h",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": -0.7692320844927937
+  },
+  {
+    "source_feature": "volt_mean_24h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": -0.024559946979262184
+  },
+  {
+    "source_feature": "volt_mean_24h",
+    "target_feature": "vibration_lag_24h",
+    "effect_strength": 0.00023792787026819087
+  },
+  {
+    "source_feature": "volt_mean_24h",
+    "target_feature": "vibration_std_24h",
+    "effect_strength": -0.0007444969127035195
+  },
+  {
+    "source_feature": "volt_mean_24h",
+    "target_feature": "hours_since_maint",
+    "effect_strength": 9.646949754279272e-08
+  },
+  {
+    "source_feature": "volt_std_24h",
+    "target_feature": "volt",
+    "effect_strength": 0.003552989673732217
+  },
+  {
+    "source_feature": "volt_std_24h",
+    "target_feature": "error_count_6h",
+    "effect_strength": -0.00018034199661436245
+  },
+  {
+    "source_feature": "volt_min_24h",
+    "target_feature": "volt",
+    "effect_strength": 0.0009343028391877463
+  },
+  {
+    "source_feature": "volt_min_24h",
+    "target_feature": "volt_lag_12h",
+    "effect_strength": 0.005168919769264935
+  },
+  {
+    "source_feature": "volt_min_24h",
+    "target_feature": "volt_mean_24h",
+    "effect_strength": 0.015199192174857445
+  },
+  {
+    "source_feature": "volt_min_24h",
+    "target_feature": "volt_min_24h",
+    "effect_strength": 0.9396100170934019
+  },
+  {
+    "source_feature": "volt_min_24h",
+    "target_feature": "volt_mean_6h",
+    "effect_strength": 0.01613192956828108
+  },
+  {
+    "source_feature": "volt_min_24h",
+    "target_feature": "volt_std_6h",
+    "effect_strength": -0.0313243403050562
+  },
+  {
+    "source_feature": "volt_min_24h",
+    "target_feature": "error_count_24h",
+    "effect_strength": 0.00043260127832845996
+  },
+  {
+    "source_feature": "volt_max_24h",
+    "target_feature": "pressure",
+    "effect_strength": -0.02409220919894408
+  },
+  {
+    "source_feature": "volt_mean_6h",
+    "target_feature": "volt",
+    "effect_strength": 0.015175206713972218
+  },
+  {
+    "source_feature": "volt_mean_6h",
+    "target_feature": "rotate",
+    "effect_strength": -0.00016633087679209836
+  },
+  {
+    "source_feature": "volt_mean_6h",
+    "target_feature": "pressure",
+    "effect_strength": 0.0011188493370527604
+  },
+  {
+    "source_feature": "volt_mean_6h",
+    "target_feature": "errorID",
+    "effect_strength": 0.0010176586209765335
+  },
+  {
+    "source_feature": "volt_mean_6h",
+    "target_feature": "volt_mean_6h",
+    "effect_strength": 0.8013874695533064
+  },
+  {
+    "source_feature": "volt_std_6h",
+    "target_feature": "rotate",
+    "effect_strength": -0.0009015827276384101
+  },
+  {
+    "source_feature": "volt_std_6h",
+    "target_feature": "errorID",
+    "effect_strength": -0.0009970141952610075
+  },
+  {
+    "source_feature": "volt_std_6h",
+    "target_feature": "volt_std_6h",
+    "effect_strength": 0.8007478049126506
+  },
+  {
+    "source_feature": "rotate_lag_1h",
+    "target_feature": "rotate",
+    "effect_strength": 1.0
+  },
+  {
+    "source_feature": "rotate_lag_6h",
+    "target_feature": "pressure",
+    "effect_strength": -0.0037561094273922155
+  },
+  {
+    "source_feature": "rotate_lag_6h",
+    "target_feature": "errorID",
+    "effect_strength": -0.001078175532818701
+  },
+  {
+    "source_feature": "rotate_lag_6h",
+    "target_feature": "rotate_mean_6h",
+    "effect_strength": 0.9859816766817029
+  },
+  {
+    "source_feature": "rotate_lag_6h",
+    "target_feature": "error_count_6h",
+    "effect_strength": 0.0005094402266626657
+  },
+  {
+    "source_feature": "rotate_lag_12h",
+    "target_feature": "rotate",
+    "effect_strength": -0.03790073229174954
+  },
+  {
+    "source_feature": "rotate_lag_12h",
+    "target_feature": "rotate_mean_24h",
+    "effect_strength": 1.0707781720159746
+  },
+  {
+    "source_feature": "rotate_lag_12h",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": 0.012469614586664096
+  },
+  {
+    "source_feature": "rotate_lag_12h",
+    "target_feature": "vibration_mean_6h",
+    "effect_strength": -0.02935684138548314
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "volt_mean_24h",
+    "effect_strength": -13.297903220899036
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "volt_mean_6h",
+    "effect_strength": -71.57138124953984
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "rotate_lag_6h",
+    "effect_strength": -0.08101149714180197
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "rotate_lag_12h",
+    "effect_strength": -0.05527022771745215
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "rotate_lag_24h",
+    "effect_strength": 0.03963258614860555
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "rotate_mean_24h",
+    "effect_strength": 1.5497617821491152
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "rotate_min_24h",
+    "effect_strength": 1.6012520939830037
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "rotate_max_24h",
+    "effect_strength": 1.5255220718966158
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "rotate_mean_6h",
+    "effect_strength": -0.4090501784989383
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": -18.86325324827232
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": 83.49137027933808
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "vibration_mean_6h",
+    "effect_strength": -10.521631519650438
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "comp_lag_1h",
+    "effect_strength": 0.0156256901821309
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "error_count_24h",
+    "effect_strength": -0.0002243247553961353
+  },
+  {
+    "source_feature": "rotate_lag_24h",
+    "target_feature": "day_of_week",
+    "effect_strength": 0.0007330498344934155
+  },
+  {
+    "source_feature": "rotate_mean_24h",
+    "target_feature": "volt_mean_24h",
+    "effect_strength": -0.8314955228662713
+  },
+  {
+    "source_feature": "rotate_mean_24h",
+    "target_feature": "volt_mean_6h",
+    "effect_strength": -1.1131456117972827
+  },
+  {
+    "source_feature": "rotate_mean_24h",
+    "target_feature": "rotate_lag_12h",
+    "effect_strength": 0.00024172270125605964
+  },
+  {
+    "source_feature": "rotate_mean_24h",
+    "target_feature": "rotate_lag_24h",
+    "effect_strength": 0.00022464959618303469
+  },
+  {
+    "source_feature": "rotate_mean_24h",
+    "target_feature": "rotate_mean_24h",
+    "effect_strength": 0.9987878092734559
+  },
+  {
+    "source_feature": "rotate_mean_24h",
+    "target_feature": "rotate_min_24h",
+    "effect_strength": -0.0004982279491144842
+  },
+  {
+    "source_feature": "rotate_mean_24h",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": -0.8451725484192327
+  },
+  {
+    "source_feature": "rotate_mean_24h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": 2.0844149370189977
+  },
+  {
+    "source_feature": "rotate_mean_24h",
+    "target_feature": "vibration_mean_24h",
+    "effect_strength": 0.3500775176158326
+  },
+  {
+    "source_feature": "rotate_mean_24h",
+    "target_feature": "vibration_mean_6h",
+    "effect_strength": -0.8832810320529373
+  },
+  {
+    "source_feature": "rotate_std_24h",
+    "target_feature": "rotate",
+    "effect_strength": -0.0003718511248746663
+  },
+  {
+    "source_feature": "rotate_std_24h",
+    "target_feature": "pressure",
+    "effect_strength": 0.00023418173541404032
+  },
+  {
+    "source_feature": "rotate_std_24h",
+    "target_feature": "errorID",
+    "effect_strength": 0.0001902293486558264
+  },
+  {
+    "source_feature": "rotate_std_24h",
+    "target_feature": "rotate_std_24h",
+    "effect_strength": 0.9608620684812911
+  },
+  {
+    "source_feature": "rotate_min_24h",
+    "target_feature": "errorID",
+    "effect_strength": -0.00040923520836557006
+  },
+  {
+    "source_feature": "rotate_min_24h",
+    "target_feature": "rotate_mean_24h",
+    "effect_strength": 0.05290190627127898
+  },
+  {
+    "source_feature": "rotate_min_24h",
+    "target_feature": "rotate_min_24h",
+    "effect_strength": 0.9365297066816548
+  },
+  {
+    "source_feature": "rotate_max_24h",
+    "target_feature": "rotate_max_24h",
+    "effect_strength": 0.945542159350841
+  },
+  {
+    "source_feature": "rotate_max_24h",
+    "target_feature": "rotate_mean_6h",
+    "effect_strength": 0.02896740812449351
+  },
+  {
+    "source_feature": "rotate_max_24h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": 0.003435593929185358
+  },
+  {
+    "source_feature": "rotate_max_24h",
+    "target_feature": "vibration_mean_6h",
+    "effect_strength": -0.0015303333842671208
+  },
+  {
+    "source_feature": "rotate_mean_6h",
+    "target_feature": "volt",
+    "effect_strength": -2.3243210365100242e-05
+  },
+  {
+    "source_feature": "rotate_mean_6h",
+    "target_feature": "pressure",
+    "effect_strength": 0.0005487562329468677
+  },
+  {
+    "source_feature": "rotate_mean_6h",
+    "target_feature": "errorID",
+    "effect_strength": 0.001314778431218115
+  },
+  {
+    "source_feature": "rotate_mean_6h",
+    "target_feature": "rotate_mean_6h",
+    "effect_strength": 0.8675181966704596
+  },
+  {
+    "source_feature": "rotate_mean_6h",
+    "target_feature": "error_count_6h",
+    "effect_strength": -0.00040480833276770184
+  },
+  {
+    "source_feature": "rotate_std_6h",
+    "target_feature": "volt",
+    "effect_strength": -0.0012664680195061146
+  },
+  {
+    "source_feature": "rotate_std_6h",
+    "target_feature": "pressure",
+    "effect_strength": 0.0008228599395996697
+  },
+  {
+    "source_feature": "rotate_std_6h",
+    "target_feature": "errorID",
+    "effect_strength": 34773299679.70103
+  },
+  {
+    "source_feature": "rotate_std_6h",
+    "target_feature": "rotate_std_24h",
+    "effect_strength": -1.728792958422045
+  },
+  {
+    "source_feature": "rotate_std_6h",
+    "target_feature": "rotate_std_6h",
+    "effect_strength": 0.7784343268580448
+  },
+  {
+    "source_feature": "pressure_lag_1h",
+    "target_feature": "pressure",
+    "effect_strength": 1.0000000000000002
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "volt_lag_6h",
+    "effect_strength": 0.003572831814145235
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "volt_lag_12h",
+    "effect_strength": 0.0027001562663660247
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "volt_lag_24h",
+    "effect_strength": 0.0012337820624872865
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "volt_mean_24h",
+    "effect_strength": -0.013446041452931073
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "volt_std_24h",
+    "effect_strength": -0.02725156508453516
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "volt_min_24h",
+    "effect_strength": -0.007607234047995633
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "volt_mean_6h",
+    "effect_strength": 0.004031229072078551
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "rotate_lag_6h",
+    "effect_strength": 0.0074627859347926855
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "rotate_lag_12h",
+    "effect_strength": 0.006029447499136551
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "rotate_lag_24h",
+    "effect_strength": 0.0028656961657865325
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "rotate_mean_24h",
+    "effect_strength": -0.019866499090412992
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "rotate_min_24h",
+    "effect_strength": -0.0062557988005983965
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "rotate_max_24h",
+    "effect_strength": 0.005116641240315336
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "rotate_mean_6h",
+    "effect_strength": 0.0035728912607239146
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "pressure_lag_6h",
+    "effect_strength": 0.006203383345130508
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "pressure_lag_12h",
+    "effect_strength": 0.004673815349636501
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "pressure_lag_24h",
+    "effect_strength": 0.001920860328129389
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": -1.8221918445025913
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "pressure_std_24h",
+    "effect_strength": -0.056088282688965915
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "pressure_min_24h",
+    "effect_strength": -0.01243696125263809
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": 6.002560473154756
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "vibration_lag_1h",
+    "effect_strength": 0.0029508259008925674
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "vibration_lag_6h",
+    "effect_strength": 0.00602310007159669
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "vibration_lag_12h",
+    "effect_strength": 0.004615233654458023
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "vibration_lag_24h",
+    "effect_strength": 0.0018911125102064137
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "vibration_mean_24h",
+    "effect_strength": -0.019906218575336494
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "vibration_std_24h",
+    "effect_strength": -0.050099920717543295
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "vibration_min_24h",
+    "effect_strength": -0.011985700757578387
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "vibration_max_24h",
+    "effect_strength": 0.012412088538968429
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "vibration_mean_6h",
+    "effect_strength": -0.012374771039178917
+  },
+  {
+    "source_feature": "pressure_lag_6h",
+    "target_feature": "is_weekend",
+    "effect_strength": 0.00035591641291203677
+  },
+  {
+    "source_feature": "pressure_lag_12h",
+    "target_feature": "volt",
+    "effect_strength": -8769400580075.335
+  },
+  {
+    "source_feature": "pressure_lag_12h",
+    "target_feature": "rotate",
+    "effect_strength": -13545680121.32526
+  },
+  {
+    "source_feature": "pressure_lag_12h",
+    "target_feature": "pressure",
+    "effect_strength": -7497186868.31887
+  },
+  {
+    "source_feature": "pressure_lag_12h",
+    "target_feature": "errorID",
+    "effect_strength": 57757380981.941765
+  },
+  {
+    "source_feature": "pressure_lag_12h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": -0.18055202223055988
+  },
+  {
+    "source_feature": "pressure_lag_24h",
+    "target_feature": "volt",
+    "effect_strength": -0.004905892705226752
+  },
+  {
+    "source_feature": "pressure_lag_24h",
+    "target_feature": "pressure",
+    "effect_strength": -0.0037600727160893074
+  },
+  {
+    "source_feature": "pressure_lag_24h",
+    "target_feature": "errorID",
+    "effect_strength": 0.008072611784923231
+  },
+  {
+    "source_feature": "pressure_lag_24h",
+    "target_feature": "rotate_lag_24h",
+    "effect_strength": 0.044349563196861154
+  },
+  {
+    "source_feature": "pressure_lag_24h",
+    "target_feature": "pressure_lag_6h",
+    "effect_strength": -0.07333941882745909
+  },
+  {
+    "source_feature": "pressure_lag_24h",
+    "target_feature": "pressure_lag_12h",
+    "effect_strength": -0.06112579206233692
+  },
+  {
+    "source_feature": "pressure_lag_24h",
+    "target_feature": "pressure_lag_24h",
+    "effect_strength": 0.08500059690489606
+  },
+  {
+    "source_feature": "pressure_lag_24h",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": 1.4467403449127874
+  },
+  {
+    "source_feature": "pressure_lag_24h",
+    "target_feature": "pressure_min_24h",
+    "effect_strength": 1.3896576608461932
+  },
+  {
+    "source_feature": "pressure_lag_24h",
+    "target_feature": "pressure_max_24h",
+    "effect_strength": 1.3976611253850784
+  },
+  {
+    "source_feature": "pressure_lag_24h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": -0.49536569671091596
+  },
+  {
+    "source_feature": "pressure_lag_24h",
+    "target_feature": "vibration_lag_24h",
+    "effect_strength": 0.03709088749151344
+  },
+  {
+    "source_feature": "pressure_lag_24h",
+    "target_feature": "vibration_min_24h",
+    "effect_strength": -0.0353683271791309
+  },
+  {
+    "source_feature": "pressure_lag_24h",
+    "target_feature": "maint_count_24h",
+    "effect_strength": 0.002139082955425815
+  },
+  {
+    "source_feature": "pressure_mean_24h",
+    "target_feature": "volt_lag_24h",
+    "effect_strength": 0.0005504462277722972
+  },
+  {
+    "source_feature": "pressure_mean_24h",
+    "target_feature": "volt_mean_24h",
+    "effect_strength": -0.002443418136233437
+  },
+  {
+    "source_feature": "pressure_mean_24h",
+    "target_feature": "volt_max_24h",
+    "effect_strength": -0.002676107916844944
+  },
+  {
+    "source_feature": "pressure_mean_24h",
+    "target_feature": "rotate_lag_1h",
+    "effect_strength": -0.0006097193202492645
+  },
+  {
+    "source_feature": "pressure_mean_24h",
+    "target_feature": "rotate_lag_24h",
+    "effect_strength": 0.0009448762231399615
+  },
+  {
+    "source_feature": "pressure_mean_24h",
+    "target_feature": "rotate_std_24h",
+    "effect_strength": -0.0023036274200552704
+  },
+  {
+    "source_feature": "pressure_mean_24h",
+    "target_feature": "rotate_mean_6h",
+    "effect_strength": 0.0007314826566071573
+  },
+  {
+    "source_feature": "pressure_mean_24h",
+    "target_feature": "pressure_lag_12h",
+    "effect_strength": 0.0004659263615035206
+  },
+  {
+    "source_feature": "pressure_mean_24h",
+    "target_feature": "pressure_lag_24h",
+    "effect_strength": 0.0008657365406791477
+  },
+  {
+    "source_feature": "pressure_mean_24h",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": 0.9957737190854496
+  },
+  {
+    "source_feature": "pressure_mean_24h",
+    "target_feature": "pressure_std_24h",
+    "effect_strength": -0.007512290886968165
+  },
+  {
+    "source_feature": "pressure_mean_24h",
+    "target_feature": "pressure_min_24h",
+    "effect_strength": -0.00404228106842209
+  },
+  {
+    "source_feature": "pressure_mean_24h",
+    "target_feature": "pressure_max_24h",
+    "effect_strength": -0.006394126813943428
+  },
+  {
+    "source_feature": "pressure_mean_24h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": 0.0011417857395188294
+  },
+  {
+    "source_feature": "pressure_mean_24h",
+    "target_feature": "pressure_std_6h",
+    "effect_strength": -0.0011543288369036402
+  },
+  {
+    "source_feature": "pressure_mean_24h",
+    "target_feature": "vibration_lag_1h",
+    "effect_strength": -0.0005634373643776499
+  },
+  {
+    "source_feature": "pressure_mean_24h",
+    "target_feature": "vibration_lag_24h",
+    "effect_strength": 0.0006429821000962148
+  },
+  {
+    "source_feature": "pressure_mean_24h",
+    "target_feature": "vibration_std_24h",
+    "effect_strength": -0.018247773513399065
+  },
+  {
+    "source_feature": "pressure_mean_24h",
+    "target_feature": "vibration_min_24h",
+    "effect_strength": -0.002515966735998347
+  },
+  {
+    "source_feature": "pressure_mean_24h",
+    "target_feature": "vibration_max_24h",
+    "effect_strength": 0.0026709296627169046
+  },
+  {
+    "source_feature": "pressure_mean_24h",
+    "target_feature": "vibration_mean_6h",
+    "effect_strength": 0.0010438158054680003
+  },
+  {
+    "source_feature": "pressure_mean_24h",
+    "target_feature": "hours_since_maint",
+    "effect_strength": 2.2895516653026655e-07
+  },
+  {
+    "source_feature": "pressure_std_24h",
+    "target_feature": "rotate",
+    "effect_strength": -6.351052976469204e-05
+  },
+  {
+    "source_feature": "pressure_std_24h",
+    "target_feature": "volt_mean_24h",
+    "effect_strength": 0.0012497217079131373
+  },
+  {
+    "source_feature": "pressure_std_24h",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": -0.7285835016027635
+  },
+  {
+    "source_feature": "pressure_std_24h",
+    "target_feature": "pressure_std_24h",
+    "effect_strength": 0.9500578623725152
+  },
+  {
+    "source_feature": "pressure_std_24h",
+    "target_feature": "pressure_min_24h",
+    "effect_strength": 0.12383973834743377
+  },
+  {
+    "source_feature": "pressure_std_24h",
+    "target_feature": "pressure_max_24h",
+    "effect_strength": -0.12197450753376363
+  },
+  {
+    "source_feature": "pressure_std_24h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": -0.003903888633872282
+  },
+  {
+    "source_feature": "pressure_std_24h",
+    "target_feature": "pressure_std_6h",
+    "effect_strength": -0.03421467813473339
+  },
+  {
+    "source_feature": "pressure_min_24h",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": 0.03435303074170679
+  },
+  {
+    "source_feature": "pressure_min_24h",
+    "target_feature": "pressure_std_24h",
+    "effect_strength": -0.05435430477229652
+  },
+  {
+    "source_feature": "pressure_min_24h",
+    "target_feature": "pressure_min_24h",
+    "effect_strength": 0.9197989790422936
+  },
+  {
+    "source_feature": "pressure_min_24h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": 0.03205594923769241
+  },
+  {
+    "source_feature": "pressure_min_24h",
+    "target_feature": "pressure_std_6h",
+    "effect_strength": -0.029938338567067
+  },
+  {
+    "source_feature": "pressure_max_24h",
+    "target_feature": "volt",
+    "effect_strength": -0.0026881353146738438
+  },
+  {
+    "source_feature": "pressure_max_24h",
+    "target_feature": "pressure_max_24h",
+    "effect_strength": 0.9640806076281391
+  },
+  {
+    "source_feature": "pressure_mean_6h",
+    "target_feature": "volt",
+    "effect_strength": 0.0008087158203125
+  },
+  {
+    "source_feature": "pressure_mean_6h",
+    "target_feature": "pressure",
+    "effect_strength": 0.039280870346969504
+  },
+  {
+    "source_feature": "pressure_mean_6h",
+    "target_feature": "errorID",
+    "effect_strength": 51252303336.51572
+  },
+  {
+    "source_feature": "pressure_mean_6h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": 0.9030623274066937
+  },
+  {
+    "source_feature": "pressure_std_6h",
+    "target_feature": "pressure",
+    "effect_strength": 0.0002542292893309365
+  },
+  {
+    "source_feature": "pressure_std_6h",
+    "target_feature": "pressure_min_24h",
+    "effect_strength": 0.21185904725625102
+  },
+  {
+    "source_feature": "pressure_std_6h",
+    "target_feature": "pressure_max_24h",
+    "effect_strength": -0.24019647391580198
+  },
+  {
+    "source_feature": "pressure_std_6h",
+    "target_feature": "pressure_std_6h",
+    "effect_strength": 0.7865113038666216
+  },
+  {
+    "source_feature": "vibration_lag_1h",
+    "target_feature": "vibration",
+    "effect_strength": 1.0000000000000007
+  },
+  {
+    "source_feature": "vibration_lag_6h",
+    "target_feature": "volt",
+    "effect_strength": 0.002723340906796189
+  },
+  {
+    "source_feature": "vibration_lag_6h",
+    "target_feature": "errorID",
+    "effect_strength": -0.000981364516235927
+  },
+  {
+    "source_feature": "vibration_lag_6h",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": 0.8818618276211477
+  },
+  {
+    "source_feature": "vibration_lag_6h",
+    "target_feature": "vibration_lag_1h",
+    "effect_strength": -0.2449516886560133
+  },
+  {
+    "source_feature": "vibration_lag_6h",
+    "target_feature": "vibration_mean_6h",
+    "effect_strength": 1.4795607108367463
+  },
+  {
+    "source_feature": "vibration_lag_12h",
+    "target_feature": "volt",
+    "effect_strength": -0.010345856559673239
+  },
+  {
+    "source_feature": "vibration_lag_12h",
+    "target_feature": "errorID",
+    "effect_strength": 9.381007683271293e-05
+  },
+  {
+    "source_feature": "vibration_lag_12h",
+    "target_feature": "volt_lag_24h",
+    "effect_strength": 0.025659737380459995
+  },
+  {
+    "source_feature": "vibration_lag_12h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": -6.739488425723035
+  },
+  {
+    "source_feature": "vibration_lag_12h",
+    "target_feature": "vibration_lag_6h",
+    "effect_strength": -0.04057420396139529
+  },
+  {
+    "source_feature": "vibration_lag_12h",
+    "target_feature": "vibration_mean_24h",
+    "effect_strength": 1.3782346287915153
+  },
+  {
+    "source_feature": "vibration_lag_12h",
+    "target_feature": "vibration_mean_6h",
+    "effect_strength": -0.3322441129993784
+  },
+  {
+    "source_feature": "vibration_lag_24h",
+    "target_feature": "volt",
+    "effect_strength": 0.0058383527128174914
+  },
+  {
+    "source_feature": "vibration_lag_24h",
+    "target_feature": "rotate",
+    "effect_strength": 0.005888994041575138
+  },
+  {
+    "source_feature": "vibration_lag_24h",
+    "target_feature": "errorID",
+    "effect_strength": 0.0017619906797006854
+  },
+  {
+    "source_feature": "vibration_lag_24h",
+    "target_feature": "volt_mean_24h",
+    "effect_strength": -14.949314137315117
+  },
+  {
+    "source_feature": "vibration_lag_24h",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": 0.027860626836724148
+  },
+  {
+    "source_feature": "vibration_lag_24h",
+    "target_feature": "vibration_lag_6h",
+    "effect_strength": -0.07282494222655884
+  },
+  {
+    "source_feature": "vibration_lag_24h",
+    "target_feature": "vibration_lag_12h",
+    "effect_strength": -0.08273559297144699
+  },
+  {
+    "source_feature": "vibration_lag_24h",
+    "target_feature": "vibration_mean_24h",
+    "effect_strength": 1.5561120971834168
+  },
+  {
+    "source_feature": "vibration_lag_24h",
+    "target_feature": "vibration_min_24h",
+    "effect_strength": 1.5166398699603336
+  },
+  {
+    "source_feature": "vibration_lag_24h",
+    "target_feature": "vibration_max_24h",
+    "effect_strength": 1.53318699389819
+  },
+  {
+    "source_feature": "vibration_lag_24h",
+    "target_feature": "vibration_mean_6h",
+    "effect_strength": -7.854061157387423
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "volt",
+    "effect_strength": -13682653267.064342
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "rotate",
+    "effect_strength": -3.1616316661880376e-05
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "pressure",
+    "effect_strength": -1.6698017434246214e-05
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "errorID",
+    "effect_strength": 5.605727602959303e-06
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "volt_mean_24h",
+    "effect_strength": -0.5630296451080128
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "rotate_lag_12h",
+    "effect_strength": -0.00020566385062263635
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "rotate_min_24h",
+    "effect_strength": 0.0001932078881938195
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": -0.5697348480165576
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "pressure_std_24h",
+    "effect_strength": -0.006775754841196725
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": 0.6676319722268876
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "vibration_mean_24h",
+    "effect_strength": 1.000387795724348
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "vibration_std_24h",
+    "effect_strength": 0.0006470975834334682
+  },
+  {
+    "source_feature": "vibration_mean_24h",
+    "target_feature": "vibration_mean_6h",
+    "effect_strength": -0.9117849777853676
+  },
+  {
+    "source_feature": "vibration_std_24h",
+    "target_feature": "volt",
+    "effect_strength": -0.0001226587987488893
+  },
+  {
+    "source_feature": "vibration_std_24h",
+    "target_feature": "rotate",
+    "effect_strength": 2.4957879669871578e-05
+  },
+  {
+    "source_feature": "vibration_std_24h",
+    "target_feature": "errorID",
+    "effect_strength": -0.00014027151956847854
+  },
+  {
+    "source_feature": "vibration_std_24h",
+    "target_feature": "volt_mean_6h",
+    "effect_strength": 0.3322031946363243
+  },
+  {
+    "source_feature": "vibration_std_24h",
+    "target_feature": "vibration_mean_24h",
+    "effect_strength": 0.0011960615858661002
+  },
+  {
+    "source_feature": "vibration_std_24h",
+    "target_feature": "vibration_std_24h",
+    "effect_strength": 0.912591039952854
+  },
+  {
+    "source_feature": "vibration_std_24h",
+    "target_feature": "vibration_min_24h",
+    "effect_strength": 0.1305950354865648
+  },
+  {
+    "source_feature": "vibration_std_24h",
+    "target_feature": "vibration_max_24h",
+    "effect_strength": -0.12029759701379589
+  },
+  {
+    "source_feature": "vibration_std_24h",
+    "target_feature": "vibration_mean_6h",
+    "effect_strength": -3.2353029607955336e-05
+  },
+  {
+    "source_feature": "vibration_std_24h",
+    "target_feature": "error_count_6h",
+    "effect_strength": 6.769623439783062e-05
+  },
+  {
+    "source_feature": "vibration_min_24h",
+    "target_feature": "volt",
+    "effect_strength": 0.0005232141126920772
+  },
+  {
+    "source_feature": "vibration_min_24h",
+    "target_feature": "rotate",
+    "effect_strength": 0.00013793452829377492
+  },
+  {
+    "source_feature": "vibration_min_24h",
+    "target_feature": "errorID",
+    "effect_strength": -0.0006623309483468401
+  },
+  {
+    "source_feature": "vibration_min_24h",
+    "target_feature": "volt_mean_24h",
+    "effect_strength": 0.0030333365752357347
+  },
+  {
+    "source_feature": "vibration_min_24h",
+    "target_feature": "volt_min_24h",
+    "effect_strength": -0.007366887386205651
+  },
+  {
+    "source_feature": "vibration_min_24h",
+    "target_feature": "pressure_std_24h",
+    "effect_strength": -0.011986541707518882
+  },
+  {
+    "source_feature": "vibration_min_24h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": -1.1475997135718008
+  },
+  {
+    "source_feature": "vibration_min_24h",
+    "target_feature": "vibration_mean_24h",
+    "effect_strength": 0.021053944271848268
+  },
+  {
+    "source_feature": "vibration_min_24h",
+    "target_feature": "vibration_min_24h",
+    "effect_strength": 0.9370625381684895
+  },
+  {
+    "source_feature": "vibration_min_24h",
+    "target_feature": "vibration_mean_6h",
+    "effect_strength": 0.017348170007980095
+  },
+  {
+    "source_feature": "vibration_min_24h",
+    "target_feature": "vibration_std_6h",
+    "effect_strength": -0.02518220209676006
+  },
+  {
+    "source_feature": "vibration_min_24h",
+    "target_feature": "comp_lag_1h",
+    "effect_strength": -0.0039255018894605925
+  },
+  {
+    "source_feature": "vibration_max_24h",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": -0.004185783653206053
+  },
+  {
+    "source_feature": "vibration_max_24h",
+    "target_feature": "vibration_lag_6h",
+    "effect_strength": 0.0060159361648035896
+  },
+  {
+    "source_feature": "vibration_max_24h",
+    "target_feature": "vibration_mean_24h",
+    "effect_strength": 0.04052671689701607
+  },
+  {
+    "source_feature": "vibration_max_24h",
+    "target_feature": "vibration_std_24h",
+    "effect_strength": 0.05594182605675858
+  },
+  {
+    "source_feature": "vibration_max_24h",
+    "target_feature": "vibration_max_24h",
+    "effect_strength": 0.9287317304979413
+  },
+  {
+    "source_feature": "vibration_max_24h",
+    "target_feature": "vibration_mean_6h",
+    "effect_strength": 0.016007837537337352
+  },
+  {
+    "source_feature": "vibration_max_24h",
+    "target_feature": "vibration_std_6h",
+    "effect_strength": 0.02024392294407779
+  },
+  {
+    "source_feature": "vibration_max_24h",
+    "target_feature": "day_of_week",
+    "effect_strength": 0.00018898751188049128
+  },
+  {
+    "source_feature": "vibration_max_24h",
+    "target_feature": "hours_since_maint",
+    "effect_strength": 1.1697505679375326e-06
+  },
+  {
+    "source_feature": "vibration_mean_6h",
+    "target_feature": "volt",
+    "effect_strength": -44524304623.41644
+  },
+  {
+    "source_feature": "vibration_mean_6h",
+    "target_feature": "rotate",
+    "effect_strength": -4.818462709158615e-05
+  },
+  {
+    "source_feature": "vibration_mean_6h",
+    "target_feature": "errorID",
+    "effect_strength": 4.279122353508404e-05
+  },
+  {
+    "source_feature": "vibration_mean_6h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": -0.010369780047947436
+  },
+  {
+    "source_feature": "vibration_mean_6h",
+    "target_feature": "vibration_mean_6h",
+    "effect_strength": 0.9954972025434634
+  },
+  {
+    "source_feature": "vibration_std_6h",
+    "target_feature": "rotate",
+    "effect_strength": -0.0019523757126941287
+  },
+  {
+    "source_feature": "vibration_std_6h",
+    "target_feature": "volt_mean_24h",
+    "effect_strength": -0.0027785100416239192
+  },
+  {
+    "source_feature": "vibration_std_6h",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": 0.006529105063402574
+  },
+  {
+    "source_feature": "vibration_std_6h",
+    "target_feature": "vibration_min_24h",
+    "effect_strength": 0.23430264418336827
+  },
+  {
+    "source_feature": "vibration_std_6h",
+    "target_feature": "vibration_max_24h",
+    "effect_strength": -0.23761829247896588
+  },
+  {
+    "source_feature": "vibration_std_6h",
+    "target_feature": "vibration_std_6h",
+    "effect_strength": 0.7887571534100721
+  },
+  {
+    "source_feature": "vibration_std_6h",
+    "target_feature": "comp_lag_6h",
+    "effect_strength": -0.00674252725335212
+  },
+  {
+    "source_feature": "errorID_lag_1h",
+    "target_feature": "errorID",
+    "effect_strength": 0.9999999999999637
+  },
+  {
+    "source_feature": "errorID_lag_6h",
+    "target_feature": "errorID",
+    "effect_strength": -0.2509424538655426
+  },
+  {
+    "source_feature": "errorID_lag_6h",
+    "target_feature": "errorID_lag_1h",
+    "effect_strength": -0.27838109409227696
+  },
+  {
+    "source_feature": "errorID_lag_6h",
+    "target_feature": "errorID_lag_6h",
+    "effect_strength": 0.06360932767087134
+  },
+  {
+    "source_feature": "errorID_lag_6h",
+    "target_feature": "error_count_6h",
+    "effect_strength": 0.24071170744353831
+  },
+  {
+    "source_feature": "errorID_lag_12h",
+    "target_feature": "volt",
+    "effect_strength": 0.01404826809372109
+  },
+  {
+    "source_feature": "errorID_lag_12h",
+    "target_feature": "errorID_lag_1h",
+    "effect_strength": 0.051209243053776464
+  },
+  {
+    "source_feature": "errorID_lag_12h",
+    "target_feature": "errorID_lag_6h",
+    "effect_strength": -0.0790148630486768
+  },
+  {
+    "source_feature": "errorID_lag_12h",
+    "target_feature": "is_working_hours",
+    "effect_strength": 0.01940581899829134
+  },
+  {
+    "source_feature": "comp_lag_1h",
+    "target_feature": "volt",
+    "effect_strength": 0.021177242620721827
+  },
+  {
+    "source_feature": "comp_lag_1h",
+    "target_feature": "rotate",
+    "effect_strength": -0.027793634560482977
+  },
+  {
+    "source_feature": "comp_lag_1h",
+    "target_feature": "pressure",
+    "effect_strength": 0.00226390481530811
+  },
+  {
+    "source_feature": "comp_lag_1h",
+    "target_feature": "errorID",
+    "effect_strength": 0.017177123332516572
+  },
+  {
+    "source_feature": "comp_lag_1h",
+    "target_feature": "target",
+    "effect_strength": 0.32224621119997154
+  },
+  {
+    "source_feature": "comp_lag_1h",
+    "target_feature": "volt_mean_6h",
+    "effect_strength": 0.037451521999314674
+  },
+  {
+    "source_feature": "comp_lag_1h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": 0.023714903583489967
+  },
+  {
+    "source_feature": "comp_lag_1h",
+    "target_feature": "comp_lag_1h",
+    "effect_strength": 0.0856142313781255
+  },
+  {
+    "source_feature": "comp_lag_1h",
+    "target_feature": "comp_lag_6h",
+    "effect_strength": -0.050785752096313634
+  },
+  {
+    "source_feature": "comp_lag_1h",
+    "target_feature": "error_count_24h",
+    "effect_strength": -0.011320124391262981
+  },
+  {
+    "source_feature": "comp_lag_1h",
+    "target_feature": "maint_count_6h",
+    "effect_strength": 0.11167581928626573
+  },
+  {
+    "source_feature": "comp_lag_1h",
+    "target_feature": "maint_count_24h",
+    "effect_strength": -0.11707151989514786
+  },
+  {
+    "source_feature": "comp_lag_1h",
+    "target_feature": "hours_since_maint",
+    "effect_strength": -0.001396144271856235
+  },
+  {
+    "source_feature": "comp_lag_6h",
+    "target_feature": "volt",
+    "effect_strength": 0.0156622327455611
+  },
+  {
+    "source_feature": "comp_lag_6h",
+    "target_feature": "pressure",
+    "effect_strength": -0.011452101480409952
+  },
+  {
+    "source_feature": "comp_lag_6h",
+    "target_feature": "volt_mean_6h",
+    "effect_strength": -0.0651580610751758
+  },
+  {
+    "source_feature": "comp_lag_6h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": 0.0029219727566464227
+  },
+  {
+    "source_feature": "comp_lag_6h",
+    "target_feature": "comp_lag_1h",
+    "effect_strength": -0.3164510285699465
+  },
+  {
+    "source_feature": "comp_lag_6h",
+    "target_feature": "comp_lag_6h",
+    "effect_strength": 0.21606765158417368
+  },
+  {
+    "source_feature": "comp_lag_6h",
+    "target_feature": "maint_count_6h",
+    "effect_strength": 0.22005597471675595
+  },
+  {
+    "source_feature": "comp_lag_12h",
+    "target_feature": "comp_lag_6h",
+    "effect_strength": -0.07500814274656827
+  },
+  {
+    "source_feature": "comp_lag_12h",
+    "target_feature": "comp_lag_12h",
+    "effect_strength": 0.2219201912811664
+  },
+  {
+    "source_feature": "comp_lag_12h",
+    "target_feature": "maint_count_6h",
+    "effect_strength": -0.04914492083130659
+  },
+  {
+    "source_feature": "comp_lag_12h",
+    "target_feature": "maint_count_24h",
+    "effect_strength": 0.048492904465474614
+  },
+  {
+    "source_feature": "comp_lag_12h",
+    "target_feature": "is_working_hours",
+    "effect_strength": 0.030891941058818085
+  },
+  {
+    "source_feature": "error_count_6h",
+    "target_feature": "volt",
+    "effect_strength": 0.04246004694155454
+  },
+  {
+    "source_feature": "error_count_6h",
+    "target_feature": "errorID",
+    "effect_strength": 0.0892344210700186
+  },
+  {
+    "source_feature": "error_count_6h",
+    "target_feature": "target",
+    "effect_strength": -0.015227038603355737
+  },
+  {
+    "source_feature": "error_count_6h",
+    "target_feature": "rotate_mean_24h",
+    "effect_strength": -0.19090945646615057
+  },
+  {
+    "source_feature": "error_count_6h",
+    "target_feature": "rotate_min_24h",
+    "effect_strength": -0.05692836314676947
+  },
+  {
+    "source_feature": "error_count_6h",
+    "target_feature": "vibration_mean_24h",
+    "effect_strength": 0.17766191670847092
+  },
+  {
+    "source_feature": "error_count_6h",
+    "target_feature": "error_count_6h",
+    "effect_strength": 1.007016021661515
+  },
+  {
+    "source_feature": "error_count_6h",
+    "target_feature": "hours_since_error",
+    "effect_strength": 0.0061047595822688065
+  },
+  {
+    "source_feature": "error_count_24h",
+    "target_feature": "pressure",
+    "effect_strength": -0.02360564596605317
+  },
+  {
+    "source_feature": "error_count_24h",
+    "target_feature": "target",
+    "effect_strength": 0.01955857133725858
+  },
+  {
+    "source_feature": "error_count_24h",
+    "target_feature": "pressure_std_6h",
+    "effect_strength": 0.1539163988144589
+  },
+  {
+    "source_feature": "error_count_24h",
+    "target_feature": "errorID_lag_6h",
+    "effect_strength": 0.05635699315443446
+  },
+  {
+    "source_feature": "error_count_24h",
+    "target_feature": "errorID_lag_12h",
+    "effect_strength": 0.06457712827311472
+  },
+  {
+    "source_feature": "error_count_24h",
+    "target_feature": "error_count_6h",
+    "effect_strength": -0.9519659175830031
+  },
+  {
+    "source_feature": "error_count_24h",
+    "target_feature": "error_count_24h",
+    "effect_strength": 0.9455206758641915
+  },
+  {
+    "source_feature": "error_count_24h",
+    "target_feature": "hours_since_maint",
+    "effect_strength": -0.0051172912287360366
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "errorID",
+    "effect_strength": 0.015064497571601398
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "target",
+    "effect_strength": 0.22545430385248422
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "rotate_max_24h",
+    "effect_strength": -0.0162921354163372
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "pressure_mean_24h",
+    "effect_strength": -0.02093965249954966
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": 0.04368865995843327
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "vibration_mean_24h",
+    "effect_strength": 0.06791340432588644
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "vibration_mean_6h",
+    "effect_strength": -0.03741249575615656
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "comp_lag_6h",
+    "effect_strength": -0.02317745338804501
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "comp_lag_12h",
+    "effect_strength": -0.02423118835333428
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "error_count_6h",
+    "effect_strength": 0.00019475542253484258
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "error_count_24h",
+    "effect_strength": -0.013616284351169811
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "maint_count_6h",
+    "effect_strength": 0.9824973369231296
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "maint_count_24h",
+    "effect_strength": -0.29291553472479326
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "hour",
+    "effect_strength": -0.0006758815205971227
+  },
+  {
+    "source_feature": "maint_count_6h",
+    "target_feature": "hours_since_maint",
+    "effect_strength": 0.0038525361047450266
+  },
+  {
+    "source_feature": "maint_count_24h",
+    "target_feature": "volt",
+    "effect_strength": 0.017691490515123472
+  },
+  {
+    "source_feature": "maint_count_24h",
+    "target_feature": "pressure",
+    "effect_strength": -0.01284534103011888
+  },
+  {
+    "source_feature": "maint_count_24h",
+    "target_feature": "target",
+    "effect_strength": 0.0933632138650743
+  },
+  {
+    "source_feature": "maint_count_24h",
+    "target_feature": "maint_count_24h",
+    "effect_strength": 0.9699513014494107
+  },
+  {
+    "source_feature": "hour",
+    "target_feature": "hour",
+    "effect_strength": 0.7413699195028091
+  },
+  {
+    "source_feature": "hour",
+    "target_feature": "is_working_hours",
+    "effect_strength": 2.1598185366142815
+  },
+  {
+    "source_feature": "day_of_week",
+    "target_feature": "day_of_week",
+    "effect_strength": 0.9861401972356706
+  },
+  {
+    "source_feature": "day_of_week",
+    "target_feature": "is_weekend",
+    "effect_strength": -0.09698094986004527
+  },
+  {
+    "source_feature": "is_weekend",
+    "target_feature": "day_of_week",
+    "effect_strength": -0.15852744993704734
+  },
+  {
+    "source_feature": "is_weekend",
+    "target_feature": "is_weekend",
+    "effect_strength": 0.9662866189114845
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "volt",
+    "effect_strength": -0.033374937468313826
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "rotate",
+    "effect_strength": 0.01379723153473043
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "volt_mean_6h",
+    "effect_strength": 3.979270761602226
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "rotate_mean_6h",
+    "effect_strength": 0.11921780687101677
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "pressure_mean_6h",
+    "effect_strength": 0.15596577029054626
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "errorID_lag_1h",
+    "effect_strength": 0.0830918871093392
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "comp_lag_1h",
+    "effect_strength": 0.17475057119800314
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "error_count_6h",
+    "effect_strength": 0.0017232034780817417
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "hour",
+    "effect_strength": -0.006858955548771767
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "is_working_hours",
+    "effect_strength": 0.84962000705469
+  },
+  {
+    "source_feature": "is_working_hours",
+    "target_feature": "hours_since_maint",
+    "effect_strength": -4.560553054854193e-05
+  },
+  {
+    "source_feature": "hours_since_maint",
+    "target_feature": "volt",
+    "effect_strength": 3.688085651366191
+  },
+  {
+    "source_feature": "hours_since_maint",
+    "target_feature": "pressure",
+    "effect_strength": 1.4347506988576566
+  },
+  {
+    "source_feature": "hours_since_maint",
+    "target_feature": "target",
+    "effect_strength": -5.415871584606346
+  },
+  {
+    "source_feature": "hours_since_maint",
+    "target_feature": "error_count_6h",
+    "effect_strength": 2.09023210235811
+  },
+  {
+    "source_feature": "hours_since_maint",
+    "target_feature": "hour",
+    "effect_strength": 0.13616892701471964
+  },
+  {
+    "source_feature": "hours_since_maint",
+    "target_feature": "hours_since_maint",
+    "effect_strength": 0.992528205434582
+  },
+  {
+    "source_feature": "hours_since_error",
+    "target_feature": "hours_since_error",
+    "effect_strength": 0.9961308470355726
+  }
+]

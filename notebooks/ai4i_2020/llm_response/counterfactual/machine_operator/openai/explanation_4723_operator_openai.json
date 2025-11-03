@@ -1,0 +1,24 @@
+{
+  "index": "4723",
+  "persona": "operator",
+  "llm_provider": "openai",
+  "model": "gpt-4o",
+  "num_counterfactuals": 2,
+  "explanation": "### Explanation\nThe machine is predicted to fail due to an increase in rotational speed and a significant rise in temperature difference, with the latter being the primary concern linked to potential failure.\n\n### Actionable Recommendation\nOperators should immediately monitor the machine's temperature difference closely, ensuring it does not exceed a 50% increase from its baseline, and stop the machine if this threshold is approached to prevent failure.",
+  "counterfactuals_summary": [
+    {
+      "feature": "Rotational speed (rpm)",
+      "direction": "increase",
+      "percent_change": 10.0,
+      "perturbation_level": 0.1,
+      "causal_alignment": "contrary"
+    },
+    {
+      "feature": "Temperature difference",
+      "direction": "increase",
+      "percent_change": 50.0,
+      "perturbation_level": 0.5,
+      "causal_alignment": "aligned"
+    }
+  ]
+}

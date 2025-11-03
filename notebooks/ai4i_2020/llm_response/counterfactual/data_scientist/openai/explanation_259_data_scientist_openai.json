@@ -1,0 +1,17 @@
+{
+  "index": "259",
+  "persona": "data_scientist",
+  "llm_provider": "openai",
+  "model": "gpt-4o",
+  "num_counterfactuals": 1,
+  "explanation": "1. **Explanation**  \nThe counterfactual explanation indicates that a 10% decrease in power output from 0.896 to 0.807, with a causal alignment and a strength of 0.029, significantly influences the model's prediction of machine failure, suggesting that the model is sensitive to changes in power output.\n\n2. **Actionable Recommendation**  \nEnhance data collection by ensuring more granular and frequent measurements of power output to improve the model's sensitivity and accuracy in predicting machine failures.",
+  "counterfactuals_summary": [
+    {
+      "feature": "Power output (Nm·rpm)",
+      "direction": "decrease",
+      "percent_change": -10.0,
+      "perturbation_level": 0.1,
+      "causal_alignment": "aligned"
+    }
+  ]
+}

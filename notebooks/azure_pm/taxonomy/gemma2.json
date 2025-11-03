@@ -1,0 +1,302 @@
+{
+  "Type": [
+    1,
+    "Root"
+  ],
+  "Timestamp": [
+    1,
+    "Root"
+  ],
+  "datetime": [
+    2,
+    "Timestamp"
+  ],
+  "hour": [
+    2,
+    "Timestamp"
+  ],
+  "day_of_week": [
+    2,
+    "Timestamp"
+  ],
+  "is_weekend": [
+    2,
+    "Timestamp"
+  ],
+  "is_working_hours": [
+    2,
+    "Timestamp"
+  ],
+  "Machine": [
+    1,
+    "Root"
+  ],
+  "machineID": [
+    2,
+    "Machine"
+  ],
+  "model": [
+    2,
+    "Machine"
+  ],
+  "age": [
+    2,
+    "Machine"
+  ],
+  "Sensor": [
+    1,
+    "Root"
+  ],
+  "volt": [
+    2,
+    "Sensor"
+  ],
+  "volt_lag_1h": [
+    3,
+    "volt"
+  ],
+  "volt_lag_6h": [
+    3,
+    "volt"
+  ],
+  "volt_lag_12h": [
+    3,
+    "volt"
+  ],
+  "volt_lag_24h": [
+    3,
+    "volt"
+  ],
+  "volt_mean_24h": [
+    3,
+    "volt"
+  ],
+  "volt_std_24h": [
+    3,
+    "volt"
+  ],
+  "volt_min_24h": [
+    3,
+    "volt"
+  ],
+  "volt_max_24h": [
+    3,
+    "volt"
+  ],
+  "volt_mean_6h": [
+    3,
+    "volt"
+  ],
+  "volt_std_6h": [
+    3,
+    "volt"
+  ],
+  "rotate": [
+    2,
+    "Sensor"
+  ],
+  "rotate_lag_1h": [
+    3,
+    "rotate"
+  ],
+  "rotate_lag_6h": [
+    3,
+    "rotate"
+  ],
+  "rotate_lag_12h": [
+    3,
+    "rotate"
+  ],
+  "rotate_lag_24h": [
+    3,
+    "rotate"
+  ],
+  "rotate_mean_24h": [
+    3,
+    "rotate"
+  ],
+  "rotate_std_24h": [
+    3,
+    "rotate"
+  ],
+  "rotate_min_24h": [
+    3,
+    "rotate"
+  ],
+  "rotate_max_24h": [
+    3,
+    "rotate"
+  ],
+  "rotate_mean_6h": [
+    3,
+    "rotate"
+  ],
+  "rotate_std_6h": [
+    3,
+    "rotate"
+  ],
+  "pressure": [
+    2,
+    "Sensor"
+  ],
+  "pressure_lag_1h": [
+    3,
+    "pressure"
+  ],
+  "pressure_lag_6h": [
+    3,
+    "pressure"
+  ],
+  "pressure_lag_12h": [
+    3,
+    "pressure"
+  ],
+  "pressure_lag_24h": [
+    3,
+    "pressure"
+  ],
+  "pressure_mean_24h": [
+    3,
+    "pressure"
+  ],
+  "pressure_std_24h": [
+    3,
+    "pressure"
+  ],
+  "pressure_min_24h": [
+    3,
+    "pressure"
+  ],
+  "pressure_max_24h": [
+    3,
+    "pressure"
+  ],
+  "pressure_mean_6h": [
+    3,
+    "pressure"
+  ],
+  "pressure_std_6h": [
+    3,
+    "pressure"
+  ],
+  "vibration": [
+    2,
+    "Sensor"
+  ],
+  "vibration_lag_1h": [
+    3,
+    "vibration"
+  ],
+  "vibration_lag_6h": [
+    3,
+    "vibration"
+  ],
+  "vibration_lag_12h": [
+    3,
+    "vibration"
+  ],
+  "vibration_lag_24h": [
+    3,
+    "vibration"
+  ],
+  "vibration_mean_24h": [
+    3,
+    "vibration"
+  ],
+  "vibration_std_24h": [
+    3,
+    "vibration"
+  ],
+  "vibration_min_24h": [
+    3,
+    "vibration"
+  ],
+  "vibration_max_24h": [
+    3,
+    "vibration"
+  ],
+  "vibration_mean_6h": [
+    3,
+    "vibration"
+  ],
+  "vibration_std_6h": [
+    3,
+    "vibration"
+  ],
+  "Error": [
+    1,
+    "Root"
+  ],
+  "errorID": [
+    2,
+    "Error"
+  ],
+  "errorID_lag_1h": [
+    3,
+    "errorID"
+  ],
+  "errorID_lag_6h": [
+    3,
+    "errorID"
+  ],
+  "errorID_lag_12h": [
+    3,
+    "errorID"
+  ],
+  "error_count_6h": [
+    2,
+    "Error"
+  ],
+  "error_count_24h": [
+    2,
+    "Error"
+  ],
+  "Component": [
+    1,
+    "Root"
+  ],
+  "comp": [
+    2,
+    "Component"
+  ],
+  "comp_lag_1h": [
+    3,
+    "comp"
+  ],
+  "comp_lag_6h": [
+    3,
+    "comp"
+  ],
+  "comp_lag_12h": [
+    3,
+    "comp"
+  ],
+  "Maintenance": [
+    1,
+    "Root"
+  ],
+  "maint_count_6h": [
+    2,
+    "Maintenance"
+  ],
+  "maint_count_24h": [
+    2,
+    "Maintenance"
+  ],
+  "hours_since_maint": [
+    2,
+    "Maintenance"
+  ],
+  "hours_since_error": [
+    2,
+    "Maintenance"
+  ],
+  "Target": [
+    1,
+    "Root"
+  ],
+  "failure": [
+    2,
+    "Target"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "index": "3579",
+  "persona": "operator",
+  "llm_provider": "openai",
+  "model": "gpt-4o",
+  "num_counterfactuals": 4,
+  "explanation": "1. **Explanation**  \nThe machine is predicted to fail due to imbalances in power output, rotational speed, and torque, and to prevent this, adjustments should be made to increase power output and torque while decreasing rotational speed and temperature difference.\n\n2. **Actionable Recommendation**  \nOperators should immediately focus on reducing the rotational speed to 0.700 rpm, as it has the strongest aligned causal relationship with preventing failure, and stop the machine if the speed exceeds 0.875 rpm to ensure safety.",
+  "counterfactuals_summary": [
+    {
+      "feature": "Power output (Nm·rpm)",
+      "direction": "increase",
+      "percent_change": 20.0,
+      "perturbation_level": 0.2,
+      "causal_alignment": "contrary"
+    },
+    {
+      "feature": "Rotational speed (rpm)",
+      "direction": "decrease",
+      "percent_change": -20.0,
+      "perturbation_level": 0.2,
+      "causal_alignment": "aligned"
+    },
+    {
+      "feature": "Temperature difference",
+      "direction": "decrease",
+      "percent_change": -20.0,
+      "perturbation_level": 0.2,
+      "causal_alignment": null
+    },
+    {
+      "feature": "Torque (Nm)",
+      "direction": "increase",
+      "percent_change": 30.0,
+      "perturbation_level": 0.3,
+      "causal_alignment": "contrary"
+    }
+  ]
+}

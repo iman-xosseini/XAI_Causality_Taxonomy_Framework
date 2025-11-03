@@ -1,0 +1,24 @@
+{
+  "index": "4723",
+  "persona": "data_scientist",
+  "llm_provider": "openai",
+  "model": "gpt-4o",
+  "num_counterfactuals": 2,
+  "explanation": "1. **Explanation**  \nThe counterfactual explanation indicates that an increase in temperature difference has a strong aligned causal impact on predicting machine failures, while a smaller increase in rotational speed has a contrary causal effect, suggesting the model heavily relies on temperature changes for its predictions.\n\n2. **Actionable Recommendation**  \nEnhance data collection on temperature-related features to ensure high-resolution and accurate measurements, as this will likely improve the model's predictive accuracy and reliability.",
+  "counterfactuals_summary": [
+    {
+      "feature": "Rotational speed (rpm)",
+      "direction": "increase",
+      "percent_change": 10.0,
+      "perturbation_level": 0.1,
+      "causal_alignment": "contrary"
+    },
+    {
+      "feature": "Temperature difference",
+      "direction": "increase",
+      "percent_change": 50.0,
+      "perturbation_level": 0.5,
+      "causal_alignment": "aligned"
+    }
+  ]
+}

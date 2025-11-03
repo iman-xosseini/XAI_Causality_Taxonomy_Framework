@@ -1,0 +1,28 @@
+
+Original Instance Analysis:
+- Index: 4383
+- Original Prediction: 1 (Failure probability: 0.898)
+
+Counterfactual Analysis Summary:
+- Number of successful counterfactuals: 10
+- Features that can change prediction: {'wear_torque_product', 'Rotational_speed'}
+
+Key Counterfactual Insights:
+
+Counterfactual 1:
+- Changed features: wear_torque_product, Rotational_speed
+- Prediction change: 1 to 0
+- Probability change: -0.409
+- Details: Wear × Torque (wear_torque_product): 0.909 -> 0.300 (Delta-0.609, -67.0%); Rotational speed (rpm) (Rotational_speed): 0.076 -> 0.321 (Delta+0.245, +324.1%)
+
+Counterfactual 2:
+- Changed features: wear_torque_product, Rotational_speed
+- Prediction change: 1 to 0
+- Probability change: -0.409
+- Details: Wear × Torque (wear_torque_product): 0.909 -> 0.300 (Delta-0.609, -67.0%); Rotational speed (rpm) (Rotational_speed): 0.076 -> 0.246 (Delta+0.170, +225.0%)
+
+Counterfactual 3:
+- Changed features: wear_torque_product, Rotational_speed
+- Prediction change: 1 to 0
+- Probability change: -0.409
+- Details: Wear × Torque (wear_torque_product): 0.909 -> 0.300 (Delta-0.609, -67.0%); Rotational speed (rpm) (Rotational_speed): 0.076 -> 0.313 (Delta+0.237, +313.1%)

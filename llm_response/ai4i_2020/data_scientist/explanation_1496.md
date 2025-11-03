@@ -1,0 +1,7 @@
+### a. Explanation of the Failure
+
+The Power Failure was primarily due to the power output being outside the optimal range, as it reached 87999.2, exceeding the upper threshold of 9000. Significant factors include Torque's strong influence on power output (effect strength: 0.87) and its indirect effect on Rotational Speed and Tool Wear. High Tool Wear (189) was further influenced by Rotational Speed (1268) with a 0.65 effect strength, creating a feedback loop exacerbating the wear and power issues. The potent feedback from the tool wear to power output (-0.29 effect strength) contributed to the failure. These interactions highlight the system's sensitivity to operational deviations.
+
+### b. Actionable Recommendation
+
+To mitigate future Power Failures, implement a two-pronged approach: Firstly, develop Random Forest and regression models to detect abnormal power usage and predict preventive actions based on real-time data analysis. Secondly, employ time-series models tailored to forecast anomalies in torque and rotational speed, which are indicative of potential failures. Focus on capturing patterns in historical sensor data to enhance model accuracy, and integrate anomaly detection for proactive maintenance scheduling. This approach leverages advanced modeling techniques suitable for preemptively identifying high-risk operational states, empowering data-driven decision-making.

@@ -1,0 +1,318 @@
+{
+  "Time": [
+    1,
+    "Root"
+  ],
+  "datetime": [
+    2,
+    "Time"
+  ],
+  "hour": [
+    2,
+    "Time"
+  ],
+  "day_of_week": [
+    2,
+    "Time"
+  ],
+  "is_weekend": [
+    2,
+    "Time"
+  ],
+  "is_working_hours": [
+    2,
+    "Time"
+  ],
+  "Sensor_Readings": [
+    1,
+    "Root"
+  ],
+  "volt": [
+    2,
+    "Sensor_Readings"
+  ],
+  "rotate": [
+    2,
+    "Sensor_Readings"
+  ],
+  "pressure": [
+    2,
+    "Sensor_Readings"
+  ],
+  "vibration": [
+    2,
+    "Sensor_Readings"
+  ],
+  "Volt_Lag": [
+    3,
+    "volt"
+  ],
+  "volt_lag_1h": [
+    4,
+    "Volt_Lag"
+  ],
+  "volt_lag_6h": [
+    4,
+    "Volt_Lag"
+  ],
+  "volt_lag_12h": [
+    4,
+    "Volt_Lag"
+  ],
+  "volt_lag_24h": [
+    4,
+    "Volt_Lag"
+  ],
+  "Volt_Aggregations": [
+    3,
+    "volt"
+  ],
+  "volt_mean_24h": [
+    4,
+    "Volt_Aggregations"
+  ],
+  "volt_std_24h": [
+    4,
+    "Volt_Aggregations"
+  ],
+  "volt_min_24h": [
+    4,
+    "Volt_Aggregations"
+  ],
+  "volt_max_24h": [
+    4,
+    "Volt_Aggregations"
+  ],
+  "volt_mean_6h": [
+    4,
+    "Volt_Aggregations"
+  ],
+  "volt_std_6h": [
+    4,
+    "Volt_Aggregations"
+  ],
+  "Rotate_Lag": [
+    3,
+    "rotate"
+  ],
+  "rotate_lag_1h": [
+    4,
+    "Rotate_Lag"
+  ],
+  "rotate_lag_6h": [
+    4,
+    "Rotate_Lag"
+  ],
+  "rotate_lag_12h": [
+    4,
+    "Rotate_Lag"
+  ],
+  "rotate_lag_24h": [
+    4,
+    "Rotate_Lag"
+  ],
+  "Rotate_Aggregations": [
+    3,
+    "rotate"
+  ],
+  "rotate_mean_24h": [
+    4,
+    "Rotate_Aggregations"
+  ],
+  "rotate_std_24h": [
+    4,
+    "Rotate_Aggregations"
+  ],
+  "rotate_min_24h": [
+    4,
+    "Rotate_Aggregations"
+  ],
+  "rotate_max_24h": [
+    4,
+    "Rotate_Aggregations"
+  ],
+  "rotate_mean_6h": [
+    4,
+    "Rotate_Aggregations"
+  ],
+  "rotate_std_6h": [
+    4,
+    "Rotate_Aggregations"
+  ],
+  "Pressure_Lag": [
+    3,
+    "pressure"
+  ],
+  "pressure_lag_1h": [
+    4,
+    "Pressure_Lag"
+  ],
+  "pressure_lag_6h": [
+    4,
+    "Pressure_Lag"
+  ],
+  "pressure_lag_12h": [
+    4,
+    "Pressure_Lag"
+  ],
+  "pressure_lag_24h": [
+    4,
+    "Pressure_Lag"
+  ],
+  "Pressure_Aggregations": [
+    3,
+    "pressure"
+  ],
+  "pressure_mean_24h": [
+    4,
+    "Pressure_Aggregations"
+  ],
+  "pressure_std_24h": [
+    4,
+    "Pressure_Aggregations"
+  ],
+  "pressure_min_24h": [
+    4,
+    "Pressure_Aggregations"
+  ],
+  "pressure_max_24h": [
+    4,
+    "Pressure_Aggregations"
+  ],
+  "pressure_mean_6h": [
+    4,
+    "Pressure_Aggregations"
+  ],
+  "pressure_std_6h": [
+    4,
+    "Pressure_Aggregations"
+  ],
+  "Vibration_Lag": [
+    3,
+    "vibration"
+  ],
+  "vibration_lag_1h": [
+    4,
+    "Vibration_Lag"
+  ],
+  "vibration_lag_6h": [
+    4,
+    "Vibration_Lag"
+  ],
+  "vibration_lag_12h": [
+    4,
+    "Vibration_Lag"
+  ],
+  "vibration_lag_24h": [
+    4,
+    "Vibration_Lag"
+  ],
+  "Vibration_Aggregations": [
+    3,
+    "vibration"
+  ],
+  "vibration_mean_24h": [
+    4,
+    "Vibration_Aggregations"
+  ],
+  "vibration_std_24h": [
+    4,
+    "Vibration_Aggregations"
+  ],
+  "vibration_min_24h": [
+    4,
+    "Vibration_Aggregations"
+  ],
+  "vibration_max_24h": [
+    4,
+    "Vibration_Aggregations"
+  ],
+  "vibration_mean_6h": [
+    4,
+    "Vibration_Aggregations"
+  ],
+  "vibration_std_6h": [
+    4,
+    "Vibration_Aggregations"
+  ],
+  "Error": [
+    1,
+    "Root"
+  ],
+  "errorID": [
+    2,
+    "Error"
+  ],
+  "errorID_lag_1h": [
+    3,
+    "errorID"
+  ],
+  "errorID_lag_6h": [
+    3,
+    "errorID"
+  ],
+  "errorID_lag_12h": [
+    3,
+    "errorID"
+  ],
+  "Error_Count": [
+    2,
+    "Error"
+  ],
+  "error_count_6h": [
+    3,
+    "Error_Count"
+  ],
+  "error_count_24h": [
+    3,
+    "Error_Count"
+  ],
+  "Maintenance": [
+    1,
+    "Root"
+  ],
+  "comp": [
+    2,
+    "Maintenance"
+  ],
+  "comp_lag_1h": [
+    3,
+    "comp"
+  ],
+  "comp_lag_6h": [
+    3,
+    "comp"
+  ],
+  "comp_lag_12h": [
+    3,
+    "comp"
+  ],
+  "Maint_Count": [
+    2,
+    "Maintenance"
+  ],
+  "maint_count_6h": [
+    3,
+    "Maint_Count"
+  ],
+  "maint_count_24h": [
+    3,
+    "Maint_Count"
+  ],
+  "hours_since_maint": [
+    2,
+    "Maintenance"
+  ],
+  "hours_since_error": [
+    2,
+    "Error"
+  ],
+  "target": [
+    1,
+    "Root"
+  ],
+  "failure": [
+    1,
+    "Root"
+  ]
+}

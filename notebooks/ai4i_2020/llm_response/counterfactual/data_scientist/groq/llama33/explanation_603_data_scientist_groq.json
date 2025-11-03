@@ -1,0 +1,17 @@
+{
+  "index": "603",
+  "persona": "data_scientist",
+  "llm_provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "num_counterfactuals": 1,
+  "explanation": "## Explanation\nThe counterfactual explanation reveals that a 20.0% decrease in power output (Nm·rpm) from 0.951 to 0.761 has a causal and aligned effect on the predictive maintenance model with a strength of 0.029, indicating a significant relationship between power output and machine failure prediction.\n\n## Actionable Recommendation\nTo improve the model's reliability and accuracy, it is recommended to collect more granular data on power output fluctuations and engineer features that capture the temporal dynamics of power output changes, allowing for more precise failure predictions and targeted maintenance interventions.",
+  "counterfactuals_summary": [
+    {
+      "feature": "Power output (Nm·rpm)",
+      "direction": "decrease",
+      "percent_change": -20.0,
+      "perturbation_level": 0.2,
+      "causal_alignment": "aligned"
+    }
+  ]
+}

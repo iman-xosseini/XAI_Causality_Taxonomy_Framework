@@ -1,0 +1,7 @@
+### a. Explanation of the Failure
+
+The overstrain failure occurred due to excessive wear-to-torque ratios, exceeding a threshold of 12,000. The high tool wear value of 207, coupled with torque fluctuations, resulted in a wear-to-torque product of 12,689.1. Rotational speed substantially influenced both tool wear and the wear-torque product (effect strengths of 0.65 and -1.08, respectively), creating a feedback loop that compounded the system’s stress. Variations in these parameters (e.g., rotational speed at 1340) heightened mechanical stress, leading to failure. Complex interplays among these factors, particularly the self-reinforcing nature of tool wear, were crucial in this failure scenario.
+
+### b. Actionable Recommendation
+
+To mitigate overstrain failure risks, begin by analyzing stress and strain sensor data to better understand the correlation to mechanical failure. Predict future failure risks through machine learning models incorporating this data. Develop control logic linked to torque load metrics, automating operational adjustments such as pauses or speed changes. Use these algorithms to generate recommendations, ensuring adjustments in real-time responsiveness to torque load predictions. This proactive adaptation minimizes operational risks, aligns model outputs with practical interventions, and reduces overstrain occurrences.

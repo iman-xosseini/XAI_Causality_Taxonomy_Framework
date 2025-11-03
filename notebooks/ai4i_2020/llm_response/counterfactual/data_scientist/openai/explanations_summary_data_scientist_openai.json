@@ -1,0 +1,214 @@
+{
+  "259": {
+    "index": "259",
+    "persona": "data_scientist",
+    "llm_provider": "openai",
+    "model": "gpt-4o",
+    "num_counterfactuals": 1,
+    "explanation": "1. **Explanation**  \nThe counterfactual explanation indicates that a 10% decrease in power output from 0.896 to 0.807, with a causal alignment and a strength of 0.029, significantly influences the model's prediction of machine failure, suggesting that the model is sensitive to changes in power output.\n\n2. **Actionable Recommendation**  \nEnhance data collection by ensuring more granular and frequent measurements of power output to improve the model's sensitivity and accuracy in predicting machine failures.",
+    "counterfactuals_summary": [
+      {
+        "feature": "Power output (Nm·rpm)",
+        "direction": "decrease",
+        "percent_change": -10.0,
+        "perturbation_level": 0.1,
+        "causal_alignment": "aligned"
+      }
+    ]
+  },
+  "2761": {
+    "index": "2761",
+    "persona": "data_scientist",
+    "llm_provider": "openai",
+    "model": "gpt-4o",
+    "num_counterfactuals": 1,
+    "explanation": "1. **Explanation**  \nThe counterfactual explanation indicates that reducing the interaction between wear and torque by 30% significantly decreases the likelihood of machine failure, suggesting that the model heavily relies on this interaction to predict failures.\n\n2. **Actionable Recommendation**  \nEnhance data collection on wear and torque interactions to improve model accuracy and robustness, ensuring that these features are accurately captured and represented in the dataset.",
+    "counterfactuals_summary": [
+      {
+        "feature": "Wear × Torque",
+        "direction": "decrease",
+        "percent_change": -30.0,
+        "perturbation_level": 0.3,
+        "causal_alignment": "aligned"
+      }
+    ]
+  },
+  "3528": {
+    "index": "3528",
+    "persona": "data_scientist",
+    "llm_provider": "openai",
+    "model": "gpt-4o",
+    "num_counterfactuals": 1,
+    "explanation": "1. **Explanation**  \nThe counterfactual explanation indicates that a 10% decrease in the interaction between wear and torque, which has a causal alignment and moderate strength of 0.096, significantly impacts the model's prediction of machine failures, suggesting that this interaction is a critical factor in the model's decision-making process.\n\n2. **Actionable Recommendation**  \nEnhance data collection by ensuring more granular and accurate measurements of wear and torque to better capture their interaction effects, thereby improving the model's predictive accuracy and reliability.",
+    "counterfactuals_summary": [
+      {
+        "feature": "Wear × Torque",
+        "direction": "decrease",
+        "percent_change": -10.0,
+        "perturbation_level": 0.1,
+        "causal_alignment": "aligned"
+      }
+    ]
+  },
+  "3579": {
+    "index": "3579",
+    "persona": "data_scientist",
+    "llm_provider": "openai",
+    "model": "gpt-4o",
+    "num_counterfactuals": 4,
+    "explanation": "1. **Explanation**: The counterfactual analysis indicates that the model's prediction of machine failure is most sensitive to changes in rotational speed, which is aligned with the failure outcome, while power output and torque have contrary causal relationships, suggesting potential non-linear interactions or misalignment in feature importance.\n\n2. **Actionable Recommendation**: Prioritize enhancing the feature engineering process by exploring non-linear transformations and interaction terms, particularly focusing on rotational speed, to improve the model's predictive accuracy and interpretability.",
+    "counterfactuals_summary": [
+      {
+        "feature": "Power output (Nm·rpm)",
+        "direction": "increase",
+        "percent_change": 20.0,
+        "perturbation_level": 0.2,
+        "causal_alignment": "contrary"
+      },
+      {
+        "feature": "Rotational speed (rpm)",
+        "direction": "decrease",
+        "percent_change": -20.0,
+        "perturbation_level": 0.2,
+        "causal_alignment": "aligned"
+      },
+      {
+        "feature": "Temperature difference",
+        "direction": "decrease",
+        "percent_change": -20.0,
+        "perturbation_level": 0.2,
+        "causal_alignment": null
+      },
+      {
+        "feature": "Torque (Nm)",
+        "direction": "increase",
+        "percent_change": 30.0,
+        "perturbation_level": 0.3,
+        "causal_alignment": "contrary"
+      }
+    ]
+  },
+  "3611": {
+    "index": "3611",
+    "persona": "data_scientist",
+    "llm_provider": "openai",
+    "model": "gpt-4o",
+    "num_counterfactuals": 1,
+    "explanation": "1. **Explanation**  \nThe counterfactual explanation indicates that a 20% increase in the interaction between wear and torque, which is causally aligned with a strength of 0.096, significantly impacts the model's prediction of machine failure, suggesting that this interaction is a critical factor in the model's decision-making process.\n\n2. **Actionable Recommendation**  \nEnhance data collection efforts to ensure more granular and accurate measurements of wear and torque interactions, as this will improve the model's ability to predict failures by capturing the nuanced effects of these variables.",
+    "counterfactuals_summary": [
+      {
+        "feature": "Wear × Torque",
+        "direction": "increase",
+        "percent_change": 20.0,
+        "perturbation_level": 0.2,
+        "causal_alignment": "aligned"
+      }
+    ]
+  },
+  "4449": {
+    "index": "4449",
+    "persona": "data_scientist",
+    "llm_provider": "openai",
+    "model": "gpt-4o",
+    "num_counterfactuals": 1,
+    "explanation": "1. **Explanation**  \nThe counterfactual explanation indicates that a 10% increase in rotational speed from 0.122 to 0.134 rpm, with a causal strength of 0.076, is contrary to the model's prediction of machine failure, suggesting that the model may be sensitive to small changes in rotational speed.\n\n2. **Actionable Recommendation**  \nEnhance data collection by ensuring more granular and frequent recording of rotational speed to capture subtle variations and improve the model's sensitivity and robustness to changes in this feature.",
+    "counterfactuals_summary": [
+      {
+        "feature": "Rotational speed (rpm)",
+        "direction": "increase",
+        "percent_change": 10.0,
+        "perturbation_level": 0.1,
+        "causal_alignment": "contrary"
+      }
+    ]
+  },
+  "4469": {
+    "index": "4469",
+    "persona": "data_scientist",
+    "llm_provider": "openai",
+    "model": "gpt-4o",
+    "num_counterfactuals": 2,
+    "explanation": "1. **Explanation**: The counterfactual explanation indicates that a 30% decrease in rotational speed, which is contrary to the causal relationship, and a 30% increase in the interaction between wear and torque, which aligns with the causal relationship, are significant in altering the model's prediction of machine failure, suggesting that the model heavily relies on these features and their interactions.\n\n2. **Actionable Recommendation**: Enhance feature engineering by incorporating more granular data on rotational speed and wear-torque interactions to improve the model's ability to capture nuanced patterns and causal relationships, thereby increasing prediction accuracy and reliability.",
+    "counterfactuals_summary": [
+      {
+        "feature": "Rotational speed (rpm)",
+        "direction": "decrease",
+        "percent_change": -30.0,
+        "perturbation_level": 0.3,
+        "causal_alignment": "contrary"
+      },
+      {
+        "feature": "Wear × Torque",
+        "direction": "increase",
+        "percent_change": 30.0,
+        "perturbation_level": 0.3,
+        "causal_alignment": "aligned"
+      }
+    ]
+  },
+  "4723": {
+    "index": "4723",
+    "persona": "data_scientist",
+    "llm_provider": "openai",
+    "model": "gpt-4o",
+    "num_counterfactuals": 2,
+    "explanation": "1. **Explanation**  \nThe counterfactual explanation indicates that an increase in temperature difference has a strong aligned causal impact on predicting machine failures, while a smaller increase in rotational speed has a contrary causal effect, suggesting the model heavily relies on temperature changes for its predictions.\n\n2. **Actionable Recommendation**  \nEnhance data collection on temperature-related features to ensure high-resolution and accurate measurements, as this will likely improve the model's predictive accuracy and reliability.",
+    "counterfactuals_summary": [
+      {
+        "feature": "Rotational speed (rpm)",
+        "direction": "increase",
+        "percent_change": 10.0,
+        "perturbation_level": 0.1,
+        "causal_alignment": "contrary"
+      },
+      {
+        "feature": "Temperature difference",
+        "direction": "increase",
+        "percent_change": 50.0,
+        "perturbation_level": 0.5,
+        "causal_alignment": "aligned"
+      }
+    ]
+  },
+  "586": {
+    "index": "586",
+    "persona": "data_scientist",
+    "llm_provider": "openai",
+    "model": "gpt-4o",
+    "num_counterfactuals": 2,
+    "explanation": "1. **Explanation**  \nThe counterfactual explanation indicates that a 10% decrease in both the interaction term \"Wear × Torque\" and \"Tool wear (min)\" significantly impacts the model's prediction, with the former being causally aligned and the latter contrary, suggesting that the model may be over-relying on these features in different causal contexts.\n\n2. **Actionable Recommendation**  \nTo improve model robustness, prioritize collecting more granular data on tool wear and torque interactions to better capture their causal relationships and refine feature engineering to distinguish between aligned and contrary causal effects.",
+    "counterfactuals_summary": [
+      {
+        "feature": "Wear × Torque",
+        "direction": "decrease",
+        "percent_change": -10.0,
+        "perturbation_level": 0.1,
+        "causal_alignment": "aligned"
+      },
+      {
+        "feature": "Tool wear (min)",
+        "direction": "decrease",
+        "percent_change": -10.0,
+        "perturbation_level": 0.1,
+        "causal_alignment": "contrary"
+      }
+    ]
+  },
+  "603": {
+    "index": "603",
+    "persona": "data_scientist",
+    "llm_provider": "openai",
+    "model": "gpt-4o",
+    "num_counterfactuals": 1,
+    "explanation": "1. **Explanation**  \nThe counterfactual explanation indicates that a 20% decrease in power output from 0.951 to 0.761, with a causal alignment strength of 0.029, significantly influences the model's prediction of machine failure, suggesting that power output is a critical feature in the model's decision-making process.\n\n2. **Actionable Recommendation**  \nEnhance data collection by ensuring high-resolution and accurate power output measurements to improve the model's ability to detect subtle changes that may indicate potential failures.",
+    "counterfactuals_summary": [
+      {
+        "feature": "Power output (Nm·rpm)",
+        "direction": "decrease",
+        "percent_change": -20.0,
+        "perturbation_level": 0.2,
+        "causal_alignment": "aligned"
+      }
+    ]
+  }
+}
